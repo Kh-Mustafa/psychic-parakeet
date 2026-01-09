@@ -114,7 +114,6 @@ Any PHP-compatible web server (Apache, Nginx with PHP-FPM, etc.) will work. Just
 
 ## Future Enhancements
 
-- AI-generated study guidelines and quizzes
 - Scoring system (currently tracks correct/incorrect)
 - Multiple exam support
 - User accounts and progress saving
@@ -130,7 +129,6 @@ Any PHP-compatible web server (Apache, Nginx with PHP-FPM, etc.) will work. Just
 
 ## Notes
 
-- Currently uses hardcoded dummy data for COMPTIA SECURITY+
 - All data is stored in JSON files for easy modification
 - The interface is responsive and works on mobile devices
 - Progress is tracked but not persisted (resets on page refresh)
