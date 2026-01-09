@@ -3,19 +3,23 @@
   "blocks": [
     {
       "type": "heading",
-      "text": "Security Controls: Introduction"
+      "text": "Security controls in plain English"
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Replace this with study content. Use {{glossary-terms}} for hover definitions and add links where appropriate."
+      "text": "In security work, you’re defending against many different risks: attackers trying to gain access, accidents that cause outages, and physical threats to buildings and equipment. A security control is any safeguard you use to reduce risk—by preventing an event, detecting it, or correcting its impact."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security+ commonly classifies controls in two ways. First, by category: technical control, managerial control (also called administrative control), operational control, and physical control. Second, by type: preventive control, deterrent control, detective control, corrective control, compensating control, and directive control."
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "PLACEHOLDER bullet 1",
-        "PLACEHOLDER bullet 2",
-        "PLACEHOLDER bullet 3"
+        "Category = how it’s implemented (technology, management direction, people/process, or physical means).",
+        "Type = what it’s intended to do (prevent, deter, detect, correct/restore, compensate, or direct).",
+        "Real-world controls can sometimes fit multiple boxes depending on implementation."
       ]
     }
   ]

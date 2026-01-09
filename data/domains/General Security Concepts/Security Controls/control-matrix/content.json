@@ -1,0 +1,35 @@
+{
+  "title": "Security Controls: Control Matrix",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "How to answer “type vs category” questions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Many exam questions describe a control and ask for the BEST classification. Use two passes: decide the type (prevent/deter/detect/correct/compensate/direct), then decide the category (technical/managerial/operational/physical)."
+    },
+    {
+      "type": "heading",
+      "text": "Scenario mappings"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Login banner on an application → deterrent control + technical control.",
+        "Policy stating data misuse may lead to termination → deterrent control + managerial control.",
+        "Reception desk greeting/monitoring visitors → deterrent control + operational control.",
+        "Warning signs posted on a perimeter fence → deterrent control + physical control.",
+        "Daily review of authentication reports → detective control + managerial control.",
+        "Guard patrols checking the property → detective control + operational control.",
+        "Restore a system from backup after ransomware → corrective control + technical control.",
+        "Call authorities after a physical break-in → corrective control + operational control."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Compensating controls often show up as “we can’t do the ideal fix yet.” Example: a vendor patch is delayed, so you apply segmentation or a firewall block as a compensating control."
+    }
+  ]
+}

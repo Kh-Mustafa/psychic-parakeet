@@ -1,0 +1,35 @@
+{
+  "title": "Security Controls: Quick Checks and Pitfalls",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Quick checks"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "If it blocks access before impact → preventive control.",
+        "If it discourages behavior → deterrent control.",
+        "If it alerts or records evidence → detective control.",
+        "If it restores after damage → corrective control.",
+        "If it’s an alternate until the real fix → compensating control.",
+        "If it tells users what to do → directive control."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Common pitfalls"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Mixing up category vs type (managerial/operational/physical/technical are categories; preventive/detective/etc. are types).",
+        "Assuming “physical” always means preventive (a sign is physical but directive/deterrent).",
+        "Treating backups as preventive (backups are typically corrective controls).",
+        "Forgetting that managerial controls can be detective (e.g., scheduled log review procedures)."
+      ]
+    }
+  ]
+}

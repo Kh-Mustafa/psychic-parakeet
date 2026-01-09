@@ -1,0 +1,29 @@
+{
+  "title": "Security Controls: Control Types",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "The six types"
+    },
+    {
+      "type": "paragraph",
+      "text": "Control types describe what a control is intended to accomplish relative to an event or attack."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Preventive control: stops an event before it happens (blocks access or exploitation).",
+        "Deterrent control: discourages action by increasing perceived risk or consequences (e.g., login banner, warning signs).",
+        "Detective control: discovers or alerts on activity (alerts, monitoring, log review).",
+        "Corrective control: restores service or reduces impact after detection (restore from backup, re-image systems).",
+        "Compensating control: alternative/temporary measure when the primary control isn’t available (segmentation rule while waiting for a patch).",
+        "Directive control: directs behavior toward safer actions (training, procedures, signs)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Example: A firewall rule is a preventive control (type) implemented as a technical control (category)."
+    }
+  ]
+}

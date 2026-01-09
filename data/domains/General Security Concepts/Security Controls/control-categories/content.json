@@ -1,0 +1,37 @@
+{
+  "title": "Security Controls: Control Categories",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "The four categories"
+    },
+    {
+      "type": "paragraph",
+      "text": "Control categories describe the mechanism used to implement a control."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Technical control: implemented by technology (configuration settings, encryption, firewall rules, antivirus).",
+        "Managerial control / administrative control: implemented through policies, standards, procedures, and governance (security policy, onboarding rules, compliance expectations).",
+        "Operational control: implemented by people and routine processes (guard patrols, awareness training, incident reporting steps).",
+        "Physical control: implemented with tangible barriers/devices (locks, fences, badge reader, motion detector)."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Examples"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Firewall rule blocking inbound access → technical control.",
+        "Written onboarding/offboarding and access request procedures → managerial control.",
+        "Security guards checking identification → operational control.",
+        "Door locks and turnstiles to a server room → physical control."
+      ]
+    }
+  ]
+}

@@ -6,63 +6,63 @@
   "questions": [
     {
       "id": "q1",
-      "question": "PLACEHOLDER (Security Controls) question 1: Replace with an exam-style multiple-choice question.",
+      "question": "A security administrator adds a firewall rule that blocks inbound traffic to an internal management interface from the internet. Which option BEST classifies this control?",
       "options": [
-        "Option A (placeholder)",
-        "Option B (placeholder)",
-        "Option C (placeholder)",
-        "Option D (placeholder)"
+        "Preventive control and technical control",
+        "Detective control and technical control",
+        "Deterrent control and operational control",
+        "Corrective control and managerial control"
       ],
       "correct": 0,
-      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+      "explanation": "The rule blocks access before an attacker can reach the interface (preventive), and it is implemented through a firewall configuration (technical)."
     },
     {
       "id": "q2",
-      "question": "PLACEHOLDER (Security Controls) question 2: Replace with an exam-style multiple-choice question.",
+      "question": "A company requires all employees to complete annual security awareness training on handling sensitive information. Which control category BEST fits this requirement?",
       "options": [
-        "Option A (placeholder)",
-        "Option B (placeholder)",
-        "Option C (placeholder)",
-        "Option D (placeholder)"
+        "Operational control",
+        "Technical control",
+        "Physical control",
+        "Preventive control"
       ],
       "correct": 0,
-      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+      "explanation": "Training is carried out by people as part of routine operations, so it is an operational control (category). Preventive is a type, not a category."
     },
     {
       "id": "q3",
-      "question": "PLACEHOLDER (Security Controls) question 3: Replace with an exam-style multiple-choice question.",
+      "question": "A sign on a server room door reads “Authorized Personnel Only,” but there is no lock. What control type BEST describes the sign?",
       "options": [
-        "Option A (placeholder)",
-        "Option B (placeholder)",
-        "Option C (placeholder)",
-        "Option D (placeholder)"
+        "Directive control",
+        "Corrective control",
+        "Detective control",
+        "Compensating control"
       ],
       "correct": 0,
-      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+      "explanation": "The sign directs user behavior toward a secure action but does not enforce it, making it a directive control."
     },
     {
       "id": "q4",
-      "question": "PLACEHOLDER (Security Controls) question 4: Replace with an exam-style multiple-choice question.",
+      "question": "A security team reviews authentication logs each day and investigates unusual login patterns. What control type BEST describes the daily log review?",
       "options": [
-        "Option A (placeholder)",
-        "Option B (placeholder)",
-        "Option C (placeholder)",
-        "Option D (placeholder)"
+        "Detective control",
+        "Deterrent control",
+        "Preventive control",
+        "Corrective control"
       ],
       "correct": 0,
-      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+      "explanation": "Reviewing logs is intended to discover and alert on suspicious activity, which is the purpose of a detective control."
     },
     {
       "id": "q5",
-      "question": "PLACEHOLDER (Security Controls) question 5: Replace with an exam-style multiple-choice question.",
+      "question": "A critical application has a known vulnerability, but the vendor patch will not be available for two weeks. The team temporarily restricts access using network segmentation rules. What control type BEST describes the segmentation rule in this scenario?",
       "options": [
-        "Option A (placeholder)",
-        "Option B (placeholder)",
-        "Option C (placeholder)",
-        "Option D (placeholder)"
+        "Compensating control",
+        "Directive control",
+        "Corrective control",
+        "Deterrent control"
       ],
       "correct": 0,
-      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+      "explanation": "Because the primary fix (patching) is not available yet, the segmentation rule serves as an alternate temporary measure—a compensating control."
     }
   ]
 }

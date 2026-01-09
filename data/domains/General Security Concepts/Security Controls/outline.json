@@ -4,6 +4,22 @@
     {
       "id": "intro",
       "title": "Introduction"
+    },
+    {
+      "id": "control-categories",
+      "title": "Control Categories"
+    },
+    {
+      "id": "control-types",
+      "title": "Control Types"
+    },
+    {
+      "id": "control-matrix",
+      "title": "Control Matrix: Type × Category"
+    },
+    {
+      "id": "quick-check",
+      "title": "Quick Checks and Pitfalls"
     }
   ]
 }
