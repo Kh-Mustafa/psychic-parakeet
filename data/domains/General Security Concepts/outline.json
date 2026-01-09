@@ -1,0 +1,21 @@
+{
+  "domain": "General Security Concepts",
+  "topics": [
+    {
+      "id": "Security Controls",
+      "title": "Security Controls"
+    },
+    {
+      "id": "Fundamental Concepts",
+      "title": "Fundamental Concepts"
+    },
+    {
+      "id": "Change Management",
+      "title": "Change Management"
+    },
+    {
+      "id": "Cryptographic Solutions",
+      "title": "Cryptographic Solutions"
+    }
+  ]
+}

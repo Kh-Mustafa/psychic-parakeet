@@ -1,0 +1,25 @@
+{
+  "definitions": {
+    "threat": "A potential cause of an unwanted incident (something that could do harm).",
+    "vulnerability": "A weakness that can be exploited (a bug, misconfiguration, missing control).",
+    "exploit": "A technique or code that uses a vulnerability.",
+    "risk": "Likelihood × impact of a threat exploiting a vulnerability.",
+    "malware": "Software designed to harm computer systems, networks, or data.",
+    "ransomware": "Malware that encrypts files and demands payment for decryption.",
+    "spyware": "Software that secretly monitors user activity and collects information.",
+    "social engineering": "Manipulating people into revealing confidential information or performing actions.",
+    "phishing": "A social engineering attack that uses email or fraudulent websites to steal credentials.",
+    "pretexting": "A social engineering technique where an attacker creates a false scenario to obtain information.",
+    "sql injection": "An application attack that abuses unsanitized input to execute malicious SQL queries against a database.",
+    "xss": "Cross-Site Scripting - an attack that injects malicious scripts into web pages viewed by other users.",
+    "dos": "Denial of Service - an attack that disrupts services by overwhelming them with traffic.",
+    "mfa": "Multi-Factor Authentication - a security method requiring multiple forms of verification.",
+    "least privilege": "A security principle where users and services receive only the minimum access necessary.",
+    "network segmentation": "Dividing networks into smaller, isolated segments to limit lateral movement.",
+    "dmz": "Demilitarized Zone - a segmented network zone used to host public-facing services while protecting the internal network.",
+    "defense in depth": "A security strategy using multiple layers of controls so a single failure doesn't lead to compromise.",
+    "zero trust": "A security model that assumes breach and verifies explicitly with identity, device, and context signals.",
+    "backup": "A copy of data created for recovery purposes in case of data loss or corruption."
+  }
+}
+

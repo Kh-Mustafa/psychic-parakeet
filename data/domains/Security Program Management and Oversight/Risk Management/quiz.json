@@ -1,0 +1,68 @@
+{
+  "topicId": "Risk Management",
+  "topicName": "Risk Management",
+  "domainId": "Security Program Management and Oversight",
+  "domainName": "Security Program Management and Oversight",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "PLACEHOLDER (Risk Management) question 1: Replace with an exam-style multiple-choice question.",
+      "options": [
+        "Option A (placeholder)",
+        "Option B (placeholder)",
+        "Option C (placeholder)",
+        "Option D (placeholder)"
+      ],
+      "correct": 0,
+      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+    },
+    {
+      "id": "q2",
+      "question": "PLACEHOLDER (Risk Management) question 2: Replace with an exam-style multiple-choice question.",
+      "options": [
+        "Option A (placeholder)",
+        "Option B (placeholder)",
+        "Option C (placeholder)",
+        "Option D (placeholder)"
+      ],
+      "correct": 0,
+      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+    },
+    {
+      "id": "q3",
+      "question": "PLACEHOLDER (Risk Management) question 3: Replace with an exam-style multiple-choice question.",
+      "options": [
+        "Option A (placeholder)",
+        "Option B (placeholder)",
+        "Option C (placeholder)",
+        "Option D (placeholder)"
+      ],
+      "correct": 0,
+      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+    },
+    {
+      "id": "q4",
+      "question": "PLACEHOLDER (Risk Management) question 4: Replace with an exam-style multiple-choice question.",
+      "options": [
+        "Option A (placeholder)",
+        "Option B (placeholder)",
+        "Option C (placeholder)",
+        "Option D (placeholder)"
+      ],
+      "correct": 0,
+      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+    },
+    {
+      "id": "q5",
+      "question": "PLACEHOLDER (Risk Management) question 5: Replace with an exam-style multiple-choice question.",
+      "options": [
+        "Option A (placeholder)",
+        "Option B (placeholder)",
+        "Option C (placeholder)",
+        "Option D (placeholder)"
+      ],
+      "correct": 0,
+      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+    }
+  ]
+}

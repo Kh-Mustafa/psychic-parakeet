@@ -1,0 +1,22 @@
+{
+  "title": "Identity and Access Management: Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Identity and Access Management: Introduction"
+    },
+    {
+      "type": "paragraph",
+      "text": "PLACEHOLDER: Replace this with study content. Use {{glossary-terms}} for hover definitions and add links where appropriate."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "PLACEHOLDER bullet 1",
+        "PLACEHOLDER bullet 2",
+        "PLACEHOLDER bullet 3"
+      ]
+    }
+  ]
+}

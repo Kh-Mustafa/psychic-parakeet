@@ -1,0 +1,21 @@
+{
+  "domain": "Security Architecture",
+  "topics": [
+    {
+      "id": "Architecture Models",
+      "title": "Architecture Models"
+    },
+    {
+      "id": "Enterprise Infrastructure",
+      "title": "Enterprise Infrastructure"
+    },
+    {
+      "id": "Data Protection",
+      "title": "Data Protection"
+    },
+    {
+      "id": "Resilience and Recovery",
+      "title": "Resilience and Recovery"
+    }
+  ]
+}

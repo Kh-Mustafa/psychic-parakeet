@@ -3,14 +3,29 @@
   "description": "A starter, hardcoded learning path for Security+ domains. Navigate through domains, topics, and pages, then take topic quizzes.",
   "domains": [
     {
-      "id": "Threats, Attacks, and Vulnerabilities",
-      "title": "Threats, Attacks, and Vulnerabilities",
+      "id": "General Security Concepts",
+      "title": "General Security Concepts",
       "order": 1
     },
     {
-      "id": "Architecture and Design",
-      "title": "Architecture and Design",
+      "id": "Threats, Vulnerabilities, and Mitigations",
+      "title": "Threats, Vulnerabilities, and Mitigations",
       "order": 2
+    },
+    {
+      "id": "Security Architecture",
+      "title": "Security Architecture",
+      "order": 3
+    },
+    {
+      "id": "Security Operations",
+      "title": "Security Operations",
+      "order": 4
+    },
+    {
+      "id": "Security Program Management and Oversight",
+      "title": "Security Program Management and Oversight",
+      "order": 5
     }
   ],
   "studyTips": [

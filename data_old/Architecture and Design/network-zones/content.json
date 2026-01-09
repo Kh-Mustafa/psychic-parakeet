@@ -1,0 +1,20 @@
+{
+  "id": "network-zones",
+  "title": "Common network zones",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Network segmentation creates isolated zones with different trust levels:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "LAN: internal network for trusted devices.",
+        "DMZ (Demilitarized Zone): buffer network hosting public-facing services (e.g., web).",
+        "Guest/IoT networks: isolated segments for untrusted or low-trust devices."
+      ]
+    }
+  ]
+}
+

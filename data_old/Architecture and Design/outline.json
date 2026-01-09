@@ -1,0 +1,27 @@
+{
+  "topicId": "topic2",
+  "topicTitle": "Architecture and Design",
+  "subtopics": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "order": 1
+    },
+    {
+      "id": "core-design",
+      "title": "Core Design Ideas",
+      "order": 2
+    },
+    {
+      "id": "network-zones",
+      "title": "Network Zones",
+      "order": 3
+    },
+    {
+      "id": "resilience",
+      "title": "Availability and Resilience",
+      "order": 4
+    }
+  ]
+}
+

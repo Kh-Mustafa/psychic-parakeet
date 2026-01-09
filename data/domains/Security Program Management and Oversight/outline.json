@@ -1,0 +1,29 @@
+{
+  "domain": "Security Program Management and Oversight",
+  "topics": [
+    {
+      "id": "Security Governance",
+      "title": "Security Governance"
+    },
+    {
+      "id": "Risk Management",
+      "title": "Risk Management"
+    },
+    {
+      "id": "Third-Party Risk",
+      "title": "Third-Party Risk"
+    },
+    {
+      "id": "Security Compliance",
+      "title": "Security Compliance"
+    },
+    {
+      "id": "Audits and Assessments",
+      "title": "Audits and Assessments"
+    },
+    {
+      "id": "Security Awareness",
+      "title": "Security Awareness"
+    }
+  ]
+}

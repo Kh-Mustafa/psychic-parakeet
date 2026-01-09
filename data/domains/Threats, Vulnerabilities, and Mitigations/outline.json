@@ -1,0 +1,25 @@
+{
+  "domain": "Threats, Vulnerabilities, and Mitigations",
+  "topics": [
+    {
+      "id": "Threat Actors and Motivations",
+      "title": "Threat Actors and Motivations"
+    },
+    {
+      "id": "Threat Vectors and Attack Surfaces",
+      "title": "Threat Vectors and Attack Surfaces"
+    },
+    {
+      "id": "Vulnerabilities",
+      "title": "Vulnerabilities"
+    },
+    {
+      "id": "Malicious Activity",
+      "title": "Malicious Activity"
+    },
+    {
+      "id": "Mitigation Techniques",
+      "title": "Mitigation Techniques"
+    }
+  ]
+}

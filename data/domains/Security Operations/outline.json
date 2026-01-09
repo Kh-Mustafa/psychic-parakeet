@@ -1,0 +1,41 @@
+{
+  "domain": "Security Operations",
+  "topics": [
+    {
+      "id": "Computing Resources",
+      "title": "Computing Resources"
+    },
+    {
+      "id": "Asset Management",
+      "title": "Asset Management"
+    },
+    {
+      "id": "Vulnerability Management",
+      "title": "Vulnerability Management"
+    },
+    {
+      "id": "Alerting and Monitoring",
+      "title": "Alerting and Monitoring"
+    },
+    {
+      "id": "Enterprise Security",
+      "title": "Enterprise Security"
+    },
+    {
+      "id": "Identity and Access Management",
+      "title": "Identity and Access Management"
+    },
+    {
+      "id": "Automation and Orchestration",
+      "title": "Automation and Orchestration"
+    },
+    {
+      "id": "Incident Response",
+      "title": "Incident Response"
+    },
+    {
+      "id": "Data Sources",
+      "title": "Data Sources"
+    }
+  ]
+}

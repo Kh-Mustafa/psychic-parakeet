@@ -1,0 +1,68 @@
+{
+  "topicId": "Asset Management",
+  "topicName": "Asset Management",
+  "domainId": "Security Operations",
+  "domainName": "Security Operations",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "PLACEHOLDER (Asset Management) question 1: Replace with an exam-style multiple-choice question.",
+      "options": [
+        "Option A (placeholder)",
+        "Option B (placeholder)",
+        "Option C (placeholder)",
+        "Option D (placeholder)"
+      ],
+      "correct": 0,
+      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+    },
+    {
+      "id": "q2",
+      "question": "PLACEHOLDER (Asset Management) question 2: Replace with an exam-style multiple-choice question.",
+      "options": [
+        "Option A (placeholder)",
+        "Option B (placeholder)",
+        "Option C (placeholder)",
+        "Option D (placeholder)"
+      ],
+      "correct": 0,
+      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+    },
+    {
+      "id": "q3",
+      "question": "PLACEHOLDER (Asset Management) question 3: Replace with an exam-style multiple-choice question.",
+      "options": [
+        "Option A (placeholder)",
+        "Option B (placeholder)",
+        "Option C (placeholder)",
+        "Option D (placeholder)"
+      ],
+      "correct": 0,
+      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+    },
+    {
+      "id": "q4",
+      "question": "PLACEHOLDER (Asset Management) question 4: Replace with an exam-style multiple-choice question.",
+      "options": [
+        "Option A (placeholder)",
+        "Option B (placeholder)",
+        "Option C (placeholder)",
+        "Option D (placeholder)"
+      ],
+      "correct": 0,
+      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+    },
+    {
+      "id": "q5",
+      "question": "PLACEHOLDER (Asset Management) question 5: Replace with an exam-style multiple-choice question.",
+      "options": [
+        "Option A (placeholder)",
+        "Option B (placeholder)",
+        "Option C (placeholder)",
+        "Option D (placeholder)"
+      ],
+      "correct": 0,
+      "explanation": "PLACEHOLDER: Explain why the correct option is correct and why the others are not."
+    }
+  ]
+}
