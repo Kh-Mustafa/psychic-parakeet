@@ -1,0 +1,21 @@
+{
+  "id": "key-terms",
+  "title": "Key terms (quick definitions)",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Understanding security terminology is fundamental. Here are the core concepts:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Threat: A potential cause of an unwanted incident (something that could do harm).",
+        "Vulnerability: A weakness that can be exploited (a bug, misconfiguration, missing control).",
+        "Exploit: A technique or code that uses a vulnerability.",
+        "Risk: Likelihood × impact of a threat exploiting a vulnerability."
+      ]
+    }
+  ]
+}
+

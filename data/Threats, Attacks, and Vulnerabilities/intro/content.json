@@ -1,0 +1,11 @@
+{
+  "id": "intro",
+  "title": "What this domain covers",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Security+ expects you to recognize common threats and how they show up in real environments: malware, social engineering, application attacks, and weaknesses like misconfigurations. This topic is a lightweight placeholder and not a full textbook."
+    }
+  ]
+}
+

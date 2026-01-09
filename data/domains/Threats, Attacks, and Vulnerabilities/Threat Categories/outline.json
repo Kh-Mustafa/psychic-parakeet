@@ -1,0 +1,14 @@
+{
+  "topic": "Threat Categories",
+  "pages": [
+    {
+      "id": "common-threats",
+      "title": "Common Threat Categories"
+    },
+    {
+      "id": "mitigations",
+      "title": "Mitigations"
+    }
+  ]
+}
+

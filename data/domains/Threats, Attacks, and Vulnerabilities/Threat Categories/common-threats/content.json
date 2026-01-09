@@ -1,0 +1,24 @@
+{
+  "title": "Common Threat Categories",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Common threat categories"
+    },
+    {
+      "type": "paragraph",
+      "text": "Threats come in various forms, each targeting different aspects of security:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Malware: software designed to harm (e.g., ransomware, spyware).",
+        "Social engineering: manipulating people (e.g., phishing, pretexting).",
+        "Application attacks: targeting apps/APIs (e.g., SQL injection, XSS).",
+        "Network attacks: disrupting or intercepting traffic (e.g., DoS, on-path attacks)."
+      ]
+    }
+  ]
+}
+
