@@ -1,6 +1,6 @@
 # Study Platform — CompTIA Security+
 
-A web-based study platform for exam preparation, currently configured for the CompTIA Security+ certification. The site delivers structured learning content followed by quizzes, with progress tracking across domains, topics, and pages.
+A web-based study platform for the CompTIA Security+ certification. The site delivers structured learning content followed by quizzes, with progress tracking across domains, topics, and pages.
 
 ---
 
