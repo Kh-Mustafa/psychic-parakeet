@@ -1,0 +1,14 @@
+{
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "What this domain covers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Security architecture is about designing systems so that compromise is harder and the blast radius is smaller. Security+ focuses on foundational design choices: segmentation, secure protocols, resilient design, and patterns like zero trust."
+    }
+  ]
+}
+

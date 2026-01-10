@@ -1,0 +1,53 @@
+{
+  "title": "Types of Security Controls",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Preventive Controls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Preventive controls stop an incident before it occurs. Examples include firewalls blocking traffic, access control systems preventing unauthorized logins, and physical locks preventing entry."
+    },
+    {
+      "type": "heading",
+      "text": "Deterrent Controls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Deterrent controls discourage attackers by increasing perceived risk. Examples include warning banners, visible cameras, security signage, and disciplinary policies."
+    },
+    {
+      "type": "heading",
+      "text": "Detective Controls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detective controls identify that an incident has occurred or is occurring. Examples include intrusion detection systems, log monitoring, alarms, and security patrols."
+    },
+    {
+      "type": "heading",
+      "text": "Corrective Controls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corrective controls reduce the impact of an incident after it occurs. Examples include restoring from backups, reimaging infected systems, and applying emergency patches."
+    },
+    {
+      "type": "heading",
+      "text": "Compensating Controls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Compensating controls provide alternative protection when the primary control is not possible. Examples include additional monitoring when a patch is unavailable or extra staff when automation fails."
+    },
+    {
+      "type": "heading",
+      "text": "Directive Controls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Directive controls instruct users on proper behavior. Examples include security policies, training programs, and signage directing authorized access only."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Shadow IT",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Unapproved Technology Use"
+    },
+    {
+      "type": "paragraph",
+      "text": "Shadow IT refers to systems, software, and services used by employees without formal approval from the organization’s IT or security teams."
+    },
+    {
+      "type": "paragraph",
+      "text": "Examples include personal cloud storage accounts, unauthorized messaging apps, or self-hosted services deployed outside corporate oversight."
+    },
+    {
+      "type": "paragraph",
+      "text": "Shadow IT increases risk by creating unmanaged data stores and unknown attack surfaces."
+    },
+    {
+      "type": "paragraph",
+      "text": "While not always malicious, shadow IT can significantly weaken security visibility and compliance efforts."
+    }
+  ]
+}

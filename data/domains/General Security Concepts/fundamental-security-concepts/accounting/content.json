@@ -1,0 +1,25 @@
+{
+  "title": "Accounting",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Tracking Activity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Accounting records what actions users and systems perform after authentication and authorization have occurred."
+    },
+    {
+      "type": "paragraph",
+      "text": "Logs, audit trails, and monitoring systems provide visibility into access attempts, configuration changes, and data usage."
+    },
+    {
+      "type": "paragraph",
+      "text": "Accounting supports incident response, compliance reporting, and forensic investigations."
+    },
+    {
+      "type": "paragraph",
+      "text": "Without proper accounting, organizations cannot reliably detect abuse or demonstrate regulatory compliance."
+    }
+  ]
+}

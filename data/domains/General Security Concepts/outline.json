@@ -2,19 +2,19 @@
   "domain": "General Security Concepts",
   "topics": [
     {
-      "id": "Security Controls",
+      "id": "security-controls",
       "title": "Security Controls"
     },
     {
-      "id": "Fundamental Concepts",
-      "title": "Fundamental Concepts"
+      "id": "fundamental-security-concepts",
+      "title": "Fundamental Security Concepts"
     },
     {
-      "id": "Change Management",
+      "id": "change-management",
       "title": "Change Management"
     },
     {
-      "id": "Cryptographic Solutions",
+      "id": "cryptographic-solutions",
       "title": "Cryptographic Solutions"
     }
   ]

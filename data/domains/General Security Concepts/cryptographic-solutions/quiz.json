@@ -1,0 +1,126 @@
+{
+  "topicId": "cryptographic-solutions",
+  "topicName": "Cryptographic Solutions",
+  "questions": [
+    {
+      "id": "cs-q1",
+      "question": "What is the PRIMARY purpose of cryptography in security systems?",
+      "options": [
+        "Prevent network attacks",
+        "Protect data confidentiality and integrity",
+        "Replace access controls",
+        "Detect malware"
+      ],
+      "correct": 1,
+      "explanation": "Cryptography protects confidentiality and integrity. It does not stop attacks, replace access controls, or directly detect malware."
+    },
+    {
+      "id": "cs-q2",
+      "question": "Which component issues certificates that bind public keys to identities?",
+      "options": [
+        "Firewall",
+        "Certificate authority",
+        "Load balancer",
+        "Intrusion detection system"
+      ],
+      "correct": 1,
+      "explanation": "Certificate authorities validate identities and issue certificates. Firewalls and IDS manage traffic, and load balancers distribute workloads."
+    },
+    {
+      "id": "cs-q3",
+      "question": "Why are symmetric keys often used for bulk data encryption?",
+      "options": [
+        "They are more secure than asymmetric keys",
+        "They are faster for large data volumes",
+        "They eliminate the need for key exchange",
+        "They do not require authentication"
+      ],
+      "correct": 1,
+      "explanation": "Symmetric encryption is computationally faster. It does not remove the need for key exchange and is not inherently more secure."
+    },
+    {
+      "id": "cs-q4",
+      "question": "What is the main role of key exchange protocols?",
+      "options": [
+        "Encrypt stored files",
+        "Securely establish shared secret keys",
+        "Verify user identity",
+        "Block network traffic"
+      ],
+      "correct": 1,
+      "explanation": "Key exchange securely establishes shared keys. It does not encrypt files, authenticate users, or block traffic."
+    },
+    {
+      "id": "cs-q5",
+      "question": "Which technology is designed to protect cryptographic keys in tamper-resistant hardware?",
+      "options": [
+        "VPN",
+        "HSM",
+        "Web proxy",
+        "SIEM"
+      ],
+      "correct": 1,
+      "explanation": "Hardware security modules protect keys in secure hardware. VPNs encrypt traffic, proxies filter requests, and SIEM aggregates logs."
+    },
+    {
+      "id": "cs-q6",
+      "question": "Which technique replaces sensitive data with non-sensitive substitutes?",
+      "options": [
+        "Hashing",
+        "Tokenization",
+        "Steganography",
+        "Key exchange"
+      ],
+      "correct": 1,
+      "explanation": "Tokenization replaces sensitive values. Hashing produces irreversible digests, steganography hides data, and key exchange negotiates keys."
+    },
+    {
+      "id": "cs-q7",
+      "question": "What security property do hash functions primarily support?",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Authentication only"
+      ],
+      "correct": 1,
+      "explanation": "Hashes detect changes, supporting integrity. They do not encrypt data or guarantee availability or identity alone."
+    },
+    {
+      "id": "cs-q8",
+      "question": "Why are hash collisions dangerous?",
+      "options": [
+        "They expose encryption keys",
+        "They allow different data to appear identical",
+        "They slow down encryption",
+        "They improve authentication"
+      ],
+      "correct": 1,
+      "explanation": "Collisions allow altered data to appear valid. They do not expose keys, improve security, or affect speed directly."
+    },
+    {
+      "id": "cs-q9",
+      "question": "Which statement about blockchain is MOST accurate?",
+      "options": [
+        "It guarantees confidentiality of stored data",
+        "It is only used for cryptocurrency",
+        "It provides tamper-evident transaction records",
+        "It replaces the need for access controls"
+      ],
+      "correct": 2,
+      "explanation": "Blockchain provides tamper-evident records. It does not ensure confidentiality, is not limited to cryptocurrency, and does not replace access controls."
+    },
+    {
+      "id": "cs-q10",
+      "question": "Why must certificate revocation be supported in PKI systems?",
+      "options": [
+        "To improve encryption speed",
+        "To invalidate compromised or untrusted certificates",
+        "To reduce network latency",
+        "To eliminate key exchange"
+      ],
+      "correct": 1,
+      "explanation": "Revocation prevents use of compromised certificates. It does not affect speed, latency, or remove the need for key exchange."
+    }
+  ]
+}

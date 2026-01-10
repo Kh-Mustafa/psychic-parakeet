@@ -1,0 +1,25 @@
+{
+  "title": "Zero Trust Security Model",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Never Trust, Always Verify"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zero trust assumes that no user, device, or network segment should be trusted by default, even if it is inside the organization’s perimeter."
+    },
+    {
+      "type": "paragraph",
+      "text": "Access decisions are continuously evaluated based on identity, device health, location, and behavior."
+    },
+    {
+      "type": "paragraph",
+      "text": "Microsegmentation and strong identity controls are common components of zero trust architectures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zero trust reduces the impact of breaches by limiting lateral movement within networks."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Key Exchange Mechanisms",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Sharing Secrets Securely"
+    },
+    {
+      "type": "paragraph",
+      "text": "Key exchange allows two parties to establish a shared symmetric key over an untrusted network."
+    },
+    {
+      "type": "paragraph",
+      "text": "Asymmetric encryption is often used to securely negotiate a symmetric session key."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hybrid encryption combines the efficiency of symmetric encryption with the security of asymmetric key exchange."
+    },
+    {
+      "type": "paragraph",
+      "text": "If key exchange is compromised, encrypted communication can be decrypted by attackers."
+    }
+  ]
+}

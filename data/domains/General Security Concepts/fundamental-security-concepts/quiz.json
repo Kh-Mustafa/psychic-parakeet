@@ -1,0 +1,126 @@
+{
+  "topicId": "fundamental-security-concepts",
+  "topicName": "Fundamental Security Concepts",
+  "questions": [
+    {
+      "id": "fsc-q1",
+      "question": "Which CIA triad component focuses on ensuring data is not altered without authorization?",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Authentication"
+      ],
+      "correct": 1,
+      "explanation": "Integrity protects against unauthorized modification. Confidentiality controls access, availability ensures uptime, and authentication verifies identity rather than data correctness."
+    },
+    {
+      "id": "fsc-q2",
+      "question": "Which technology MOST directly supports non-repudiation?",
+      "options": [
+        "Symmetric encryption",
+        "Access control lists",
+        "Digital signatures",
+        "Firewalls"
+      ],
+      "correct": 2,
+      "explanation": "Digital signatures prove origin and integrity. Symmetric encryption protects confidentiality, ACLs control access, and firewalls filter traffic."
+    },
+    {
+      "id": "fsc-q3",
+      "question": "Which authentication factor is represented by a smart card?",
+      "options": [
+        "Something you know",
+        "Something you have",
+        "Something you are",
+        "Somewhere you are"
+      ],
+      "correct": 1,
+      "explanation": "Smart cards are physical tokens (something you have). Passwords are something you know, biometrics are something you are, and location-based checks are somewhere you are."
+    },
+    {
+      "id": "fsc-q4",
+      "question": "Granting permissions to access specific files is an example of:",
+      "options": [
+        "Authentication",
+        "Authorization",
+        "Accounting",
+        "Auditing"
+      ],
+      "correct": 1,
+      "explanation": "Authorization determines what actions are allowed. Authentication verifies identity, accounting records actions, and auditing reviews logs."
+    },
+    {
+      "id": "fsc-q5",
+      "question": "Which activity is MOST associated with accounting?",
+      "options": [
+        "Encrypting data",
+        "Reviewing log files",
+        "Issuing certificates",
+        "Assigning roles"
+      ],
+      "correct": 1,
+      "explanation": "Accounting focuses on logging and monitoring activity. Encryption protects data, certificates establish trust, and role assignment is authorization."
+    },
+    {
+      "id": "fsc-q6",
+      "question": "What is the PRIMARY goal of a security gap analysis?",
+      "options": [
+        "Detect intrusions",
+        "Compare current and desired security states",
+        "Enforce compliance rules",
+        "Test backup systems"
+      ],
+      "correct": 1,
+      "explanation": "Gap analysis identifies differences between current posture and target security goals. Detection is monitoring, compliance enforcement is governance, and backups are recovery controls."
+    },
+    {
+      "id": "fsc-q7",
+      "question": "Which principle is central to zero trust architecture?",
+      "options": [
+        "Implicit network trust",
+        "Perimeter-based defense",
+        "Continuous verification",
+        "Shared administrator accounts"
+      ],
+      "correct": 2,
+      "explanation": "Zero trust requires ongoing verification. Implicit trust and perimeter-only defenses contradict zero trust, and shared admin accounts weaken security."
+    },
+    {
+      "id": "fsc-q8",
+      "question": "Which control BEST addresses environmental threats such as fire?",
+      "options": [
+        "Firewall rules",
+        "Intrusion detection systems",
+        "Fire suppression systems",
+        "Access control lists"
+      ],
+      "correct": 2,
+      "explanation": "Fire suppression systems mitigate physical hazards. Firewalls and ACLs manage network access, and IDS detects attacks."
+    },
+    {
+      "id": "fsc-q9",
+      "question": "What is the primary purpose of honeypots?",
+      "options": [
+        "Patch vulnerabilities",
+        "Mislead and study attackers",
+        "Encrypt sensitive data",
+        "Block network traffic"
+      ],
+      "correct": 1,
+      "explanation": "Honeypots are decoy systems used to observe attacker behavior. They do not block traffic, patch systems, or encrypt production data."
+    },
+    {
+      "id": "fsc-q10",
+      "question": "Which combination BEST represents the AAA security model?",
+      "options": [
+        "Authentication, Authorization, Accounting",
+        "Availability, Access, Auditing",
+        "Authentication, Auditing, Access",
+        "Authorization, Availability, Assurance"
+      ],
+      "correct": 0,
+      "explanation": "AAA stands for Authentication, Authorization, and Accounting. The other options mix unrelated security concepts."
+    }
+  ]
+}

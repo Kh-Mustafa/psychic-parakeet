@@ -1,0 +1,25 @@
+{
+  "title": "Vulnerable Software",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Exploiting Known Weaknesses"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unpatched software and exposed services provide attackers with reliable entry points."
+    },
+    {
+      "type": "paragraph",
+      "text": "Automated scanning tools search for known vulnerabilities across large address ranges."
+    },
+    {
+      "type": "paragraph",
+      "text": "Legacy systems often remain vulnerable due to lack of vendor support."
+    },
+    {
+      "type": "paragraph",
+      "text": "Regular patching and asset inventory reduce software-based attack surfaces."
+    }
+  ]
+}

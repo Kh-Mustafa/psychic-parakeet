@@ -1,0 +1,65 @@
+{
+  "topic": "Types of Vulnerabilities",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Overview of Vulnerabilities"
+    },
+    {
+      "id": "memory-injection",
+      "title": "Memory Injection"
+    },
+    {
+      "id": "buffer-overflows",
+      "title": "Buffer Overflows"
+    },
+    {
+      "id": "race-conditions",
+      "title": "Race Conditions"
+    },
+    {
+      "id": "malicious-updates",
+      "title": "Malicious Updates"
+    },
+    {
+      "id": "operating-system-flaws",
+      "title": "Operating System Vulnerabilities"
+    },
+    {
+      "id": "sql-injection",
+      "title": "SQL Injection"
+    },
+    {
+      "id": "cross-site-scripting",
+      "title": "Cross-site Scripting"
+    },
+    {
+      "id": "hardware-vulnerabilities",
+      "title": "Hardware Vulnerabilities"
+    },
+    {
+      "id": "virtualization-flaws",
+      "title": "Virtualization Vulnerabilities"
+    },
+    {
+      "id": "cloud-specific-flaws",
+      "title": "Cloud-Specific Vulnerabilities"
+    },
+    {
+      "id": "supply-chain-vulnerabilities",
+      "title": "Supply Chain Vulnerabilities"
+    },
+    {
+      "id": "misconfiguration",
+      "title": "Misconfiguration Vulnerabilities"
+    },
+    {
+      "id": "mobile-device-vulnerabilities",
+      "title": "Mobile Device Vulnerabilities"
+    },
+    {
+      "id": "zero-day",
+      "title": "Zero-Day Vulnerabilities"
+    }
+  ]
+}

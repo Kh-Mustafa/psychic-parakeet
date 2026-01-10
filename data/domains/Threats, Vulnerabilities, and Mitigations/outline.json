@@ -2,23 +2,23 @@
   "domain": "Threats, Vulnerabilities, and Mitigations",
   "topics": [
     {
-      "id": "Threat Actors and Motivations",
+      "id": "threat-actors-and-motivations",
       "title": "Threat Actors and Motivations"
     },
     {
-      "id": "Threat Vectors and Attack Surfaces",
+      "id": "threat-vectors-and-attack-surfaces",
       "title": "Threat Vectors and Attack Surfaces"
     },
     {
-      "id": "Vulnerabilities",
-      "title": "Vulnerabilities"
+      "id": "types-of-vulnerabilities",
+      "title": "Types of Vulnerabilities"
     },
     {
-      "id": "Malicious Activity",
-      "title": "Malicious Activity"
+      "id": "indicators-of-malicious-activity",
+      "title": "Indicators of Malicious Activity"
     },
     {
-      "id": "Mitigation Techniques",
+      "id": "mitigation-techniques",
       "title": "Mitigation Techniques"
     }
   ]

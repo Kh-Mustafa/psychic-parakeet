@@ -1,0 +1,25 @@
+{
+  "title": "Technical Implications of Change",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Operational Risk of Modifications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Technical changes can affect performance, availability, and security. Poorly tested updates may cause outages or introduce exploitable weaknesses."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rollback plans are critical so systems can be restored quickly if a deployment fails."
+    },
+    {
+      "type": "paragraph",
+      "text": "Compatibility issues can arise when software, drivers, or firmware versions are mismatched across systems."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security testing should be part of the change lifecycle, not an afterthought."
+    }
+  ]
+}

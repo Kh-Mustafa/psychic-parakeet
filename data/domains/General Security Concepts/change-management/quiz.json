@@ -1,0 +1,126 @@
+{
+  "topicId": "change-management",
+  "topicName": "Change Management",
+  "questions": [
+    {
+      "id": "cm-q1",
+      "question": "What is the PRIMARY goal of change management?",
+      "options": [
+        "Increase system complexity",
+        "Reduce unplanned outages and security risks",
+        "Eliminate the need for testing",
+        "Speed up all deployments"
+      ],
+      "correct": 1,
+      "explanation": "Change management reduces risk and outages. It does not aim to increase complexity, remove testing, or blindly accelerate deployments."
+    },
+    {
+      "id": "cm-q2",
+      "question": "Why are approval workflows important in change management?",
+      "options": [
+        "They eliminate the need for backups",
+        "They ensure risk is evaluated before changes are applied",
+        "They replace technical testing",
+        "They prevent all security incidents"
+      ],
+      "correct": 1,
+      "explanation": "Approvals ensure risk and impact are reviewed. They do not replace backups, testing, or guarantee prevention of incidents."
+    },
+    {
+      "id": "cm-q3",
+      "question": "Which scenario BEST represents an emergency change?",
+      "options": [
+        "Routine patching during maintenance windows",
+        "Configuration updates after quarterly reviews",
+        "Immediate fix for an active production outage",
+        "Scheduled firmware upgrades"
+      ],
+      "correct": 2,
+      "explanation": "Emergency changes address urgent issues such as outages. The others are planned maintenance activities."
+    },
+    {
+      "id": "cm-q4",
+      "question": "What is the MAIN purpose of rollback planning?",
+      "options": [
+        "To permanently remove systems",
+        "To quickly restore services if a change fails",
+        "To delay deployments",
+        "To prevent documentation requirements"
+      ],
+      "correct": 1,
+      "explanation": "Rollback plans allow rapid recovery. They do not remove systems, delay work unnecessarily, or eliminate documentation."
+    },
+    {
+      "id": "cm-q5",
+      "question": "Why is documentation critical to change management?",
+      "options": [
+        "It replaces monitoring tools",
+        "It supports audits and troubleshooting",
+        "It prevents hardware failures",
+        "It eliminates training needs"
+      ],
+      "correct": 1,
+      "explanation": "Documentation supports audits and problem resolution. It does not replace monitoring, prevent hardware failures, or remove training requirements."
+    },
+    {
+      "id": "cm-q6",
+      "question": "Which tool is MOST associated with tracking code and configuration changes?",
+      "options": [
+        "Firewall",
+        "Version control system",
+        "Intrusion detection system",
+        "Load balancer"
+      ],
+      "correct": 1,
+      "explanation": "Version control systems track changes. Firewalls filter traffic, IDS detects attacks, and load balancers distribute workloads."
+    },
+    {
+      "id": "cm-q7",
+      "question": "Which risk is MOST likely when changes are not tested?",
+      "options": [
+        "Improved availability",
+        "Unexpected outages",
+        "Reduced compliance requirements",
+        "Lower operational costs"
+      ],
+      "correct": 1,
+      "explanation": "Lack of testing increases the chance of outages. The other options are not realistic outcomes of skipping testing."
+    },
+    {
+      "id": "cm-q8",
+      "question": "Why should emergency changes still be reviewed after implementation?",
+      "options": [
+        "To assign blame",
+        "To identify process improvements",
+        "To delay future changes",
+        "To avoid documentation"
+      ],
+      "correct": 1,
+      "explanation": "Post-change reviews improve processes. They are not meant to assign blame, delay work, or bypass documentation."
+    },
+    {
+      "id": "cm-q9",
+      "question": "Which practice helps maintain consistent secure system states?",
+      "options": [
+        "Manual configuration only",
+        "Configuration management",
+        "Disabling updates",
+        "Ignoring version history"
+      ],
+      "correct": 1,
+      "explanation": "Configuration management maintains consistency. Manual-only processes increase error, disabling updates increases risk, and ignoring history prevents recovery."
+    },
+    {
+      "id": "cm-q10",
+      "question": "Which group is MOST likely responsible for approving high-risk changes?",
+      "options": [
+        "End users",
+        "Change advisory board or designated approvers",
+        "External attackers",
+        "Automated scripts only"
+      ],
+      "correct": 1,
+      "explanation": "High-risk changes require human oversight. End users lack authority, attackers are irrelevant, and automation alone cannot evaluate business risk."
+    }
+  ]
+}

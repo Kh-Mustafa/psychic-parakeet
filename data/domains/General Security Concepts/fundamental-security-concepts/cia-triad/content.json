@@ -1,0 +1,29 @@
+{
+  "title": "The CIA Triad",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Confidentiality, Integrity, and Availability"
+    },
+    {
+      "type": "paragraph",
+      "text": "The CIA triad describes three core goals of information security: confidentiality, integrity, and availability. Every security control ultimately supports one or more of these objectives."
+    },
+    {
+      "type": "paragraph",
+      "text": "Confidentiality ensures that information is accessible only to authorized individuals and systems. Controls such as encryption, access controls, and network segmentation are commonly used to protect confidentiality."
+    },
+    {
+      "type": "paragraph",
+      "text": "Integrity ensures that data is accurate, complete, and has not been altered without authorization. Hashing, digital signatures, and file integrity monitoring help detect unauthorized changes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Availability ensures that systems and data are accessible when needed. Redundancy, backups, load balancing, and disaster recovery planning are critical to maintaining availability."
+    },
+    {
+      "type": "paragraph",
+      "text": "In real systems, improving one goal may reduce another. Strong encryption improves confidentiality but may reduce availability if key management fails. Security design often involves balancing these tradeoffs."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Categories of Security Controls",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Technical Controls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Technical controls are controls that are implemented using technology. These include firewalls, antivirus software, endpoint protection, encryption systems, and access control mechanisms built into operating systems and applications."
+    },
+    {
+      "type": "heading",
+      "text": "Managerial Controls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Managerial controls (also called administrative controls) involve policies, procedures, and governance. Examples include security policies, risk management processes, hiring practices, and vendor agreements."
+    },
+    {
+      "type": "heading",
+      "text": "Operational Controls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Operational controls rely on people and processes. Examples include security guards, employee training, incident response procedures, and background checks."
+    },
+    {
+      "type": "heading",
+      "text": "Physical Controls"
+    },
+    {
+      "type": "paragraph",
+      "text": "Physical controls protect facilities and equipment. Examples include locks, fences, surveillance cameras, lighting, badge readers, and biometric door systems."
+    },
+    {
+      "type": "paragraph",
+      "text": "Most organizations use a combination of all four categories to protect their environment, since relying on only one category creates single points of failure."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "File-Based Attacks",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Malicious Files as Delivery Mechanisms"
+    },
+    {
+      "type": "paragraph",
+      "text": "File-based attacks rely on documents, executables, or media files that trigger exploitation when opened."
+    },
+    {
+      "type": "paragraph",
+      "text": "Common examples include infected PDFs, macros in office documents, and trojanized installers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Removable media can also serve as a delivery vector when users connect untrusted devices."
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern defenses include sandboxing, behavior-based detection, and restricting file execution."
+    }
+  ]
+}

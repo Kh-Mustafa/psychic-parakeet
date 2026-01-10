@@ -1,0 +1,25 @@
+{
+  "title": "Deception and Disruption Techniques",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Misleading Attackers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Deception techniques attempt to mislead attackers into interacting with fake systems or data, revealing their methods and slowing their progress."
+    },
+    {
+      "type": "paragraph",
+      "text": "Examples include honeypots, honeytokens, and decoy credentials embedded in systems."
+    },
+    {
+      "type": "paragraph",
+      "text": "Disruption techniques aim to interfere with attacker operations, such as blocking command-and-control traffic or invalidating stolen credentials."
+    },
+    {
+      "type": "paragraph",
+      "text": "These methods supplement traditional defenses and provide additional detection opportunities."
+    }
+  ]
+}

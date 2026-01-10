@@ -1,0 +1,66 @@
+{
+  "topicId": "security-controls",
+  "topicName": "Security Controls",
+  "questions": [
+    {
+      "id": "sc-q1",
+      "question": "Which control category relies primarily on policies and governance rather than technology?",
+      "options": [
+        "Technical",
+        "Managerial",
+        "Operational",
+        "Physical"
+      ],
+      "correct": 1,
+      "explanation": "Managerial controls consist of policies, procedures, and organizational governance rather than technical mechanisms."
+    },
+    {
+      "id": "sc-q2",
+      "question": "Which type of control is intended to discourage attacks rather than block them?",
+      "options": [
+        "Preventive",
+        "Corrective",
+        "Detective",
+        "Deterrent"
+      ],
+      "correct": 3,
+      "explanation": "Deterrent controls increase perceived risk to discourage attackers but do not directly block access."
+    },
+    {
+      "id": "sc-q3",
+      "question": "Restoring systems from backup after ransomware infection is an example of which control type?",
+      "options": [
+        "Detective",
+        "Preventive",
+        "Corrective",
+        "Directive"
+      ],
+      "correct": 2,
+      "explanation": "Corrective controls reduce damage and restore operations after an incident has occurred."
+    },
+    {
+      "id": "sc-q4",
+      "question": "Which control would BEST be classified as an operational control?",
+      "options": [
+        "Firewall rule",
+        "Security policy document",
+        "Security guard patrol",
+        "Door lock"
+      ],
+      "correct": 2,
+      "explanation": "Operational controls depend on people and processes, such as guards performing patrols."
+    },
+    {
+      "id": "sc-q5",
+      "question": "Implementing temporary firewall rules while waiting for a vendor patch is an example of:",
+      "options": [
+        "Preventive control",
+        "Compensating control",
+        "Detective control",
+        "Directive control"
+      ],
+      "correct": 1,
+      "explanation": "Compensating controls provide alternative protection when the primary control is unavailable."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "topic": "Fundamental Security Concepts",
+  "pages": [
+    {
+      "id": "cia-triad",
+      "title": "The CIA Triad"
+    },
+    {
+      "id": "non-repudiation",
+      "title": "Non-repudiation"
+    },
+    {
+      "id": "authentication",
+      "title": "Authentication"
+    },
+    {
+      "id": "authorization",
+      "title": "Authorization"
+    },
+    {
+      "id": "accounting",
+      "title": "Accounting"
+    },
+    {
+      "id": "gap-analysis",
+      "title": "Security Gap Analysis"
+    },
+    {
+      "id": "zero-trust",
+      "title": "Zero Trust Security Model"
+    },
+    {
+      "id": "physical-security",
+      "title": "Physical Security Concepts"
+    },
+    {
+      "id": "deception-and-disruption",
+      "title": "Deception and Disruption Techniques"
+    }
+  ]
+}

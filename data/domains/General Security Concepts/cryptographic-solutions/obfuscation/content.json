@@ -1,0 +1,25 @@
+{
+  "title": "Obfuscation Techniques",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Hiding Information Without Encrypting It"
+    },
+    {
+      "type": "paragraph",
+      "text": "Obfuscation makes data difficult to understand without fully encrypting it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokenization replaces sensitive values with non-sensitive substitutes that reference secure storage."
+    },
+    {
+      "type": "paragraph",
+      "text": "Data masking hides portions of data, such as credit card numbers or personal identifiers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Steganography hides data within other files, such as embedding messages inside images or audio."
+    }
+  ]
+}

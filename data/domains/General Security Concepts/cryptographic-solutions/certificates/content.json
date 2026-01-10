@@ -1,0 +1,25 @@
+{
+  "title": "Digital Certificates",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Establishing Trust Between Systems"
+    },
+    {
+      "type": "paragraph",
+      "text": "Digital certificates bind public keys to verified identities."
+    },
+    {
+      "type": "paragraph",
+      "text": "Certificate signing requests are submitted to certificate authorities to obtain certificates."
+    },
+    {
+      "type": "paragraph",
+      "text": "Revocation mechanisms allow certificates to be invalidated if keys are compromised."
+    },
+    {
+      "type": "paragraph",
+      "text": "Online status checking improves security by preventing the use of revoked certificates."
+    }
+  ]
+}

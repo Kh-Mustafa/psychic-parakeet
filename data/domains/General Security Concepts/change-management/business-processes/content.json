@@ -1,0 +1,25 @@
+{
+  "title": "Business Processes and Approvals",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Governance of Technical Changes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Business processes define how changes are requested, reviewed, approved, and scheduled. These workflows ensure that the right stakeholders evaluate risk before modifications are made."
+    },
+    {
+      "type": "paragraph",
+      "text": "Approval boards or designated reviewers assess the impact of proposed changes on security, compliance, operations, and customers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Emergency changes may follow expedited procedures, but they should still be reviewed after implementation to prevent repeated failures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Strong governance reduces the likelihood that developers or administrators deploy risky changes without oversight."
+    }
+  ]
+}

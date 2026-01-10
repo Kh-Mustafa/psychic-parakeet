@@ -1,0 +1,25 @@
+{
+  "topic": "Change Management",
+  "pages": [
+    {
+      "id": "change-management-overview",
+      "title": "Change Management Overview"
+    },
+    {
+      "id": "business-processes",
+      "title": "Business Processes and Approvals"
+    },
+    {
+      "id": "technical-implications",
+      "title": "Technical Implications of Change"
+    },
+    {
+      "id": "documentation",
+      "title": "Change Documentation"
+    },
+    {
+      "id": "version-control",
+      "title": "Version Control and Configuration Tracking"
+    }
+  ]
+}

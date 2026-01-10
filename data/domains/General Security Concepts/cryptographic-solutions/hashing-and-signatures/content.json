@@ -1,0 +1,25 @@
+{
+  "title": "Hashing and Digital Signatures",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Verifying Integrity and Authenticity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hash functions convert data into fixed-length values that change significantly if the input is altered."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hashes are commonly used to verify file integrity and store passwords securely."
+    },
+    {
+      "type": "paragraph",
+      "text": "Digital signatures combine hashing with asymmetric encryption to verify both integrity and sender identity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hash collisions occur when two different inputs produce the same hash value, which weakens security."
+    }
+  ]
+}

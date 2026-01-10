@@ -1,0 +1,25 @@
+{
+  "title": "Nation-State Actors",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "State-Sponsored Cyber Operations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nation-state actors are government-backed groups that conduct cyber operations to advance national interests such as intelligence gathering, military advantage, and economic competitiveness."
+    },
+    {
+      "type": "paragraph",
+      "text": "These groups typically have substantial funding, access to advanced tools, and long-term operational goals. They may remain undetected for extended periods."
+    },
+    {
+      "type": "paragraph",
+      "text": "Targets often include government agencies, defense contractors, energy providers, and critical infrastructure."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because attribution is difficult, nation-state campaigns frequently use proxy infrastructure and compromised systems to hide their origin."
+    }
+  ]
+}

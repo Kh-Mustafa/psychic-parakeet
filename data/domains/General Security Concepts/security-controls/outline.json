@@ -1,0 +1,25 @@
+{
+  "topic": "Security Controls",
+  "pages": [
+    {
+      "id": "introduction",
+      "title": "Introduction to Security Controls"
+    },
+    {
+      "id": "control-categories",
+      "title": "Categories of Security Controls"
+    },
+    {
+      "id": "control-types",
+      "title": "Types of Security Controls"
+    },
+    {
+      "id": "control-matrix",
+      "title": "Control Categories vs Control Types"
+    },
+    {
+      "id": "real-world-examples",
+      "title": "Security Controls in Practice"
+    }
+  ]
+}

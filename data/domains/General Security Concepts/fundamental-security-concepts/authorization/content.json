@@ -1,0 +1,25 @@
+{
+  "title": "Authorization",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Granting Permissions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Authorization determines what resources an authenticated user is allowed to access and what actions they may perform."
+    },
+    {
+      "type": "paragraph",
+      "text": "Authorization is commonly enforced using access control models such as role-based access control, discretionary access control, and mandatory access control."
+    },
+    {
+      "type": "paragraph",
+      "text": "Least privilege is a key principle of authorization. Users should only be granted the minimum permissions required to perform their job functions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Authorization failures can allow privilege escalation, where users gain higher levels of access than intended."
+    }
+  ]
+}

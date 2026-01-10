@@ -1,0 +1,25 @@
+{
+  "title": "Cryptography Overview",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "What Cryptography Protects"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cryptography is used to protect the confidentiality, integrity, and authenticity of data. It does not prevent attacks by itself, but it limits what attackers can learn or change."
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern systems rely on cryptography for secure communication, identity verification, and safe storage of sensitive information."
+    },
+    {
+      "type": "paragraph",
+      "text": "Poor implementation of cryptography can be just as dangerous as not using it at all, making key management and algorithm selection critical."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cryptography should always be combined with access controls, monitoring, and secure system design."
+    }
+  ]
+}

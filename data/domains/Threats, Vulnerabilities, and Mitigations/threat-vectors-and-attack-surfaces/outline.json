@@ -1,0 +1,45 @@
+{
+  "topic": "Threat Vectors and Attack Surfaces",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Attack Vectors and Attack Surfaces"
+    },
+    {
+      "id": "message-based-attacks",
+      "title": "Message-Based Attacks"
+    },
+    {
+      "id": "file-based-attacks",
+      "title": "File-Based Attacks"
+    },
+    {
+      "id": "unsecured-networks",
+      "title": "Unsecured Networks"
+    },
+    {
+      "id": "phishing-techniques",
+      "title": "Phishing Techniques"
+    },
+    {
+      "id": "impersonation-and-fraud",
+      "title": "Impersonation and Fraud"
+    },
+    {
+      "id": "watering-hole-attacks",
+      "title": "Watering Hole Attacks"
+    },
+    {
+      "id": "vulnerable-software",
+      "title": "Vulnerable Software"
+    },
+    {
+      "id": "voice-call-attacks",
+      "title": "Voice Call Attacks"
+    },
+    {
+      "id": "supply-chain-vectors",
+      "title": "Supply Chain Attack Vectors"
+    }
+  ]
+}

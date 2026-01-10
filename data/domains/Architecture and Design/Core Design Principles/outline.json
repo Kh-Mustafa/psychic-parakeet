@@ -1,0 +1,14 @@
+{
+  "topic": "Core Design Principles",
+  "pages": [
+    {
+      "id": "intro",
+      "title": "Introduction"
+    },
+    {
+      "id": "core-design",
+      "title": "Core Design Ideas"
+    }
+  ]
+}
+

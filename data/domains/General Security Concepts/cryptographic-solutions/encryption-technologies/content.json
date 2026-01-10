@@ -1,0 +1,25 @@
+{
+  "title": "Encryption Technologies",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Protecting Cryptographic Operations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hardware security modules store cryptographic keys and perform encryption operations in tamper-resistant hardware."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trusted platform modules provide hardware-based key storage and system integrity checks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Secure enclaves isolate sensitive computations from the main operating system."
+    },
+    {
+      "type": "paragraph",
+      "text": "These technologies reduce the risk of key theft through malware or memory attacks."
+    }
+  ]
+}

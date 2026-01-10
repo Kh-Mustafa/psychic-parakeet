@@ -1,0 +1,25 @@
+{
+  "title": "Change Documentation",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Maintaining Accurate Records"
+    },
+    {
+      "type": "paragraph",
+      "text": "Documentation records what changes were made, why they were approved, and when they were implemented."
+    },
+    {
+      "type": "paragraph",
+      "text": "Accurate documentation supports troubleshooting, auditing, and regulatory compliance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Change logs help identify patterns of failure and guide future improvement efforts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Poor documentation increases dependence on individual staff knowledge and raises operational risk."
+    }
+  ]
+}

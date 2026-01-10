@@ -1,0 +1,25 @@
+{
+  "title": "Authentication",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Verifying Identity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Authentication is the process of verifying that a user or system is who they claim to be. It occurs before access is granted to a resource."
+    },
+    {
+      "type": "paragraph",
+      "text": "Authentication factors include something you know, something you have, something you are, and sometimes where you are. Combining factors strengthens security."
+    },
+    {
+      "type": "paragraph",
+      "text": "Multifactor authentication requires at least two different factor types, reducing the risk of compromise when a single credential is stolen."
+    },
+    {
+      "type": "paragraph",
+      "text": "Authentication does not determine what actions a user may perform. That decision is handled by authorization."
+    }
+  ]
+}

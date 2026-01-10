@@ -1,0 +1,33 @@
+{
+  "topic": "Threat Actors and Motivations",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Overview of Threat Actors"
+    },
+    {
+      "id": "nation-states",
+      "title": "Nation-State Actors"
+    },
+    {
+      "id": "organized-crime",
+      "title": "Organized Crime"
+    },
+    {
+      "id": "hacktivists",
+      "title": "Hacktivists"
+    },
+    {
+      "id": "insider-threats",
+      "title": "Insider Threats"
+    },
+    {
+      "id": "shadow-it",
+      "title": "Shadow IT"
+    },
+    {
+      "id": "motivation-types",
+      "title": "Threat Actor Motivations"
+    }
+  ]
+}

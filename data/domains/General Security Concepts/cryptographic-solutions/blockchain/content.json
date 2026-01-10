@@ -1,0 +1,25 @@
+{
+  "title": "Blockchain Technology",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Distributed Ledgers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Blockchain is a distributed database that records transactions in linked blocks secured by cryptographic hashes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Each block references the previous block, making tampering detectable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Blockchain can be used for asset tracking, identity systems, and audit trails, not only cryptocurrency."
+    },
+    {
+      "type": "paragraph",
+      "text": "Blockchain does not guarantee confidentiality and must still be protected by traditional security controls."
+    }
+  ]
+}

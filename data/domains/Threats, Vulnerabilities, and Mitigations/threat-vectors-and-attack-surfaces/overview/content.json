@@ -1,0 +1,25 @@
+{
+  "title": "Attack Vectors and Attack Surfaces",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Understanding Exposure"
+    },
+    {
+      "type": "paragraph",
+      "text": "An attack vector is the method used by an attacker to gain access to a system, while the attack surface is the total set of points where an attacker could attempt entry."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reducing the attack surface limits opportunities for exploitation, even when vulnerabilities exist."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security teams focus on identifying exposed services, user behaviors, and third-party integrations that expand potential entry points."
+    },
+    {
+      "type": "paragraph",
+      "text": "Many attacks combine multiple vectors, such as social engineering followed by malware installation."
+    }
+  ]
+}

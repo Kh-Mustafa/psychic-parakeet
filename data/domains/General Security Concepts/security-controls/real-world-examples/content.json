@@ -1,0 +1,21 @@
+{
+  "title": "Security Controls in Practice",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "An organization protecting sensitive data might use preventive controls such as encryption and access restrictions, detective controls such as log monitoring, and corrective controls such as automated system restoration."
+    },
+    {
+      "type": "paragraph",
+      "text": "Physical security may include guards, locked server rooms, and surveillance systems, while operational security includes employee training and incident response drills."
+    },
+    {
+      "type": "paragraph",
+      "text": "When a system cannot be patched immediately, temporary compensating controls such as additional firewall rules or network segmentation may be used until permanent fixes are applied."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security programs must continuously adapt controls as threats, business needs, and technologies change."
+    }
+  ]
+}

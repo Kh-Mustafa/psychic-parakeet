@@ -1,0 +1,25 @@
+{
+  "title": "Encrypting Data",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Protecting Information in Different States"
+    },
+    {
+      "type": "paragraph",
+      "text": "Data can be encrypted while stored, while being transmitted, and while being processed, although encryption during processing is more complex."
+    },
+    {
+      "type": "paragraph",
+      "text": "Encryption at rest protects databases, disks, and backups if storage devices are stolen or compromised."
+    },
+    {
+      "type": "paragraph",
+      "text": "Encryption in transit protects network traffic from interception and tampering."
+    },
+    {
+      "type": "paragraph",
+      "text": "Strong encryption depends on proper key storage and restricted access to decryption capabilities."
+    }
+  ]
+}

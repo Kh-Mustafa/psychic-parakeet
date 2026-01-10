@@ -1,0 +1,25 @@
+{
+  "title": "Non-repudiation",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Proving Actions Took Place"
+    },
+    {
+      "type": "paragraph",
+      "text": "Non-repudiation ensures that an individual cannot deny performing a specific action. It provides proof that a message, transaction, or request originated from a particular entity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Digital signatures are a common method for providing non-repudiation. When a user signs data using a private key, anyone can verify the signature using the corresponding public key."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hash functions support non-repudiation by ensuring data integrity. If even a small change occurs, the hash value will differ, revealing tampering."
+    },
+    {
+      "type": "paragraph",
+      "text": "Audit logs also contribute to non-repudiation by recording events, timestamps, and system actions, allowing investigators to reconstruct activity."
+    }
+  ]
+}

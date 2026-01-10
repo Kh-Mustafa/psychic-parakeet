@@ -1,0 +1,25 @@
+{
+  "title": "Security Gap Analysis",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Comparing Current and Desired States"
+    },
+    {
+      "type": "paragraph",
+      "text": "A security gap analysis identifies differences between an organization’s current security posture and its desired level of protection."
+    },
+    {
+      "type": "paragraph",
+      "text": "The process involves assessing existing controls, identifying missing safeguards, and prioritizing improvements based on risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "Gap analysis helps allocate limited security budgets to areas that reduce the most risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "Results are often documented in remediation plans and tracked through governance processes."
+    }
+  ]
+}

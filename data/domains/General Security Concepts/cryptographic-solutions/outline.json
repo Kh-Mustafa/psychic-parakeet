@@ -1,0 +1,41 @@
+{
+  "topic": "Cryptographic Solutions",
+  "pages": [
+    {
+      "id": "cryptography-overview",
+      "title": "Cryptography Overview"
+    },
+    {
+      "id": "pki",
+      "title": "Public Key Infrastructure (PKI)"
+    },
+    {
+      "id": "encrypting-data",
+      "title": "Encrypting Data"
+    },
+    {
+      "id": "key-exchange",
+      "title": "Key Exchange Mechanisms"
+    },
+    {
+      "id": "encryption-technologies",
+      "title": "Encryption Technologies"
+    },
+    {
+      "id": "obfuscation",
+      "title": "Obfuscation Techniques"
+    },
+    {
+      "id": "hashing-and-signatures",
+      "title": "Hashing and Digital Signatures"
+    },
+    {
+      "id": "blockchain",
+      "title": "Blockchain Technology"
+    },
+    {
+      "id": "certificates",
+      "title": "Digital Certificates"
+    }
+  ]
+}

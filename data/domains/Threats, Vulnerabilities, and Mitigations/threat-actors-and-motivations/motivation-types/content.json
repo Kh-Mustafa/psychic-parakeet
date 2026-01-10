@@ -1,0 +1,25 @@
+{
+  "title": "Threat Actor Motivations",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Why Attacks Occur"
+    },
+    {
+      "type": "paragraph",
+      "text": "Financial gain motivates many attacks, particularly those involving fraud, ransomware, and data resale."
+    },
+    {
+      "type": "paragraph",
+      "text": "Espionage focuses on stealing sensitive information such as intellectual property, military data, or trade secrets."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sabotage aims to disrupt operations, damage infrastructure, or undermine trust in organizations or governments."
+    },
+    {
+      "type": "paragraph",
+      "text": "Data exfiltration may serve multiple goals, including blackmail, competitive advantage, or political pressure."
+    }
+  ]
+}

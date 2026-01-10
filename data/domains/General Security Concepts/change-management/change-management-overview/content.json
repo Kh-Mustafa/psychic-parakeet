@@ -1,0 +1,25 @@
+{
+  "title": "Change Management Overview",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Why Change Must Be Controlled"
+    },
+    {
+      "type": "paragraph",
+      "text": "Change management is the formal process of controlling modifications to systems, applications, and infrastructure. Uncontrolled changes are a common cause of outages, security incidents, and compliance failures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Even small configuration changes can introduce vulnerabilities, break dependencies, or create availability problems if not properly reviewed and tested."
+    },
+    {
+      "type": "paragraph",
+      "text": "A structured change process helps organizations balance the need for rapid improvement with the need for stability and security."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security teams rely on change management to ensure that new deployments do not weaken existing controls or expose sensitive data."
+    }
+  ]
+}

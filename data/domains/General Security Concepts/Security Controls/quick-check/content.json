@@ -9,12 +9,12 @@
       "type": "list",
       "ordered": false,
       "items": [
-        "If it blocks access before impact → preventive control.",
-        "If it discourages behavior → deterrent control.",
-        "If it alerts or records evidence → detective control.",
-        "If it restores after damage → corrective control.",
-        "If it’s an alternate until the real fix → compensating control.",
-        "If it tells users what to do → directive control."
+        "If it blocks access before impact, it's a preventive control.",
+        "If it discourages behavior, it's a deterrent control.",
+        "If it alerts or records evidence, it's a detective control.",
+        "If it restores after damage, it's a corrective control.",
+        "If it’s an alternate until the real fix, it's a compensating control.",
+        "If it tells users what to do, it's a directive control."
       ]
     },
     {

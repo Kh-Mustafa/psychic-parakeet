@@ -1,0 +1,29 @@
+{
+  "topicId": "Core Design Principles",
+  "topicName": "Core Design Principles",
+  "questions": [
+    {
+      "question": "Which principle means users and services should receive only the permissions they need to do their job?",
+      "options": [
+        "Defense in depth",
+        "Least privilege",
+        "Implicit trust",
+        "Security through obscurity"
+      ],
+      "correct": 1,
+      "explanation": "Least privilege reduces misuse and limits damage from compromised accounts."
+    },
+    {
+      "question": "Which design concept uses multiple layers of controls (e.g., firewall + EDR + MFA) so a single failure doesn't lead to compromise?",
+      "options": [
+        "Defense in depth",
+        "Single sign-on (SSO)",
+        "Air gapping",
+        "Tokenization"
+      ],
+      "correct": 0,
+      "explanation": "Defense in depth is layered security controls across people, process, and technology."
+    }
+  ]
+}
+

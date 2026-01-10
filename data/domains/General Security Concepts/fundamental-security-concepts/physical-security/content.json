@@ -1,0 +1,25 @@
+{
+  "title": "Physical Security Concepts",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Protecting Facilities and Equipment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Physical security controls protect buildings, rooms, and hardware from unauthorized access or environmental damage."
+    },
+    {
+      "type": "paragraph",
+      "text": "Examples include locks, surveillance cameras, security guards, lighting, and badge systems."
+    },
+    {
+      "type": "paragraph",
+      "text": "Environmental threats such as fire, flooding, and power loss also require mitigation through alarms, suppression systems, and backup power."
+    },
+    {
+      "type": "paragraph",
+      "text": "Physical security failures can undermine even the strongest technical controls."
+    }
+  ]
+}

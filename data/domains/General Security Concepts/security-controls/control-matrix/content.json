@@ -1,0 +1,21 @@
+{
+  "title": "Control Categories vs Control Types",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Security controls are often described using both a category and a type. For example, a firewall rule is both a technical control and a preventive control."
+    },
+    {
+      "type": "paragraph",
+      "text": "The same control type can appear in different categories. For instance, a deterrent control may be technical (login banners), managerial (disciplinary policies), operational (reception staff), or physical (warning signs)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Understanding this matrix helps security teams design layered protections and avoid over-reliance on a single type of safeguard."
+    },
+    {
+      "type": "paragraph",
+      "text": "Effective security strategies deliberately combine multiple categories and control types to address both human and technical risks."
+    }
+  ]
+}

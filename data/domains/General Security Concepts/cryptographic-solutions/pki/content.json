@@ -1,0 +1,25 @@
+{
+  "title": "Public Key Infrastructure (PKI)",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Managing Trust at Scale"
+    },
+    {
+      "type": "paragraph",
+      "text": "Public key infrastructure supports the use of asymmetric encryption by managing certificates and trust relationships between entities."
+    },
+    {
+      "type": "paragraph",
+      "text": "Each entity has a public key and a private key. The public key is shared, while the private key must remain secret."
+    },
+    {
+      "type": "paragraph",
+      "text": "Certificate authorities validate identities and issue digital certificates that bind public keys to specific entities."
+    },
+    {
+      "type": "paragraph",
+      "text": "PKI enables secure websites, encrypted email, and device authentication."
+    }
+  ]
+}

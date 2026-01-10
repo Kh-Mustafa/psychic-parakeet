@@ -1,0 +1,25 @@
+{
+  "title": "Introduction to Security Controls",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "What Are Security Controls?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A security control is any safeguard or countermeasure used to reduce risk to an organization’s systems, people, or data. Controls are designed to protect assets, reduce the likelihood of a threat, or limit the impact of a security incident."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security controls are not limited to computers and networks. They also apply to physical buildings, employee behavior, business processes, and legal or contractual protections."
+    },
+    {
+      "type": "paragraph",
+      "text": "Controls may be implemented before an attack occurs, during an attack, or after an incident has already taken place. Because no single control is perfect, organizations rely on multiple overlapping controls, often referred to as defense in depth."
+    },
+    {
+      "type": "paragraph",
+      "text": "To properly design a security strategy, it is important to understand both the category of a control and the type of control being used."
+    }
+  ]
+}
