@@ -7,7 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Cryptographic attacks attempt to weaken or bypass encryption protections."
+    },
+    {
+      "type": "paragraph",
+      "text": "Indicators may include downgraded encryption protocols or repeated failed handshakes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Weak keys and outdated algorithms increase exposure to cryptographic exploitation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Strong encryption policies and protocol monitoring reduce cryptographic risks."
     }
   ]
 }

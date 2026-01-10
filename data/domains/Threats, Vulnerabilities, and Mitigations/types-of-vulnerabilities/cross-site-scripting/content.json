@@ -1,13 +1,25 @@
 {
-  "title": "Cross-site Scripting",
+  "title": "Cross-Site Scripting",
   "blocks": [
     {
       "type": "heading",
-      "text": "Cross-site Scripting"
+      "text": "Cross-Site Scripting"
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Cross-site scripting vulnerabilities allow attackers to inject malicious scripts into web pages viewed by other users. The victim’s browser executes the script as if it were part of the legitimate site."
+    },
+    {
+      "type": "paragraph",
+      "text": "Attackers use XSS to steal session cookies, redirect users to malicious sites, or perform actions on behalf of victims. Stored XSS persists in databases, while reflected XSS is delivered through crafted links."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the attack executes in the user’s browser, it bypasses many server-side defenses. The user’s trust in the website is exploited to deliver the payload."
+    },
+    {
+      "type": "paragraph",
+      "text": "Proper output encoding, strict content security policies, and robust input validation are essential to preventing XSS vulnerabilities."
     }
   ]
 }

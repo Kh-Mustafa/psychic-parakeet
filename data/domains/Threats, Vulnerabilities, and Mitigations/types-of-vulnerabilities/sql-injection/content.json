@@ -7,7 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "SQL injection vulnerabilities occur when user input is improperly incorporated into database queries. Attackers can manipulate queries to retrieve, modify, or delete data without authorization."
+    },
+    {
+      "type": "paragraph",
+      "text": "These attacks often exploit dynamic query construction where user input is concatenated directly into query strings. Poor input validation and lack of parameterized queries are common root causes."
+    },
+    {
+      "type": "paragraph",
+      "text": "The impact of SQL injection can be severe, including disclosure of sensitive personal information, financial records, or authentication credentials. In some cases, attackers may even execute commands on the underlying server."
+    },
+    {
+      "type": "paragraph",
+      "text": "Defenses include prepared statements, strict input validation, least-privilege database accounts, and regular security testing of web applications."
     }
   ]
 }

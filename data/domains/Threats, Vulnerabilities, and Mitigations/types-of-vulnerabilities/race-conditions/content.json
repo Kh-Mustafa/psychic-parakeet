@@ -7,7 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Race condition vulnerabilities arise when the outcome of a system operation depends on the timing or order of events. If attackers can influence that timing, they may be able to perform actions that should normally be prevented by security checks."
+    },
+    {
+      "type": "paragraph",
+      "text": "These vulnerabilities are common in systems that handle multiple concurrent processes or distributed transactions. For example, a system may check whether a file is safe before opening it, but if an attacker can replace the file between the check and the open operation, they may bypass security controls."
+    },
+    {
+      "type": "paragraph",
+      "text": "Race conditions are notoriously difficult to identify during development and testing because they may only appear under specific timing conditions. They often require specialized testing tools and deep understanding of application logic."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mitigation involves designing systems that perform security checks and actions as single atomic operations, using proper synchronization mechanisms, and avoiding assumptions about execution order in multi-threaded environments."
     }
   ]
 }

@@ -7,7 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Zero-day vulnerabilities are unknown to software vendors and therefore lack available patches at the time of exploitation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Attackers who possess zero-day exploits can bypass traditional defenses that rely on known signatures."
+    },
+    {
+      "type": "paragraph",
+      "text": "These vulnerabilities are often discovered by advanced threat groups and traded privately."
+    },
+    {
+      "type": "paragraph",
+      "text": "Defense against zero-days focuses on behavioral detection, network monitoring, and rapid containment rather than prevention."
     }
   ]
 }

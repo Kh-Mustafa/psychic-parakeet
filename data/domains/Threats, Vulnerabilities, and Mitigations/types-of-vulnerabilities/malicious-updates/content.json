@@ -7,7 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Malicious update vulnerabilities occur when attackers compromise software update mechanisms to distribute harmful code. Because update systems are designed to be trusted, malicious updates can bypass many security controls and reach large numbers of systems quickly."
+    },
+    {
+      "type": "paragraph",
+      "text": "Attackers may infiltrate vendor build systems, modify update packages, or compromise distribution servers. Once the malicious update is released, it propagates automatically to customers who believe they are installing legitimate security patches or feature improvements."
+    },
+    {
+      "type": "paragraph",
+      "text": "These attacks are particularly damaging because they undermine trust in software supply chains. Even organizations with strong internal security controls may become infected through no fault of their own."
+    },
+    {
+      "type": "paragraph",
+      "text": "Defenses include cryptographic signing of updates, validation of update sources, monitoring vendor security practices, and maintaining the ability to rapidly isolate systems if a trusted update is later found to be malicious."
     }
   ]
 }

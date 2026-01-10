@@ -1,13 +1,25 @@
 {
-  "title": "Malicious Code",
+  "title": "Malicious Code Behavior",
   "blocks": [
     {
       "type": "heading",
-      "text": "Malicious Code"
+      "text": "Malicious Code Behavior"
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Malicious code refers to executable instructions designed to perform harmful actions on systems."
+    },
+    {
+      "type": "paragraph",
+      "text": "Indicators include unexpected process execution, abnormal privilege usage, and attempts to disable security tools."
+    },
+    {
+      "type": "paragraph",
+      "text": "Malicious code may attempt lateral movement within networks after initial compromise."
+    },
+    {
+      "type": "paragraph",
+      "text": "Monitoring system behavior and process activity helps detect hidden threats."
     }
   ]
 }

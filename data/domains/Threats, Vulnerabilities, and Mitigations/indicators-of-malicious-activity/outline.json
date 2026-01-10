@@ -3,7 +3,7 @@
   "pages": [
     {
       "id": "malware-overview",
-      "title": "Malware Overview"
+      "title": "Malware and Behavioral Indicators"
     },
     {
       "id": "viruses-and-worms",
@@ -15,11 +15,7 @@
     },
     {
       "id": "other-malware",
-      "title": "Other Malware Types"
-    },
-    {
-      "id": "physical-attacks",
-      "title": "Physical Attacks"
+      "title": "Trojans, Ransomware, Rootkits, and Bots"
     },
     {
       "id": "denial-of-service",
@@ -27,7 +23,7 @@
     },
     {
       "id": "dns-attacks",
-      "title": "DNS Attacks"
+      "title": "DNS-Based Attacks"
     },
     {
       "id": "wireless-attacks",
@@ -35,7 +31,7 @@
     },
     {
       "id": "on-path-attacks",
-      "title": "On-Path Attacks"
+      "title": "On-Path (Man-in-the-Middle) Attacks"
     },
     {
       "id": "replay-attacks",
@@ -43,11 +39,11 @@
     },
     {
       "id": "malicious-code",
-      "title": "Malicious Code"
+      "title": "Malicious Code Behavior"
     },
     {
       "id": "application-attacks",
-      "title": "Application Attacks"
+      "title": "Application-Level Attacks"
     },
     {
       "id": "cryptographic-attacks",
@@ -58,8 +54,12 @@
       "title": "Password Attacks"
     },
     {
+      "id": "physical-attacks",
+      "title": "Physical Attacks"
+    },
+    {
       "id": "indicators-of-compromise",
-      "title": "Indicators of Compromise"
+      "title": "Indicators of Compromise (IOCs)"
     }
   ]
 }

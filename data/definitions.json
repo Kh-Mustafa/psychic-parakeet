@@ -72,6 +72,22 @@
     "phishing": "A social engineering technique that uses deceptive messages to obtain sensitive information.",
     "business email compromise": "A fraud scheme using impersonated business emails to request money or data.",
     "watering hole attack": "An attack that infects websites frequently visited by a specific group of targets.",
-    "supply chain attack": "An attack that compromises vendors or software providers to reach customers indirectly."
+    "supply chain attack": "An attack that compromises vendors or software providers to reach customers indirectly.",
+	"vulnerability": "A weakness that can be exploited to compromise security.",
+    "memory injection": "Insertion of malicious code into a running process.",
+    "race condition": "A flaw caused by timing-dependent behavior.",
+	"memory injection": "Execution of malicious code inside the memory of a running process.",
+    "buffer overflow": "An attack where more data is written to a buffer than it can hold, causing data to 'spill over' into adjacent buffers.",
+    "race condition": "A flaw caused by timing-dependent system behavior.",
+    "sql injection": "Exploitation of unsafe database query construction.",
+    "cross-site scripting": "Injection of malicious scripts into web pages viewed by others.",
+    "zero-day vulnerability": "A vulnerability unknown to vendors with no available patch.",
+	"malware": "Software designed to disrupt operations, steal data, or gain unauthorized access.",
+    "ransomware": "Malware that encrypts data and demands payment for recovery.",
+    "botnet": "A group of infected systems remotely controlled by an attacker.",
+    "dns tunneling": "Using DNS queries to covertly transmit data.",
+	"replay attack": "An attack that reuses captured authentication or transaction data.",
+    "indicator of compromise": "Observable evidence suggesting malicious activity.",
+    "credential stuffing": "Automated reuse of leaked credentials across services."
   }
 }

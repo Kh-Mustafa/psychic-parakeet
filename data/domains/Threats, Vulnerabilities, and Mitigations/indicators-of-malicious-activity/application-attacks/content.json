@@ -1,13 +1,25 @@
 {
-  "title": "Application Attacks",
+  "title": "Application-Level Attacks",
   "blocks": [
     {
       "type": "heading",
-      "text": "Application Attacks"
+      "text": "Application-Level Attacks"
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Application attacks target logic flaws, improper input handling, and insecure APIs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Indicators include abnormal request patterns, excessive errors, and unauthorized data access."
+    },
+    {
+      "type": "paragraph",
+      "text": "Attackers may automate attacks to rapidly probe application weaknesses."
+    },
+    {
+      "type": "paragraph",
+      "text": "Web application firewalls and log analysis support detection of application attacks."
     }
   ]
 }

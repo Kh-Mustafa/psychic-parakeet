@@ -1,0 +1,90 @@
+{
+  "topicId": "indicators-of-malicious-activity-part2",
+  "topicName": "Indicators of Malicious Activity — Part 2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is reused in a replay attack?",
+      "options": [
+        "Encrypted passwords",
+        "Previously captured valid transmissions",
+        "Malware binaries",
+        "Expired certificates"
+      ],
+      "correct": 1,
+      "explanation": "Replay attacks reuse legitimate captured data, not malware or certificates."
+    },
+    {
+      "id": "q2",
+      "question": "Which is a strong indicator of malicious code execution?",
+      "options": [
+        "System updates running",
+        "Unexpected privilege escalation",
+        "Normal backup operations",
+        "High disk capacity"
+      ],
+      "correct": 1,
+      "explanation": "Unexpected privilege use suggests malicious activity."
+    },
+    {
+      "id": "q3",
+      "question": "Which activity suggests application-layer attacks?",
+      "options": [
+        "Unusual API request patterns",
+        "Power failures",
+        "Expired warranties",
+        "Wireless interference"
+      ],
+      "correct": 0,
+      "explanation": "Abnormal request patterns indicate app abuse."
+    },
+    {
+      "id": "q4",
+      "question": "Which may indicate cryptographic downgrade attacks?",
+      "options": [
+        "Increased disk usage",
+        "Use of outdated encryption protocols",
+        "CPU overheating",
+        "User password resets"
+      ],
+      "correct": 1,
+      "explanation": "Downgrade attacks force weaker encryption."
+    },
+    {
+      "id": "q5",
+      "question": "What suggests credential stuffing activity?",
+      "options": [
+        "Single failed login attempt",
+        "Repeated login attempts across accounts",
+        "Missing system files",
+        "Slow internet speeds"
+      ],
+      "correct": 1,
+      "explanation": "Credential stuffing produces repeated automated login attempts."
+    },
+    {
+      "id": "q6",
+      "question": "Which is an indicator of physical compromise?",
+      "options": [
+        "Certificate warnings",
+        "Tampered device ports",
+        "High CPU usage",
+        "Corrupted databases"
+      ],
+      "correct": 1,
+      "explanation": "Physical tampering suggests unauthorized access."
+    },
+    {
+      "id": "q7",
+      "question": "Why are IOCs limited as a detection method?",
+      "options": [
+        "They require encryption",
+        "Attackers frequently change techniques",
+        "They increase network traffic",
+        "They disable antivirus software"
+      ],
+      "correct": 1,
+      "explanation": "IOCs become outdated as attackers adapt."
+    }
+  ]
+}

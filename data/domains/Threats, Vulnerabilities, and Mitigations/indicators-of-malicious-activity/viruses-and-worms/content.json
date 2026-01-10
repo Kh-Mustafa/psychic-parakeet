@@ -7,7 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Viruses attach themselves to legitimate files and spread when those files are executed. Worms, by contrast, spread independently across networks without user interaction."
+    },
+    {
+      "type": "paragraph",
+      "text": "Indicators of virus infections may include corrupted files, unexplained application crashes, or unexpected changes to system behavior."
+    },
+    {
+      "type": "paragraph",
+      "text": "Worm outbreaks often produce rapid network congestion, high CPU usage, and large volumes of scanning traffic as the worm searches for new targets."
+    },
+    {
+      "type": "paragraph",
+      "text": "Early detection is important because worms can propagate extremely quickly across unpatched systems, overwhelming networks and servers."
     }
   ]
 }

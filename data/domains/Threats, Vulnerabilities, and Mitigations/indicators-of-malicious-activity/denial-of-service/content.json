@@ -7,7 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Denial of service attacks attempt to make systems or services unavailable by overwhelming them with traffic or resource requests."
+    },
+    {
+      "type": "paragraph",
+      "text": "Indicators include unusually high network utilization, slow response times, and services becoming unreachable for legitimate users."
+    },
+    {
+      "type": "paragraph",
+      "text": "Distributed denial of service attacks amplify this effect by using many compromised systems simultaneously."
+    },
+    {
+      "type": "paragraph",
+      "text": "Defenders rely on traffic analysis and rate limiting to detect and mitigate these attacks."
     }
   ]
 }

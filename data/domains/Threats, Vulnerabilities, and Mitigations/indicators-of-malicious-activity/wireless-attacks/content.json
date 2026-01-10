@@ -7,7 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Wireless attacks exploit weaknesses in Wi‑Fi networks, such as weak encryption or rogue access points."
+    },
+    {
+      "type": "paragraph",
+      "text": "Indicators include unknown access points appearing in network scans or users being prompted to reconnect frequently."
+    },
+    {
+      "type": "paragraph",
+      "text": "Attackers may impersonate legitimate access points to intercept traffic."
+    },
+    {
+      "type": "paragraph",
+      "text": "Strong encryption and network authentication help reduce wireless attack risks."
     }
   ]
 }

@@ -7,7 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Password attacks attempt to obtain credentials through guessing, theft, or reuse."
+    },
+    {
+      "type": "paragraph",
+      "text": "Indicators include repeated login failures and access attempts from unfamiliar locations."
+    },
+    {
+      "type": "paragraph",
+      "text": "Credential stuffing uses leaked passwords across multiple services."
+    },
+    {
+      "type": "paragraph",
+      "text": "Multi-factor authentication significantly reduces password attack success."
     }
   ]
 }

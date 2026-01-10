@@ -7,7 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Replay attacks occur when attackers capture legitimate authentication or transaction data and retransmit it later to gain unauthorized access."
+    },
+    {
+      "type": "paragraph",
+      "text": "These attacks do not require breaking encryption; instead, they reuse valid data that was previously transmitted."
+    },
+    {
+      "type": "paragraph",
+      "text": "Systems that do not verify message freshness or session uniqueness are most vulnerable to replay attacks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Time stamps, nonces, and session tokens are commonly used to prevent reuse of captured data."
     }
   ]
 }

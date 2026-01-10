@@ -7,7 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Cloud vulnerabilities frequently result from misconfigured services rather than software defects. Publicly exposed storage buckets and overly permissive identity roles are common examples."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cloud environments operate under shared responsibility models, where providers secure infrastructure but customers must secure configurations and data."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lack of visibility can delay detection of cloud breaches, especially when logging is not properly configured."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security posture management tools and automated configuration checks help reduce cloud misconfiguration risks."
     }
   ]
 }

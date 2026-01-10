@@ -7,7 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Mobile devices introduce security risks due to portability, diverse operating systems, and frequent network changes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rooting or jailbreaking removes built-in security protections and allows untrusted applications to access sensitive data."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lost or stolen devices can expose corporate information if encryption and remote wipe capabilities are not enabled."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mobile device management solutions enforce security policies and provide visibility into device compliance."
     }
   ]
 }

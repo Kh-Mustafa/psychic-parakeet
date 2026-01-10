@@ -1,13 +1,25 @@
 {
-  "title": "DNS Attacks",
+  "title": "DNS-Based Attacks",
   "blocks": [
     {
       "type": "heading",
-      "text": "DNS Attacks"
+      "text": "DNS-Based Attacks"
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "DNS attacks manipulate or abuse name resolution systems to redirect users or disrupt services."
+    },
+    {
+      "type": "paragraph",
+      "text": "Indicators include unexpected domain resolution results, users being redirected to incorrect websites, and abnormal DNS query volumes."
+    },
+    {
+      "type": "paragraph",
+      "text": "DNS tunneling may be used to covertly transmit data through DNS queries, bypassing firewall controls."
+    },
+    {
+      "type": "paragraph",
+      "text": "Monitoring DNS logs is an important method for identifying suspicious activity."
     }
   ]
 }

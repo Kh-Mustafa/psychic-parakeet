@@ -7,7 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Supply chain vulnerabilities exist in third-party software, hardware, and service providers. Organizations may inherit risk from vendors they rely on."
+    },
+    {
+      "type": "paragraph",
+      "text": "Compromises can propagate widely when shared libraries or components are affected, impacting thousands of downstream customers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because organizations do not control vendor development environments, detecting supply chain compromise is difficult."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vendor risk assessments, dependency tracking, and integrity verification help reduce supply chain exposure."
     }
   ]
 }

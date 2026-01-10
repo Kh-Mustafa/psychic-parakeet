@@ -1,0 +1,186 @@
+{
+  "topicId": "types-of-vulnerabilities",
+  "topicName": "Types of Vulnerabilities",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What best defines a vulnerability?",
+      "options": [
+        "An attack in progress",
+        "A weakness that can be exploited",
+        "A security policy",
+        "A defensive control"
+      ],
+      "correct": 1,
+      "explanation": "Vulnerabilities are weaknesses. Attacks exploit them, policies guide behavior, and controls mitigate risk."
+    },
+    {
+      "id": "q2",
+      "question": "Why is memory injection hard to detect?",
+      "options": [
+        "Requires physical access",
+        "Operates only in memory",
+        "Uses encrypted traffic",
+        "Affects only firmware"
+      ],
+      "correct": 1,
+      "explanation": "Memory injection avoids writing files to disk. Physical access and firmware are not required."
+    },
+    {
+      "id": "q3",
+      "question": "Buffer overflow exploits succeed by:",
+      "options": [
+        "Stealing passwords",
+        "Overwriting adjacent memory",
+        "Intercepting network traffic",
+        "Disabling antivirus"
+      ],
+      "correct": 1,
+      "explanation": "Overwriting memory can redirect execution. The other options are unrelated."
+    },
+    {
+      "id": "q4",
+      "question": "Race condition attacks exploit:",
+      "options": [
+        "Weak encryption",
+        "Timing gaps",
+        "Poor passwords",
+        "Network congestion"
+      ],
+      "correct": 1,
+      "explanation": "Race conditions depend on timing. Encryption and passwords are not the root cause."
+    },
+    {
+      "id": "q5",
+      "question": "Why are malicious updates especially dangerous?",
+      "options": [
+        "They affect few systems",
+        "They are trusted by systems",
+        "They require insider help",
+        "They target hardware only"
+      ],
+      "correct": 1,
+      "explanation": "Update systems are trusted, allowing wide distribution."
+    },
+    {
+      "id": "q6",
+      "question": "Which vulnerability can grant full system control most easily?",
+      "options": [
+        "XSS",
+        "SQL injection",
+        "Operating system flaws",
+        "Misconfiguration"
+      ],
+      "correct": 2,
+      "explanation": "OS flaws can allow kernel-level compromise."
+    },
+    {
+      "id": "q7",
+      "question": "SQL injection primarily targets:",
+      "options": [
+        "Network devices",
+        "Databases",
+        "Firmware",
+        "User browsers"
+      ],
+      "correct": 1,
+      "explanation": "SQL injection manipulates database queries."
+    },
+    {
+      "id": "q8",
+      "question": "XSS attacks primarily impact:",
+      "options": [
+        "Servers",
+        "Databases",
+        "User browsers",
+        "Firewalls"
+      ],
+      "correct": 2,
+      "explanation": "XSS executes in the victim’s browser."
+    },
+    {
+      "id": "q9",
+      "question": "Why are hardware vulnerabilities hard to remediate?",
+      "options": [
+        "They affect only apps",
+        "They persist across reinstalls",
+        "They are easily patched",
+        "They require passwords"
+      ],
+      "correct": 1,
+      "explanation": "Firmware and chip flaws persist beyond OS reinstalls."
+    },
+    {
+      "id": "q10",
+      "question": "VM escape relates to which vulnerability class?",
+      "options": [
+        "Cloud",
+        "Virtualization",
+        "Hardware",
+        "Mobile"
+      ],
+      "correct": 1,
+      "explanation": "VM escape breaks virtualization isolation."
+    },
+    {
+      "id": "q11",
+      "question": "Most cloud security incidents stem from:",
+      "options": [
+        "Chip defects",
+        "Misconfiguration",
+        "Zero-day exploits",
+        "Physical theft"
+      ],
+      "correct": 1,
+      "explanation": "Misconfiguration is the dominant cloud risk."
+    },
+    {
+      "id": "q12",
+      "question": "Why are supply chain vulnerabilities dangerous?",
+      "options": [
+        "They affect only one vendor",
+        "They propagate to many customers",
+        "They require admin passwords",
+        "They are always detectable"
+      ],
+      "correct": 1,
+      "explanation": "Compromised dependencies can spread widely."
+    },
+    {
+      "id": "q13",
+      "question": "Default credentials are an example of:",
+      "options": [
+        "Zero-day",
+        "Misconfiguration",
+        "Hardware flaw",
+        "OS bug"
+      ],
+      "correct": 1,
+      "explanation": "Default credentials reflect insecure configuration."
+    },
+    {
+      "id": "q14",
+      "question": "Why are mobile devices high risk?",
+      "options": [
+        "They lack encryption",
+        "They are portable and easily lost",
+        "They cannot be managed",
+        "They do not use OS security"
+      ],
+      "correct": 1,
+      "explanation": "Portability increases theft and loss risk."
+    },
+    {
+      "id": "q15",
+      "question": "What defines a zero-day vulnerability?",
+      "options": [
+        "It is harmless",
+        "It has no available patch",
+        "It affects only browsers",
+        "It is always public"
+      ],
+      "correct": 1,
+      "explanation": "Zero-days lack vendor patches at discovery."
+    }
+  ]
+}

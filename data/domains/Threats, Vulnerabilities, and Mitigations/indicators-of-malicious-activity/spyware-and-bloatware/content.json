@@ -7,7 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Spyware secretly collects information about users, such as browsing habits, credentials, or keystrokes. Victims may not notice obvious symptoms at first."
+    },
+    {
+      "type": "paragraph",
+      "text": "Indicators of spyware include increased network traffic to unknown destinations, frequent pop-up advertisements, and changes to browser settings."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bloatware refers to unnecessary software installed on systems, often consuming resources and introducing additional attack surface."
+    },
+    {
+      "type": "paragraph",
+      "text": "While bloatware is not always malicious, it can degrade performance and create opportunities for exploitation if it contains vulnerabilities."
     }
   ]
 }

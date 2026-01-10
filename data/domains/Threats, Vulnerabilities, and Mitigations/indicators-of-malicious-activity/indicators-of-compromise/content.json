@@ -1,13 +1,25 @@
 {
-  "title": "Indicators of Compromise",
+  "title": "Indicators of Compromise (IOCs)",
   "blocks": [
     {
       "type": "heading",
-      "text": "Indicators of Compromise"
+      "text": "Indicators of Compromise (IOCs)"
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Indicators of compromise are observable artifacts that suggest malicious activity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Examples include suspicious IP addresses, file hashes, registry changes, and command patterns."
+    },
+    {
+      "type": "paragraph",
+      "text": "IOCs support rapid detection and automated threat hunting."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, attackers frequently change techniques to avoid IOC-based detection."
     }
   ]
 }
