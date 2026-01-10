@@ -7,19 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "On-path attacks intercept communications between two parties without their knowledge."
+      "text": "On‑path attacks occur when attackers secretly intercept and potentially modify communications between two parties. Instead of directly compromising endpoints, the attacker positions themselves between the communicating systems, gaining visibility into sensitive data and the ability to manipulate transmissions."
     },
     {
       "type": "paragraph",
-      "text": "Indicators may include certificate warnings, unexpected connection resets, or altered data transmissions."
+      "text": "Indicators of on‑path attacks include certificate warnings, unexpected changes in encryption settings, and sudden session interruptions. Users may encounter repeated prompts to reauthenticate or see alerts that websites are not secure. Network monitoring may reveal duplicated packets or abnormal routing behavior."
     },
     {
       "type": "paragraph",
-      "text": "Attackers can capture credentials or modify communications in transit."
+      "text": "Attackers may use techniques such as ARP spoofing, rogue access points, or compromised routers to intercept traffic. Once positioned in the data path, they can steal credentials, inject malicious payloads, or redirect users to fraudulent services without obvious signs of compromise on the victim’s device."
     },
     {
       "type": "paragraph",
-      "text": "Encrypted connections and certificate validation are critical defenses against interception."
+      "text": "Strong encryption, mutual authentication, and certificate validation are primary defenses. Network segmentation and secure routing protocols further reduce opportunities for interception. Detection relies on correlating endpoint warnings with network‑level indicators."
     }
   ]
 }

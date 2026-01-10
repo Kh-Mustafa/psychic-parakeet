@@ -7,19 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "Malicious code refers to executable instructions designed to perform harmful actions on systems."
+      "text": "Malicious code refers to executable instructions designed to perform unauthorized or harmful actions. While malware classifications vary, many forms share behavioral indicators that security teams can monitor."
     },
     {
       "type": "paragraph",
-      "text": "Indicators include unexpected process execution, abnormal privilege usage, and attempts to disable security tools."
+      "text": "Common indicators include unexpected process creation, attempts to disable security software, unauthorized access to sensitive system resources, and abnormal privilege escalation. Malware may also attempt lateral movement by scanning networks and exploiting other vulnerable systems."
     },
     {
       "type": "paragraph",
-      "text": "Malicious code may attempt lateral movement within networks after initial compromise."
+      "text": "Persistence mechanisms such as scheduled tasks, startup modifications, and registry changes are strong signals of malicious code attempting to survive reboots. Network indicators may include connections to known command‑and‑control servers or unusual outbound traffic patterns."
     },
     {
       "type": "paragraph",
-      "text": "Monitoring system behavior and process activity helps detect hidden threats."
+      "text": "Endpoint detection tools focus on behavior rather than signatures, allowing them to detect previously unknown malware. Correlating endpoint alerts with network activity improves detection accuracy and reduces false positives."
     }
   ]
 }

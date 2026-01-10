@@ -7,19 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "Physical attacks involve unauthorized access to buildings, devices, or infrastructure."
+      "text": "Physical attacks involve unauthorized access to buildings, devices, or infrastructure, often serving as a precursor to cyber compromise. Physical security is therefore a foundational component of cybersecurity."
     },
     {
       "type": "paragraph",
-      "text": "Indicators include broken locks, missing equipment, and tampered hardware."
+      "text": "Indicators of physical compromise include broken locks, missing equipment, tampered cables, and unauthorized devices connected to networks. Intruders may install malicious hardware such as keyloggers or rogue wireless access points."
     },
     {
       "type": "paragraph",
-      "text": "Physical breaches often support later cyber intrusions by enabling device compromise."
+      "text": "Physical breaches can bypass digital security controls entirely, allowing attackers to extract data directly or modify system configurations. For example, accessing server rooms enables attackers to compromise backups or network equipment."
     },
     {
       "type": "paragraph",
-      "text": "Physical security controls are essential to prevent combined physical and cyber attacks."
+      "text": "Physical security measures such as access controls, surveillance, and environmental monitoring help detect and deter unauthorized entry. Correlating physical and digital security logs improves incident response."
     }
   ]
 }

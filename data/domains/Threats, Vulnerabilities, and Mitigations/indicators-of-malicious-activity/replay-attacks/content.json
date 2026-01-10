@@ -7,19 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "Replay attacks occur when attackers capture legitimate authentication or transaction data and retransmit it later to gain unauthorized access."
+      "text": "Replay attacks involve capturing legitimate authentication or transaction data and retransmitting it later to impersonate a valid user or system. These attacks succeed not because encryption is broken, but because systems fail to verify whether messages are fresh or unique."
     },
     {
       "type": "paragraph",
-      "text": "These attacks do not require breaking encryption; instead, they reuse valid data that was previously transmitted."
+      "text": "Indicators of replay attacks may include duplicated transaction records, repeated authentication attempts using identical data, or system logs showing identical tokens being accepted multiple times. In financial systems, replay attacks can lead to duplicated payments or unauthorized transfers."
     },
     {
       "type": "paragraph",
-      "text": "Systems that do not verify message freshness or session uniqueness are most vulnerable to replay attacks."
+      "text": "Systems that rely solely on static credentials or long‑lived session tokens are particularly vulnerable. Without mechanisms such as timestamps, sequence numbers, or cryptographic nonces, servers cannot distinguish between original and replayed messages."
     },
     {
       "type": "paragraph",
-      "text": "Time stamps, nonces, and session tokens are commonly used to prevent reuse of captured data."
+      "text": "Defensive strategies include enforcing short session lifetimes, validating timestamps, and using challenge‑response authentication methods. Monitoring for duplicate requests or abnormal transaction patterns can help detect replay activity."
     }
   ]
 }

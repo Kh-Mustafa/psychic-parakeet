@@ -7,19 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "Cryptographic attacks attempt to weaken or bypass encryption protections."
+      "text": "Cryptographic attacks attempt to weaken or bypass encryption protections, often by exploiting outdated algorithms, weak key management, or flawed protocol implementations."
     },
     {
       "type": "paragraph",
-      "text": "Indicators may include downgraded encryption protocols or repeated failed handshakes."
+      "text": "Indicators may include forced downgrades to weaker encryption, repeated failed handshakes, or unexpected certificate changes. Attackers may attempt to intercept traffic and manipulate encryption negotiations to reduce security strength."
     },
     {
       "type": "paragraph",
-      "text": "Weak keys and outdated algorithms increase exposure to cryptographic exploitation."
+      "text": "Weak cryptographic practices, such as reused keys or improper random number generation, increase exposure to compromise. In some cases, attackers exploit side‑channel information such as timing or power usage to infer secret values."
     },
     {
       "type": "paragraph",
-      "text": "Strong encryption policies and protocol monitoring reduce cryptographic risks."
+      "text": "Defenders monitor protocol usage, enforce strong cryptographic standards, and regularly rotate keys. Detection depends on analyzing encrypted session metadata and certificate validation events."
     }
   ]
 }

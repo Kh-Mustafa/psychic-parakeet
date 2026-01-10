@@ -7,19 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "Zero-day vulnerabilities are unknown to software vendors and therefore lack available patches at the time of exploitation."
+      "text": "Zero‑day vulnerabilities are unknown to vendors and therefore lack available patches at the time attackers exploit them. Because defenders cannot rely on traditional signature‑based detection, these flaws present significant challenges."
     },
     {
       "type": "paragraph",
-      "text": "Attackers who possess zero-day exploits can bypass traditional defenses that rely on known signatures."
+      "text": "Advanced attackers often discover zero‑day vulnerabilities through independent research or by purchasing exploits from underground markets. These vulnerabilities may be used sparingly to avoid detection."
     },
     {
       "type": "paragraph",
-      "text": "These vulnerabilities are often discovered by advanced threat groups and traded privately."
+      "text": "Indicators of zero‑day exploitation are often indirect, such as unusual system behavior or previously unseen attack patterns. Detection depends heavily on behavioral monitoring and anomaly detection."
     },
     {
       "type": "paragraph",
-      "text": "Defense against zero-days focuses on behavioral detection, network monitoring, and rapid containment rather than prevention."
+      "text": "Rapid containment and incident response are critical when zero‑day attacks are suspected, as prevention options are limited until patches become available."
     }
   ]
 }

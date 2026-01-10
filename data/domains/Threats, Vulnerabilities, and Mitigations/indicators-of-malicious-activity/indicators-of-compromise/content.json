@@ -7,19 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "Indicators of compromise are observable artifacts that suggest malicious activity."
+      "text": "Indicators of compromise are observable artifacts that suggest malicious activity has occurred or is ongoing. These include IP addresses, file hashes, domain names, registry entries, and behavioral patterns."
     },
     {
       "type": "paragraph",
-      "text": "Examples include suspicious IP addresses, file hashes, registry changes, and command patterns."
+      "text": "IOCs enable automated detection and threat hunting by allowing systems to quickly flag known malicious signatures. They are commonly shared through threat intelligence feeds and incident response communities."
     },
     {
       "type": "paragraph",
-      "text": "IOCs support rapid detection and automated threat hunting."
+      "text": "However, reliance on static IOCs has limitations. Attackers frequently change infrastructure and malware signatures to evade detection, rendering older indicators obsolete."
     },
     {
       "type": "paragraph",
-      "text": "However, attackers frequently change techniques to avoid IOC-based detection."
+      "text": "Effective detection combines IOCs with behavioral analysis and anomaly detection, providing broader visibility into evolving threats."
     }
   ]
 }

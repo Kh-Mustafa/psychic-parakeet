@@ -7,19 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "Mobile devices introduce security risks due to portability, diverse operating systems, and frequent network changes."
+      "text": "Mobile devices introduce unique security risks due to their portability, diverse operating systems, and constant movement between networks. Unlike fixed workstations, mobile devices are frequently exposed to untrusted environments."
     },
     {
       "type": "paragraph",
-      "text": "Rooting or jailbreaking removes built-in security protections and allows untrusted applications to access sensitive data."
+      "text": "Loss or theft of devices is a major risk factor. If encryption and remote wipe capabilities are not enabled, sensitive data may be accessible to unauthorized individuals. Even with encryption, attackers may attempt to bypass device protections through hardware attacks."
     },
     {
       "type": "paragraph",
-      "text": "Lost or stolen devices can expose corporate information if encryption and remote wipe capabilities are not enabled."
+      "text": "Application ecosystems on mobile platforms introduce additional exposure. Users often install third‑party applications that request broad permissions, potentially allowing data leakage or malicious behavior. Jailbreaking or rooting further weakens built‑in security controls."
     },
     {
       "type": "paragraph",
-      "text": "Mobile device management solutions enforce security policies and provide visibility into device compliance."
+      "text": "Mobile device management systems enforce policies such as encryption, authentication, and application restrictions. Visibility into device compliance is essential for reducing mobile vulnerability exposure."
     }
   ]
 }

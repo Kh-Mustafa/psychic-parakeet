@@ -7,19 +7,19 @@
     },
     {
       "type": "paragraph",
-      "text": "Denial of service attacks attempt to make systems or services unavailable by overwhelming them with traffic or resource requests."
+      "text": "Denial of service attacks aim to make systems or services unavailable to legitimate users by exhausting computing or network resources. Rather than stealing data or gaining persistent access, the attacker’s objective is disruption. This can be just as damaging to organizations as data breaches, especially for services that depend on constant availability such as online banking, e‑commerce, or healthcare platforms."
     },
     {
       "type": "paragraph",
-      "text": "Indicators include unusually high network utilization, slow response times, and services becoming unreachable for legitimate users."
+      "text": "In a basic denial of service scenario, a single attacker floods a server with requests until it can no longer respond to legitimate traffic. In distributed denial of service attacks, the traffic comes from thousands or even millions of compromised systems, often organized into large botnets. Because the traffic originates from many different sources, blocking individual addresses becomes ineffective and can even risk blocking legitimate users."
     },
     {
       "type": "paragraph",
-      "text": "Distributed denial of service attacks amplify this effect by using many compromised systems simultaneously."
+      "text": "Indicators of denial of service activity often appear first in network monitoring tools. Sudden spikes in inbound traffic, repeated identical requests, or unusual protocol usage can all suggest that a service is being overwhelmed. At the application level, users may report slow page loads, timeouts, or complete service outages. Backend systems may show resource exhaustion, such as high CPU usage, memory depletion, or saturated network interfaces."
     },
     {
       "type": "paragraph",
-      "text": "Defenders rely on traffic analysis and rate limiting to detect and mitigate these attacks."
+      "text": "Defenders must distinguish denial of service attacks from legitimate traffic surges caused by marketing events or breaking news. This requires understanding baseline traffic patterns and correlating multiple data sources, including firewall logs, server performance metrics, and user reports. Effective mitigation often involves upstream filtering by service providers, rate limiting, and content delivery networks that can absorb or deflect attack traffic."
     }
   ]
 }
