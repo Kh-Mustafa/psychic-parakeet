@@ -1,136 +1,204 @@
-# Study Platform - COMPTIA SECURITY+
+# Study Platform — CompTIA Security+
 
-A web-based study platform for exam preparation, currently configured for COMPTIA SECURITY+ certification.
+A web-based study platform for exam preparation, currently configured for the CompTIA Security+ certification. The site delivers structured learning content followed by quizzes, with progress tracking across domains, topics, and pages.
+
+---
 
 ## Features
 
-- **Topic Learning Interface**: Read through topics with a clean, textbook-like presentation
-- **Interactive Quizzes**: Test your knowledge with multiple-choice questions after each topic
-- **Progress Tracking**: Visual progress bar showing your advancement through topics and quizzes
-- **Detailed Explanations**: Learn from explanations provided after each quiz question
+- **Domain → Topic → Page learning flow**: Content is organized by exam domain, then topic, then multi-page lessons
+- **Inline definitions (hover tooltips)**: Key terms display short definitions sourced from a central glossary file
+- **Interactive quizzes after each topic**: Coverage-based multiple-choice questions with explanations
+- **Progress tracking**: Visual progress indicators as you move through pages and quizzes
+- **Textbook-style presentation**: Paragraph-based instructional content rather than bullet-only summaries
+
+---
 
 ## Project Structure
 
 ```
 SiteP/
-├── index.php               # Main PHP page
-├── styles.css              # Styling and layout
-├── app.js                  # Application logic and navigation
+├── index.php                 # Main PHP page
+├── styles.css                # Styling and layout
+├── app.js                    # Frontend logic and navigation
 ├── api/
-│   └── load-data.php      # PHP API endpoint to load JSON data
+│   └── load-data.php         # PHP API endpoint to load JSON data
 ├── data/
-│   ├── learning-guideline.json  # Study guide metadata
-│   ├── topic1.json        # First topic content
-│   ├── topic2.json        # Second topic content
-│   ├── quiz1.json         # Quiz for topic 1 (5 questions)
-│   └── quiz2.json         # Quiz for topic 2 (5 questions)
-└── README.md              # This file
+│   ├── learning-guideline.json   # High-level study plan and domain order
+│   ├── definitions.json          # Central glossary for hover definitions
+│   └── domains/
+│       ├── General Security Concepts/
+│       │   ├── outline.json
+│       │   └── <topic>/
+│       │       ├── outline.json
+│       │       └── <page>/
+│       │           └── content.json
+│       └── Threats, Vulnerabilities, and Mitigations/
+│           ├── outline.json
+│           └── <topic>/
+│               ├── outline.json
+│               ├── <page>/content.json
+│               └── quiz.json
+└── README.md
 ```
+
+### Data Hierarchy
+
+- **Domain outline**: `data/domains/<Domain>/outline.json`
+- **Topic outline**: `data/domains/<Domain>/<Topic>/outline.json`
+- **Lesson pages**: `data/domains/<Domain>/<Topic>/<Page>/content.json`
+- **Topic quiz**: `data/domains/<Domain>/<Topic>/quiz.json`
+- **Glossary**: `data/definitions.json`
+
+---
 
 ## How to Use
 
-1. **Start the PHP server**: You must run this through a PHP server (see below)
+1. **Start the PHP server** (see below)
 
-2. **Study Flow**:
-   - Start with Topic 1: Read through the content
-   - Click "Proceed to Quiz" when ready
-   - Answer the 5 quiz questions
-   - After completing the quiz, Topic 2 will appear
-   - Repeat the process for Topic 2
+2. **Study Flow**
+   - Select a domain
+   - Read through topic pages in order
+   - After the last page, the topic quiz begins
+   - After the quiz, the next topic loads automatically
 
-3. **Quiz Interaction**:
-   - Click on an answer option
-   - The correct answer will be highlighted in green
-   - Incorrect answers will be highlighted in red
-   - An explanation will appear below
-   - Click "Next Question" to continue
+3. **Quiz Interaction**
+   - Click an answer option to submit
+   - Correct and incorrect choices are visually indicated
+   - Explanations clarify why answers are right or wrong
+   - Click "Next" to proceed
+
+4. **Definitions**
+   - Hover over highlighted terms to see short glossary definitions
+   - Definitions are sourced from `data/definitions.json`
+
+---
 
 ## Running Locally
 
-**Note**: This application requires PHP to run. You cannot simply open the file in a browser.
+**Note:** This application must be served by PHP. Opening `index.php` directly in a browser will not work.
 
-### Option 1: PHP Built-in Server (Recommended)
+### Option 1 — PHP Built‑in Server (Recommended)
+
 ```bash
-# Navigate to the project directory
 cd SiteP
-
-# Start PHP development server
 php -S localhost:8000
-
-# Then open http://localhost:8000 in your browser
 ```
 
-### Option 2: XAMPP/WAMP/MAMP
-1. Copy the project folder to your web server directory:
-   - XAMPP: `C:\xampp\htdocs\SiteP`
-   - WAMP: `C:\wamp64\www\SiteP`
-   - MAMP: `/Applications/MAMP/htdocs/SiteP`
-2. Start your local server
-3. Open `http://localhost/SiteP` in your browser
+Then open: `http://localhost:8000`
 
-### Option 3: Other PHP Servers
-Any PHP-compatible web server (Apache, Nginx with PHP-FPM, etc.) will work. Just ensure PHP is installed and configured.
+### Option 2 — Local Web Server Stack
+
+Place the project in your web server directory:
+
+- XAMPP: `C:\xampp\htdocs\SiteP`
+- WAMP: `C:\wamp64\www\SiteP`
+- MAMP: `/Applications/MAMP/htdocs/SiteP`
+
+Then open: `http://localhost/SiteP`
+
+### Option 3 — Other Servers
+
+Any server capable of running PHP (Apache, Nginx + PHP-FPM, etc.) can host the project.
+
+---
 
 ## Data Format
 
-### Topic JSON Structure
+### Page Content JSON
+
 ```json
 {
-  "id": "topic1",
-  "title": "Topic Title",
-  "content": [
-    {
-      "type": "heading",
-      "text": "Section Heading"
-    },
-    {
-      "type": "paragraph",
-      "text": "Paragraph text"
-    },
-    {
-      "type": "list",
-      "ordered": false,
-      "items": ["Item 1", "Item 2"]
-    }
+  "title": "Page Title",
+  "blocks": [
+    { "type": "heading", "text": "Section Heading" },
+    { "type": "paragraph", "text": "Paragraph text" },
+    { "type": "list", "ordered": false, "items": ["Item 1", "Item 2"] }
   ]
 }
 ```
 
-### Quiz JSON Structure
+### Topic Outline JSON
+
 ```json
 {
-  "topicId": "topic1",
+  "topic": "Topic Name",
+  "pages": [
+    { "id": "page-id", "title": "Page Title" }
+  ]
+}
+```
+
+### Domain Outline JSON
+
+```json
+{
+  "domain": "Domain Name",
+  "topics": [
+    { "id": "topic-id", "title": "Topic Title" }
+  ]
+}
+```
+
+### Quiz JSON
+
+```json
+{
+  "topicId": "topic-id",
   "topicName": "Topic Name",
   "questions": [
     {
       "question": "Question text?",
-      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
-      "correct": 0,
-      "explanation": "Explanation of the answer"
+      "options": ["A", "B", "C", "D"],
+      "correct": 1,
+      "explanation": "Why the correct option is correct and others are not"
     }
   ]
 }
 ```
 
-## Future Enhancements
+### Definitions JSON
 
-- Scoring system (currently tracks correct/incorrect)
+```json
+{
+  "definitions": {
+    "term": "Short explanation",
+    "another term": "Another explanation"
+  }
+}
+```
+
+---
+
+## Current Scope
+
+- Single exam: CompTIA Security+
+- Content is hardcoded in JSON files
+- Progress is tracked in-session (not persisted across refresh)
+
+---
+
+## Planned Enhancements
+
+- Persistent user progress
+- Scoring and weak‑topic analysis
 - Multiple exam support
-- User accounts and progress saving
-- Review mode for completed topics
-- Flashcard system
+- AI‑generated study plans and quizzes
+- Review and flashcard modes
 
-## Technical Details
+---
 
-- **Backend**: PHP serves JSON data files through an API endpoint
-- **Frontend**: Vanilla JavaScript handles all UI interactions
-- **Data Storage**: JSON files in the `data/` directory
-- **API Endpoint**: `api/load-data.php` loads and returns all study materials
+## Technical Notes
+
+- Backend: PHP loads JSON files and exposes them via an API
+- Frontend: Vanilla JavaScript renders content and manages navigation
+- No database is currently used
+
+---
 
 ## Notes
 
-- All data is stored in JSON files for easy modification
-- The interface is responsive and works on mobile devices
-- Progress is tracked but not persisted (resets on page refresh)
-- Requires PHP 7.0+ to run
+- All learning content lives in `data/` and can be edited without touching code
+- The site expects valid JSON — malformed files will break loading
+- Domain and topic order are controlled entirely by outline files
 
