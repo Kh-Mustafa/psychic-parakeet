@@ -1,0 +1,37 @@
+{
+  "topic": "Resilience and Recovery",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Resilience and Recovery Overview"
+    },
+    {
+      "id": "high-availability",
+      "title": "High Availability"
+    },
+    {
+      "id": "site-considerations",
+      "title": "Site Considerations"
+    },
+    {
+      "id": "testing",
+      "title": "Testing and Validation"
+    },
+    {
+      "id": "power",
+      "title": "Power Resilience"
+    },
+    {
+      "id": "platform-diversity",
+      "title": "Platform Diversity"
+    },
+    {
+      "id": "backups",
+      "title": "Backups"
+    },
+    {
+      "id": "continuity-of-operations",
+      "title": "Continuity of Operations"
+    }
+  ]
+}

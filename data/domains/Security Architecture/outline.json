@@ -2,20 +2,128 @@
   "domain": "Security Architecture",
   "topics": [
     {
-      "id": "Architecture Models",
-      "title": "Architecture Models"
+      "id": "architecture-models",
+      "title": "Architecture Models",
+      "pages": [
+        {
+          "id": "overview",
+          "title": "Architecture Models Overview"
+        },
+        {
+          "id": "on-premises",
+          "title": "On-Premises Architecture"
+        },
+        {
+          "id": "cloud",
+          "title": "Cloud Architecture"
+        },
+        {
+          "id": "virtualization",
+          "title": "Virtualization Architecture"
+        },
+        {
+          "id": "iot",
+          "title": "Internet of Things (IoT)"
+        },
+        {
+          "id": "industrial-control-systems",
+          "title": "Industrial Control Systems (ICS)"
+        },
+        {
+          "id": "infrastructure-as-code",
+          "title": "Infrastructure as Code (IaC)"
+        }
+      ]
     },
     {
-      "id": "Enterprise Infrastructure",
-      "title": "Enterprise Infrastructure"
+      "id": "enterprise-infrastructure",
+      "title": "Enterprise Infrastructure",
+      "pages": [
+        {
+          "id": "overview",
+          "title": "Enterprise Infrastructure Overview"
+        },
+        {
+          "id": "security-principles-infrastructure",
+          "title": "Applying Security Principles to Infrastructure"
+        },
+        {
+          "id": "control-selection",
+          "title": "Security Control Selection"
+        },
+        {
+          "id": "secure-communication",
+          "title": "Secure Communication"
+        },
+        {
+          "id": "secure-access",
+          "title": "Secure Access"
+        }
+      ]
     },
     {
-      "id": "Data Protection",
-      "title": "Data Protection"
+      "id": "data-protection",
+      "title": "Data Protection",
+      "pages": [
+        {
+          "id": "overview",
+          "title": "Data Protection Overview"
+        },
+        {
+          "id": "data-types",
+          "title": "Data Types"
+        },
+        {
+          "id": "data-states",
+          "title": "Data States"
+        },
+        {
+          "id": "protection-methods",
+          "title": "Data Protection Methods"
+        },
+        {
+          "id": "data-classification",
+          "title": "Data Classification"
+        }
+      ]
     },
     {
-      "id": "Resilience and Recovery",
-      "title": "Resilience and Recovery"
+      "id": "resilience-and-recovery",
+      "title": "Resilience and Recovery",
+      "pages": [
+        {
+          "id": "overview",
+          "title": "Resilience and Recovery Overview"
+        },
+        {
+          "id": "high-availability",
+          "title": "High Availability"
+        },
+        {
+          "id": "site-considerations",
+          "title": "Site Considerations"
+        },
+        {
+          "id": "testing",
+          "title": "Testing and Validation"
+        },
+        {
+          "id": "power",
+          "title": "Power Resilience"
+        },
+        {
+          "id": "platform-diversity",
+          "title": "Platform Diversity"
+        },
+        {
+          "id": "backups",
+          "title": "Backups"
+        },
+        {
+          "id": "continuity-of-operations",
+          "title": "Continuity of Operations"
+        }
+      ]
     }
   ]
 }

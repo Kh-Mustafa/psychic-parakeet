@@ -1,0 +1,33 @@
+{
+  "topic": "Architecture Models",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Architecture Models Overview"
+    },
+    {
+      "id": "on-premises",
+      "title": "On-Premises Architecture"
+    },
+    {
+      "id": "cloud",
+      "title": "Cloud Architecture"
+    },
+    {
+      "id": "virtualization",
+      "title": "Virtualization Architecture"
+    },
+    {
+      "id": "iot",
+      "title": "Internet of Things (IoT)"
+    },
+    {
+      "id": "industrial-control-systems",
+      "title": "Industrial Control Systems (ICS)"
+    },
+    {
+      "id": "infrastructure-as-code",
+      "title": "Infrastructure as Code (IaC)"
+    }
+  ]
+}

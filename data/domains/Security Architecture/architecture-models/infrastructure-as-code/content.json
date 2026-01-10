@@ -1,0 +1,29 @@
+{
+  "title": "Infrastructure as Code (IaC)",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Infrastructure as Code (IaC)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Infrastructure as code is an approach where infrastructure configurations are defined in version-controlled templates rather than manually configured on individual systems. Servers, networks, and security controls are deployed automatically based on predefined specifications."
+    },
+    {
+      "type": "paragraph",
+      "text": "This model improves consistency and repeatability, reducing configuration drift and human error. Security controls can be embedded directly into deployment pipelines, ensuring that new systems are provisioned with approved configurations from the start."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, infrastructure as code also introduces new risks. If templates contain insecure settings, those weaknesses can be rapidly replicated across entire environments. Access to code repositories therefore becomes highly sensitive, and changes must be carefully reviewed and controlled."
+    },
+    {
+      "type": "paragraph",
+      "text": "Automation pipelines themselves become part of the attack surface. Compromising build systems or configuration repositories can allow attackers to inject malicious settings or backdoors into production environments. Protecting credentials, enforcing code review, and monitoring pipeline activity are essential defenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "When properly secured, infrastructure as code enables rapid recovery and scalable security improvements. Environments can be rebuilt quickly from trusted templates, supporting disaster recovery and reducing reliance on manual intervention. Security teams must treat configuration code with the same rigor as application code."
+    }
+  ]
+}

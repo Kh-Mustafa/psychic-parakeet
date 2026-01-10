@@ -1,0 +1,174 @@
+{
+  "topicId": "architecture-models-part2",
+  "topicName": "Architecture Models — Part 2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why is the hypervisor a critical security component in virtualization?",
+      "options": [
+        "It stores user passwords",
+        "It controls access to all virtual machines",
+        "It replaces network firewalls",
+        "It encrypts application data"
+      ],
+      "correct": 1,
+      "explanation": "Compromise of the hypervisor can expose all hosted virtual machines."
+    },
+    {
+      "id": "q2",
+      "question": "What security risk is associated with virtual machine sprawl?",
+      "options": [
+        "Higher encryption costs",
+        "Unmanaged and unpatched systems increasing attack surface",
+        "Reduced network bandwidth",
+        "Loss of physical security"
+      ],
+      "correct": 1,
+      "explanation": "Sprawl leads to forgotten systems that are not monitored or patched."
+    },
+    {
+      "id": "q3",
+      "question": "Why might traditional network monitoring miss attacks in virtual environments?",
+      "options": [
+        "Traffic never enters the network",
+        "East–west traffic may stay within the host",
+        "Virtual machines cannot be monitored",
+        "Firewalls are disabled"
+      ],
+      "correct": 1,
+      "explanation": "Internal VM traffic may not pass physical monitoring points."
+    },
+    {
+      "id": "q4",
+      "question": "What limitation commonly affects IoT device security?",
+      "options": [
+        "Too much storage",
+        "Limited processing and patching capability",
+        "Built-in firewalls",
+        "Strong authentication by default"
+      ],
+      "correct": 1,
+      "explanation": "Many IoT devices cannot support strong security controls."
+    },
+    {
+      "id": "q5",
+      "question": "Why is segmentation important in IoT environments?",
+      "options": [
+        "It increases battery life",
+        "It limits lateral movement from compromised devices",
+        "It improves sensor accuracy",
+        "It replaces encryption"
+      ],
+      "correct": 1,
+      "explanation": "Segmentation prevents compromised devices from reaching sensitive systems."
+    },
+    {
+      "id": "q6",
+      "question": "Which threat is increased by physical exposure of IoT devices?",
+      "options": [
+        "Phishing",
+        "Firmware extraction and tampering",
+        "Password reuse",
+        "DDoS amplification only"
+      ],
+      "correct": 1,
+      "explanation": "Attackers can physically access and manipulate devices."
+    },
+    {
+      "id": "q7",
+      "question": "Why are many ICS components difficult to patch?",
+      "options": [
+        "They lack vulnerabilities",
+        "Updates may disrupt critical physical processes",
+        "They are always encrypted",
+        "They are not networked"
+      ],
+      "correct": 1,
+      "explanation": "Patching may affect safety and availability in operational systems."
+    },
+    {
+      "id": "q8",
+      "question": "What is the primary security priority in ICS environments?",
+      "options": [
+        "Confidentiality",
+        "Availability and safety",
+        "Cost reduction",
+        "User convenience"
+      ],
+      "correct": 1,
+      "explanation": "ICS focuses on safe and continuous operation of physical systems."
+    },
+    {
+      "id": "q9",
+      "question": "Why are specialized monitoring tools often needed for ICS?",
+      "options": [
+        "Standard tools are illegal to use",
+        "Industrial protocols differ from IT protocols",
+        "ICS has no network traffic",
+        "Monitoring is unnecessary"
+      ],
+      "correct": 1,
+      "explanation": "Industrial protocols require tools designed for deterministic control networks."
+    },
+    {
+      "id": "q10",
+      "question": "What benefit does infrastructure as code provide for security?",
+      "options": [
+        "Eliminates vulnerabilities",
+        "Ensures consistent secure configurations",
+        "Replaces authentication",
+        "Prevents insider threats"
+      ],
+      "correct": 1,
+      "explanation": "Templates enforce standardized secure deployments."
+    },
+    {
+      "id": "q11",
+      "question": "What is a major risk if IaC templates are insecure?",
+      "options": [
+        "Only one system is affected",
+        "Misconfigurations propagate rapidly",
+        "Patching becomes impossible",
+        "Monitoring tools stop working"
+      ],
+      "correct": 1,
+      "explanation": "Automation can quickly spread insecure settings."
+    },
+    {
+      "id": "q12",
+      "question": "Why must code repositories be protected in IaC environments?",
+      "options": [
+        "They control physical access",
+        "They define production infrastructure",
+        "They replace firewalls",
+        "They host backups"
+      ],
+      "correct": 1,
+      "explanation": "Compromised repositories can alter deployed infrastructure."
+    },
+    {
+      "id": "q13",
+      "question": "Which model best supports rapid disaster recovery through redeployment?",
+      "options": [
+        "On-premises only",
+        "Infrastructure as code",
+        "Manual configuration",
+        "Standalone servers"
+      ],
+      "correct": 1,
+      "explanation": "IaC allows environments to be rebuilt from trusted templates."
+    },
+    {
+      "id": "q14",
+      "question": "Which architecture model most increases reliance on automation for security?",
+      "options": [
+        "On-premises",
+        "Cloud and IaC",
+        "Standalone desktops",
+        "Air-gapped systems"
+      ],
+      "correct": 1,
+      "explanation": "Cloud and IaC scale too quickly for manual security controls."
+    }
+  ]
+}

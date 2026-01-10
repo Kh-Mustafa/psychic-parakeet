@@ -1,0 +1,25 @@
+{
+  "topic": "Enterprise Infrastructure",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Enterprise Infrastructure Overview"
+    },
+    {
+      "id": "security-principles-infrastructure",
+      "title": "Applying Security Principles to Infrastructure"
+    },
+    {
+      "id": "control-selection",
+      "title": "Security Control Selection"
+    },
+    {
+      "id": "secure-communication",
+      "title": "Secure Communication"
+    },
+    {
+      "id": "secure-access",
+      "title": "Secure Access"
+    }
+  ]
+}

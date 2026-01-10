@@ -1,0 +1,29 @@
+{
+  "title": "Industrial Control Systems (ICS)",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Industrial Control Systems (ICS)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Industrial control systems manage physical processes such as manufacturing, power generation, water treatment, and transportation. These systems include programmable logic controllers, supervisory control systems, and human-machine interfaces. Unlike traditional IT systems, ICS environments directly affect physical safety and infrastructure reliability."
+    },
+    {
+      "type": "paragraph",
+      "text": "Historically, many ICS networks were isolated from corporate networks and the internet. Modern connectivity requirements, remote monitoring, and integration with business systems have increased exposure. Many ICS components were not designed with cybersecurity in mind and may lack basic authentication or encryption capabilities."
+    },
+    {
+      "type": "paragraph",
+      "text": "Availability and safety are often higher priorities than confidentiality in ICS environments. System downtime can disrupt critical services or cause physical harm. As a result, patching and configuration changes must be carefully planned and tested to avoid unintended consequences. This creates challenges when vulnerabilities are discovered that require urgent remediation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Monitoring in ICS environments must account for specialized protocols and deterministic traffic patterns. Traditional IT security tools may not understand industrial protocols or may interfere with real-time operations. Specialized intrusion detection systems designed for industrial networks are often required."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security architecture for ICS emphasizes network segmentation, strict access control, and limited remote connectivity. Incident response plans must consider both cyber and physical impacts. Protecting ICS environments requires close collaboration between IT security teams, engineers, and operations personnel."
+    }
+  ]
+}

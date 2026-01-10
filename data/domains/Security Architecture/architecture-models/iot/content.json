@@ -1,0 +1,29 @@
+{
+  "title": "Internet of Things (IoT)",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Internet of Things (IoT)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Internet of Things environments consist of large numbers of small, specialized devices that collect data or control physical processes. Examples include sensors, cameras, smart appliances, and industrial monitoring equipment. These devices are often deployed in large numbers and may operate in untrusted physical locations."
+    },
+    {
+      "type": "paragraph",
+      "text": "IoT devices frequently have limited processing power, storage, and memory, which restricts their ability to run strong encryption, host-based security software, or complex authentication mechanisms. Many devices also use embedded operating systems that are rarely updated, leaving vulnerabilities unpatched for long periods of time."
+    },
+    {
+      "type": "paragraph",
+      "text": "Network exposure is another major risk. IoT devices are often deployed on flat networks where they can communicate freely with other systems. If one device is compromised, attackers may use it as an entry point to reach more sensitive systems. Segmentation is therefore critical for limiting the impact of IoT breaches."
+    },
+    {
+      "type": "paragraph",
+      "text": "Physical security is also a concern because devices may be installed in public or remote locations. Attackers can physically tamper with hardware, extract firmware, or replace devices entirely. Once attackers control a device, they may use it for persistent access or as part of botnets used in large-scale attacks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Effective IoT security architecture focuses on device authentication, network isolation, centralized monitoring, and lifecycle management. Organizations must inventory devices, apply firmware updates when available, and decommission devices that can no longer be supported. Security strategies must assume that individual devices may eventually fail and design networks to contain those failures."
+    }
+  ]
+}

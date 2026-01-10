@@ -1,0 +1,25 @@
+{
+  "topic": "Data Protection",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Data Protection Overview"
+    },
+    {
+      "id": "data-types",
+      "title": "Data Types"
+    },
+    {
+      "id": "data-states",
+      "title": "Data States"
+    },
+    {
+      "id": "protection-methods",
+      "title": "Data Protection Methods"
+    },
+    {
+      "id": "data-classification",
+      "title": "Data Classification"
+    }
+  ]
+}

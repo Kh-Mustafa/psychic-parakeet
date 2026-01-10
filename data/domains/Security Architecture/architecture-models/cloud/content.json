@@ -1,0 +1,29 @@
+{
+  "title": "Cloud Architecture",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Cloud Architecture"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cloud architecture involves hosting systems and services on infrastructure operated by third-party providers. Instead of owning physical hardware, organizations consume computing resources over networks as on-demand services. This model changes how security responsibilities are divided and how controls are implemented."
+    },
+    {
+      "type": "paragraph",
+      "text": "A central concept in cloud security is the shared responsibility model. Cloud providers are responsible for securing the underlying physical facilities, hardware, and core services, while customers are responsible for securing their data, configurations, and access controls. The exact division of responsibility varies depending on whether services are infrastructure-based, platform-based, or fully managed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cloud environments enable rapid provisioning and scaling, which supports business agility but also increases security risk if controls are not automated. Misconfigurations such as open storage buckets, overly permissive access roles, or exposed management interfaces are common causes of cloud breaches. Security in cloud architecture relies heavily on identity management, configuration enforcement, and continuous monitoring."
+    },
+    {
+      "type": "paragraph",
+      "text": "Another security consideration is visibility. Traditional network-based monitoring tools may not function the same way in cloud environments, requiring integration with provider logging services and APIs. Security teams must adapt detection strategies to account for virtualized networks, ephemeral resources, and automated scaling events."
+    },
+    {
+      "type": "paragraph",
+      "text": "Despite these challenges, cloud architecture provides strong security capabilities when used correctly. Providers offer advanced encryption services, automated patching for managed platforms, and built-in redundancy across geographic regions. Effective cloud security architecture focuses on secure configuration, identity governance, automation, and alignment with provider-native security tools."
+    }
+  ]
+}

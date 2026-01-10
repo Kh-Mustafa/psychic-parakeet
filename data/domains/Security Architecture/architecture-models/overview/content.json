@@ -1,0 +1,29 @@
+{
+  "title": "Architecture Models Overview",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Architecture Models Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "Architecture models describe how computing resources are organized, deployed, and managed within an environment. They define where systems run, how they communicate, who controls them, and how security responsibilities are divided. Understanding architecture models is critical because security controls that work well in one model may be ineffective or insufficient in another."
+    },
+    {
+      "type": "paragraph",
+      "text": "From a security perspective, architecture models influence threat exposure, monitoring capabilities, compliance obligations, and incident response options. For example, when systems are physically located inside an organization’s facilities, administrators have direct control over hardware, networking equipment, and physical access. When systems are hosted by external providers, many of those controls are shared or delegated, requiring different risk management strategies."
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern environments rarely rely on a single architecture model. Organizations often combine on-premises systems, cloud services, virtualization platforms, and specialized environments such as IoT networks or industrial control systems. Each model introduces unique risks and operational constraints. Security architects must understand how these models interact and where trust boundaries exist between them."
+    },
+    {
+      "type": "paragraph",
+      "text": "Another important aspect of architecture models is scalability and change velocity. Some models allow rapid provisioning and automated configuration, while others require manual installation and maintenance. Faster change increases the importance of automation, configuration management, and continuous monitoring, because manual security processes cannot keep pace with dynamic infrastructure."
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, architecture models affect regulatory and contractual obligations. Data residency laws, industry compliance standards, and internal governance policies may restrict where systems can be located and who can administer them. Selecting and securing an architecture model therefore involves technical, legal, and organizational considerations, not just performance or cost."
+    }
+  ]
+}
