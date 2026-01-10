@@ -1,0 +1,21 @@
+{
+  "topic": "Security Data Sources",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Overview"
+    },
+    {
+      "id": "log-data",
+      "title": "Log Data"
+    },
+    {
+      "id": "telemetry-sources",
+      "title": "Telemetry Sources"
+    },
+    {
+      "id": "external-intelligence",
+      "title": "External Intelligence"
+    }
+  ]
+}

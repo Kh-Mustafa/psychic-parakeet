@@ -7,7 +7,27 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Data exists in three primary states: at rest, in transit, and in use. Each state presents different risks and requires different protection mechanisms."
+    },
+    {
+      "type": "paragraph",
+      "text": "Data at rest refers to information stored on disks, databases, file systems, and backups. Threats include unauthorized access, theft of physical media, and malware encryption. Encryption at rest and access control lists are primary protections."
+    },
+    {
+      "type": "paragraph",
+      "text": "Data in transit refers to information moving across networks between systems. Threats include interception, man-in-the-middle attacks, and traffic analysis. Transport encryption and mutual authentication protect data in motion."
+    },
+    {
+      "type": "paragraph",
+      "text": "Data in use refers to information actively processed in memory by applications and operating systems. This state is difficult to protect because data must be decrypted to be processed. Attacks may exploit memory vulnerabilities or compromised applications."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security architecture must address all three states because attackers often target the weakest point. Protecting storage without securing networks or applications leaves exploitable gaps."
+    },
+    {
+      "type": "paragraph",
+      "text": "Advanced protection techniques such as confidential computing aim to reduce exposure of data in use by isolating processing environments. While not universally available, these technologies reflect growing recognition of runtime threats."
     }
   ]
 }

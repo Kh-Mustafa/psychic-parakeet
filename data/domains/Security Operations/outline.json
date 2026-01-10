@@ -2,40 +2,103 @@
   "domain": "Security Operations",
   "topics": [
     {
-      "id": "Computing Resources",
-      "title": "Computing Resources"
+      "id": "security-techniques",
+      "title": "Security Techniques",
+      "pages": [
+        "overview",
+        "secure-baselines",
+        "hardening",
+        "wireless-security",
+        "application-security"
+      ]
     },
     {
-      "id": "Asset Management",
-      "title": "Asset Management"
+      "id": "asset-management",
+      "title": "Asset Management",
+      "pages": [
+        "overview",
+        "acquisition",
+        "assignment",
+        "monitoring-and-tracking",
+        "disposal"
+      ]
     },
     {
-      "id": "Vulnerability Management",
-      "title": "Vulnerability Management"
+      "id": "vulnerability-management",
+      "title": "Vulnerability Management",
+      "pages": [
+        "overview",
+        "vulnerability-scanning",
+        "threat-intelligence",
+        "penetration-testing",
+        "analysis-and-remediation"
+      ]
     },
     {
-      "id": "Alerting and Monitoring",
-      "title": "Alerting and Monitoring"
+      "id": "security-monitoring",
+      "title": "Security Monitoring",
+      "pages": [
+        "overview",
+        "monitoring-tools",
+        "monitoring-activities"
+      ]
     },
     {
-      "id": "Enterprise Security",
-      "title": "Enterprise Security"
+      "id": "enterprise-security",
+      "title": "Enterprise Security",
+      "pages": [
+        "overview",
+        "firewalls",
+        "filtering",
+        "operating-system-security",
+        "secure-protocols",
+        "email-security",
+        "data-monitoring",
+        "endpoint-security"
+      ]
     },
     {
-      "id": "Identity and Access Management",
-      "title": "Identity and Access Management"
+      "id": "identity-and-access-management",
+      "title": "Identity and Access Management",
+      "pages": [
+        "overview",
+        "provisioning",
+        "access-controls",
+        "multi-factor-authentication",
+        "password-security",
+        "privileged-access-tools"
+      ]
     },
     {
-      "id": "Automation and Orchestration",
-      "title": "Automation and Orchestration"
+      "id": "automation-and-orchestration",
+      "title": "Automation and Orchestration",
+      "pages": [
+        "overview",
+        "automation-use-cases",
+        "scripting-benefits",
+        "automation-considerations"
+      ]
     },
     {
-      "id": "Incident Response",
-      "title": "Incident Response"
+      "id": "incident-response",
+      "title": "Incident Response",
+      "pages": [
+        "overview",
+        "response-phases",
+        "incident-planning",
+        "threat-hunting",
+        "digital-forensics"
+      ]
     },
     {
-      "id": "Data Sources",
-      "title": "Data Sources"
+      "id": "security-data-sources",
+      "title": "Security Data Sources",
+      "pages": [
+        "overview",
+        "log-data",
+        "telemetry-sources",
+        "external-intelligence"
+      ]
     }
   ]
 }

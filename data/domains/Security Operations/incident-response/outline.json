@@ -1,0 +1,25 @@
+{
+  "topic": "Incident Response",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Overview"
+    },
+    {
+      "id": "response-phases",
+      "title": "Response Phases"
+    },
+    {
+      "id": "incident-planning",
+      "title": "Incident Planning"
+    },
+    {
+      "id": "threat-hunting",
+      "title": "Threat Hunting"
+    },
+    {
+      "id": "digital-forensics",
+      "title": "Digital Forensics"
+    }
+  ]
+}

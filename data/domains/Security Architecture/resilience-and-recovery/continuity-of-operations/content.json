@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Continuity of operations planning ensures that essential business functions can continue during and after disruptive events. While disaster recovery focuses on IT restoration, continuity planning addresses people, processes, and external dependencies."
+    },
+    {
+      "type": "paragraph",
+      "text": "Critical functions must be identified and prioritized. Staffing plans, alternative work locations, and manual procedures may be required when automated systems are unavailable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Supply chain dependencies are major continuity risks. Disruptions to vendors, utilities, or logistics providers can halt operations even if internal systems remain functional."
+    },
+    {
+      "type": "paragraph",
+      "text": "Communication plans are essential during crises. Employees, customers, regulators, and partners must receive accurate information to coordinate response efforts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Continuity plans must be integrated with incident response and disaster recovery procedures to ensure coordinated action across technical and organizational domains."
     }
   ]
 }

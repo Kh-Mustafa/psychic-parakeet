@@ -1,0 +1,21 @@
+{
+  "topic": "Automation and Orchestration",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Overview"
+    },
+    {
+      "id": "automation-use-cases",
+      "title": "Automation Use Cases"
+    },
+    {
+      "id": "scripting-benefits",
+      "title": "Scripting Benefits"
+    },
+    {
+      "id": "automation-considerations",
+      "title": "Automation Considerations"
+    }
+  ]
+}

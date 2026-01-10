@@ -1,13 +1,29 @@
 {
-  "title": "Power Resilience",
+  "title": "Power Resiliency",
   "blocks": [
     {
       "type": "heading",
-      "text": "Power Resilience"
+      "text": "Power Resiliency"
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Power resiliency ensures that systems remain operational during electrical disruptions and that safe shutdowns occur when outages cannot be avoided. Power failures are among the most common causes of service interruptions, making power planning a foundational element of resilience."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uninterruptible power supplies provide short-term battery power that allows systems to continue operating during brief outages or until backup generators start. UPS systems also protect against voltage fluctuations that can damage hardware."
+    },
+    {
+      "type": "paragraph",
+      "text": "Generators provide longer-term power during extended outages. Fuel supply, maintenance schedules, and automatic startup mechanisms are critical to generator reliability. Without regular testing, generators may fail when they are most needed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Redundant power feeds and separate electrical circuits reduce the likelihood that a single failure will disrupt operations. Data centers often use multiple utility providers and independent substations to improve reliability."
+    },
+    {
+      "type": "paragraph",
+      "text": "Power resiliency planning must also account for cooling systems, which depend on electricity. Overheating can damage equipment even if servers remain powered. Integrated monitoring ensures that temperature and humidity remain within safe limits."
     }
   ]
 }

@@ -1,0 +1,37 @@
+{
+  "topic": "Enterprise Security",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Overview"
+    },
+    {
+      "id": "firewalls",
+      "title": "Firewalls"
+    },
+    {
+      "id": "filtering",
+      "title": "Filtering"
+    },
+    {
+      "id": "operating-system-security",
+      "title": "Operating System Security"
+    },
+    {
+      "id": "secure-protocols",
+      "title": "Secure Protocols"
+    },
+    {
+      "id": "email-security",
+      "title": "Email Security"
+    },
+    {
+      "id": "data-monitoring",
+      "title": "Data Monitoring"
+    },
+    {
+      "id": "endpoint-security",
+      "title": "Endpoint Security"
+    }
+  ]
+}

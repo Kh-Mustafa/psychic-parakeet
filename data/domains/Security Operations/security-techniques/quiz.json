@@ -1,0 +1,90 @@
+{
+  "topicId": "security-techniques",
+  "topicName": "Security Techniques",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why are operational security techniques considered continuous rather than one‑time activities?",
+      "options": [
+        "Because systems never receive updates",
+        "Because threats, software, and configurations constantly change",
+        "Because policies require daily audits",
+        "Because hardware cannot be secured permanently"
+      ],
+      "correct": 1,
+      "explanation": "Operational security adapts to changing systems and threats. Policies and hardware alone do not drive this requirement."
+    },
+    {
+      "id": "q2",
+      "question": "What is the main purpose of secure baselines?",
+      "options": [
+        "Increase network speed",
+        "Provide standardized minimum security configurations",
+        "Replace vulnerability scanning",
+        "Eliminate the need for monitoring"
+      ],
+      "correct": 1,
+      "explanation": "Baselines define consistent secure settings; they do not replace scanning or monitoring."
+    },
+    {
+      "id": "q3",
+      "question": "Which hardening step most directly reduces exposure to remote attacks?",
+      "options": [
+        "Disabling unused services and closing ports",
+        "Increasing log retention",
+        "Adding more user accounts",
+        "Encrypting backups"
+      ],
+      "correct": 0,
+      "explanation": "Remote attacks commonly target exposed services and open ports. Logging and backups are important but do not reduce exposure."
+    },
+    {
+      "id": "q4",
+      "question": "Why are shared Wi‑Fi passwords risky in enterprise environments?",
+      "options": [
+        "They slow down network speed",
+        "They prevent encryption",
+        "They make it difficult to revoke access for individuals",
+        "They disable intrusion detection"
+      ],
+      "correct": 2,
+      "explanation": "Individual authentication allows access to be revoked per user. Shared passwords cannot be selectively disabled."
+    },
+    {
+      "id": "q5",
+      "question": "What is the primary function of wireless monitoring systems?",
+      "options": [
+        "Improve signal strength",
+        "Detect rogue devices and suspicious radio activity",
+        "Encrypt wireless traffic",
+        "Manage user passwords"
+      ],
+      "correct": 1,
+      "explanation": "Monitoring identifies unauthorized access points and devices; encryption and authentication are separate controls."
+    },
+    {
+      "id": "q6",
+      "question": "Why are web application firewalls used in production environments?",
+      "options": [
+        "To replace secure coding practices",
+        "To detect and block suspicious application traffic",
+        "To speed up web responses",
+        "To manage user accounts"
+      ],
+      "correct": 1,
+      "explanation": "WAFs provide runtime protection but do not replace secure development."
+    },
+    {
+      "id": "q7",
+      "question": "Which operational role is critical for maintaining application security after deployment?",
+      "options": [
+        "Only software developers",
+        "Operations teams monitoring logs and alerts",
+        "Hardware vendors",
+        "End users managing permissions"
+      ],
+      "correct": 1,
+      "explanation": "Operations teams monitor and respond to runtime threats; development alone is not sufficient."
+    }
+  ]
+}

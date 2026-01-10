@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Physical location plays a major role in resilience. Data centers and network facilities must be protected from environmental risks such as flooding, earthquakes, fires, and extreme temperatures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Geographic diversity reduces the risk that a single regional disaster will disrupt all operations. Organizations often deploy systems across multiple facilities or cloud regions to isolate failures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Network connectivity between sites must support failover traffic without introducing excessive latency. Bandwidth and routing design directly affect recovery performance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Physical security is also critical. Unauthorized access to facilities can lead to sabotage, theft, or data destruction. Access controls, surveillance, and environmental monitoring contribute to site resilience."
+    },
+    {
+      "type": "paragraph",
+      "text": "Site planning must also consider utility dependencies such as power, cooling, and telecommunications. Failure of these supporting services can disrupt operations even if computing systems remain functional."
     }
   ]
 }

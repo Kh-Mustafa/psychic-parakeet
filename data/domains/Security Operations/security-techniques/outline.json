@@ -1,0 +1,25 @@
+{
+  "topic": "Security Techniques",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Overview"
+    },
+    {
+      "id": "secure-baselines",
+      "title": "Secure Baselines"
+    },
+    {
+      "id": "hardening",
+      "title": "Hardening"
+    },
+    {
+      "id": "wireless-security",
+      "title": "Wireless Security"
+    },
+    {
+      "id": "application-security",
+      "title": "Application Security"
+    }
+  ]
+}

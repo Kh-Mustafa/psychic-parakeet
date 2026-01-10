@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Resilience and recovery focus on an organization’s ability to continue operating during adverse events and to restore normal operations after disruptions. These events may include cyberattacks, hardware failures, natural disasters, power outages, and human error. Security architecture must assume that preventive controls will eventually fail and that systems must be designed to survive and recover."
+    },
+    {
+      "type": "paragraph",
+      "text": "Resilience refers to the ability of systems to absorb disruptions while maintaining essential services. This often involves redundancy, load balancing, and failover mechanisms that keep services available even when individual components fail. Recovery refers to the ability to restore systems and data after outages, corruption, or compromise."
+    },
+    {
+      "type": "paragraph",
+      "text": "From a business perspective, resilience and recovery are directly tied to business continuity and risk management. Organizations define acceptable downtime and data loss thresholds, commonly measured using recovery time objectives and recovery point objectives. These thresholds guide architectural decisions and investment priorities."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security incidents such as ransomware demonstrate the importance of recovery planning. Even if systems are compromised, organizations with tested backups and recovery procedures can restore operations more quickly and with less long-term damage. Without recovery capabilities, even minor incidents can escalate into major business disruptions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Resilience and recovery planning must also account for dependencies between systems. A service may appear resilient on its own, but if it relies on authentication systems, network services, or external providers, failures in those dependencies can still cause outages. Architecture design therefore requires holistic analysis of service relationships."
     }
   ]
 }

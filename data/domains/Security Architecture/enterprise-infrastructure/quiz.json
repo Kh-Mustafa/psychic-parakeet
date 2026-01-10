@@ -1,5 +1,174 @@
 {
   "topicId": "enterprise-infrastructure",
   "topicName": "Enterprise Infrastructure",
-  "questions": []
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why is infrastructure security especially critical for enterprise environments?",
+      "options": [
+        "It affects only IT staff",
+        "Weaknesses can impact many business systems simultaneously",
+        "It replaces application security",
+        "It only affects compliance audits"
+      ],
+      "correct": 1,
+      "explanation": "Shared infrastructure supports many services, so failures have broad impact."
+    },
+    {
+      "id": "q2",
+      "question": "What principle requires multiple layers of protection?",
+      "options": [
+        "Least privilege",
+        "Defense in depth",
+        "Fail open",
+        "Redundancy"
+      ],
+      "correct": 1,
+      "explanation": "Defense in depth uses overlapping controls to reduce single points of failure."
+    },
+    {
+      "id": "q3",
+      "question": "How does zero trust differ from traditional perimeter security?",
+      "options": [
+        "It disables authentication",
+        "It bases access on identity and context, not location",
+        "It removes firewalls",
+        "It only applies to cloud"
+      ],
+      "correct": 1,
+      "explanation": "Zero trust does not assume internal networks are safe."
+    },
+    {
+      "id": "q4",
+      "question": "Why is interoperability important when selecting security controls?",
+      "options": [
+        "It improves hardware lifespan",
+        "It supports centralized monitoring and response",
+        "It replaces encryption",
+        "It reduces patching needs"
+      ],
+      "correct": 1,
+      "explanation": "Integrated controls improve visibility and coordination."
+    },
+    {
+      "id": "q5",
+      "question": "Which factor most influences control selection?",
+      "options": [
+        "Vendor popularity",
+        "Risk assessment results",
+        "Employee preferences",
+        "Hardware age"
+      ],
+      "correct": 1,
+      "explanation": "Controls should address the most significant risks."
+    },
+    {
+      "id": "q6",
+      "question": "What does secure communication primarily protect against?",
+      "options": [
+        "Power outages",
+        "Interception and tampering of data",
+        "Insider threats only",
+        "Malware installation"
+      ],
+      "correct": 1,
+      "explanation": "Encryption and authentication protect data in transit."
+    },
+    {
+      "id": "q7",
+      "question": "Why is mutual authentication important for system-to-system communication?",
+      "options": [
+        "It improves bandwidth",
+        "It prevents impersonation of trusted services",
+        "It speeds up encryption",
+        "It eliminates firewalls"
+      ],
+      "correct": 1,
+      "explanation": "Both sides verify identity before exchanging data."
+    },
+    {
+      "id": "q8",
+      "question": "How does network segmentation support secure communication?",
+      "options": [
+        "It improves performance",
+        "It limits which systems can communicate",
+        "It replaces encryption",
+        "It disables monitoring"
+      ],
+      "correct": 1,
+      "explanation": "Segmentation restricts exposure even if encryption fails."
+    },
+    {
+      "id": "q9",
+      "question": "What risk does multi-factor authentication primarily reduce?",
+      "options": [
+        "Network congestion",
+        "Credential theft and reuse",
+        "Hardware failure",
+        "Data corruption"
+      ],
+      "correct": 1,
+      "explanation": "MFA reduces the impact of stolen passwords."
+    },
+    {
+      "id": "q10",
+      "question": "Why are privileged accounts high-risk targets?",
+      "options": [
+        "They lack encryption",
+        "They can control critical systems",
+        "They bypass firewalls",
+        "They are always shared"
+      ],
+      "correct": 1,
+      "explanation": "Compromise of privileged accounts grants broad access."
+    },
+    {
+      "id": "q11",
+      "question": "What is a goal of privileged access management?",
+      "options": [
+        "Increase user convenience",
+        "Restrict and monitor elevated permissions",
+        "Disable remote access",
+        "Replace logging"
+      ],
+      "correct": 1,
+      "explanation": "PAM limits misuse of administrative privileges."
+    },
+    {
+      "id": "q12",
+      "question": "Why must access rights be reviewed regularly?",
+      "options": [
+        "To improve encryption",
+        "To prevent privilege creep",
+        "To reduce bandwidth",
+        "To avoid backups"
+      ],
+      "correct": 1,
+      "explanation": "Permissions accumulate over time and must be corrected."
+    },
+    {
+      "id": "q13",
+      "question": "Which technology supports identity-based remote access?",
+      "options": [
+        "Open Wi-Fi",
+        "Zero-trust access gateways",
+        "Unencrypted VPNs",
+        "Public proxies"
+      ],
+      "correct": 1,
+      "explanation": "Zero-trust gateways validate users and devices before granting access."
+    },
+    {
+      "id": "q14",
+      "question": "Why is centralized logging part of infrastructure security?",
+      "options": [
+        "It increases storage",
+        "It supports detection and incident response",
+        "It replaces access controls",
+        "It improves encryption"
+      ],
+      "correct": 1,
+      "explanation": "Logs enable monitoring and forensic analysis."
+    }
+  ]
 }

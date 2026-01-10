@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Resilience and recovery plans are only effective if they are regularly tested. Written procedures that have never been exercised often fail under real-world conditions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Testing includes backup restoration drills, failover simulations, and disaster recovery exercises. These tests identify configuration errors, missing dependencies, and procedural gaps."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tabletop exercises simulate incidents through discussion, allowing teams to practice decision-making and communication. Technical exercises validate system behavior during failures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Testing also verifies that recovery objectives can be met. If recovery time exceeds business requirements, architecture and processes must be improved."
+    },
+    {
+      "type": "paragraph",
+      "text": "Continuous improvement depends on post-test reviews and documentation updates. Lessons learned must be incorporated into future designs and training programs."
     }
   ]
 }

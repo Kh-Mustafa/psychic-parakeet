@@ -1,0 +1,25 @@
+{
+  "topic": "Asset Management",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Overview"
+    },
+    {
+      "id": "acquisition",
+      "title": "Acquisition"
+    },
+    {
+      "id": "assignment",
+      "title": "Assignment"
+    },
+    {
+      "id": "monitoring-and-tracking",
+      "title": "Monitoring And Tracking"
+    },
+    {
+      "id": "disposal",
+      "title": "Disposal"
+    }
+  ]
+}

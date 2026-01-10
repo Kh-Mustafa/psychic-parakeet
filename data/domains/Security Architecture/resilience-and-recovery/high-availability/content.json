@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "High availability aims to minimize downtime by eliminating single points of failure in system design. Instead of relying on individual components, services are distributed across multiple systems that can continue operating if one fails."
+    },
+    {
+      "type": "paragraph",
+      "text": "Common high-availability techniques include clustering, load balancing, and redundant network paths. Clusters allow multiple servers to host the same application, while load balancers distribute traffic across healthy systems. If one server becomes unavailable, traffic is automatically routed to others."
+    },
+    {
+      "type": "paragraph",
+      "text": "Storage and databases also require redundancy. Replication ensures that data remains accessible even if a primary storage device fails. Synchronous replication prioritizes consistency, while asynchronous replication may allow brief data loss in exchange for performance."
+    },
+    {
+      "type": "paragraph",
+      "text": "High availability does not eliminate the need for backups. Replicated data may also replicate corruption or ransomware encryption. Availability protects uptime, while backups protect data integrity and recovery."
+    },
+    {
+      "type": "paragraph",
+      "text": "Designing for high availability requires careful planning of monitoring and failover automation. Failover mechanisms must be tested regularly to ensure that systems transition smoothly during real incidents."
     }
   ]
 }

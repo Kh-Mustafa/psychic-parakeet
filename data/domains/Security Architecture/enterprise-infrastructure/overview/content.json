@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Enterprise infrastructure refers to the foundational computing environment that supports business operations, including networks, servers, identity systems, storage platforms, and connectivity to external services. Security architecture at this layer focuses on ensuring that these core components are resilient, segmented appropriately, and protected by consistent access controls."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unlike individual applications, enterprise infrastructure is shared by many business processes. A single weakness in infrastructure can therefore impact large portions of an organization. For this reason, infrastructure security emphasizes defense in depth, redundancy, and standardized control deployment across systems."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security design at the infrastructure level must consider both internal threats and external threats. While perimeter defenses remain important, modern environments assume that attackers may eventually gain some level of internal access. Internal monitoring, segmentation, and identity-based controls therefore play major roles in preventing lateral movement and privilege escalation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Infrastructure also provides the foundation for security monitoring and incident response. Centralized logging, network visibility, and asset management depend on reliable infrastructure services. If these services fail during an incident, detection and containment become significantly more difficult."
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, enterprise infrastructure must balance security with performance and usability. Controls that introduce excessive latency or complexity may be bypassed by users or administrators. Effective security architecture integrates controls into normal operations rather than treating security as a separate layer."
     }
   ]
 }

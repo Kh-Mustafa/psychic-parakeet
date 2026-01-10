@@ -1,0 +1,29 @@
+{
+  "title": "Wireless Security",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Wireless Security"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wireless networks introduce unique security challenges because access is not limited by physical cabling. Signals extend beyond building walls, allowing attackers to attempt access without entering controlled spaces."
+    },
+    {
+      "type": "paragraph",
+      "text": "Strong authentication and encryption are foundational wireless controls. Enterprise wireless networks use individual credentials and certificate‑based authentication rather than shared passwords. This prevents attackers from accessing the network even if they learn a network name."
+    },
+    {
+      "type": "paragraph",
+      "text": "Wireless monitoring detects rogue access points, unauthorized devices, and suspicious radio activity. Attackers may deploy fake access points to trick users into connecting to malicious networks. Continuous scanning identifies these threats early."
+    },
+    {
+      "type": "paragraph",
+      "text": "Network segmentation limits the damage of wireless compromise. Wireless networks should not provide unrestricted access to internal systems. Instead, access is restricted based on device type, user role, and security posture."
+    },
+    {
+      "type": "paragraph",
+      "text": "User education remains important. Even strong technical controls can be bypassed when users connect to unsafe public networks or disable security features. Wireless security combines technical enforcement with awareness programs."
+    }
+  ]
+}

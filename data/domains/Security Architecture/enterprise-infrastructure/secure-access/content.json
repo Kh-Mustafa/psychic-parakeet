@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Secure access controls determine how users and systems connect to infrastructure resources. Identity and access management systems enforce authentication, authorization, and auditing across enterprise environments."
+    },
+    {
+      "type": "paragraph",
+      "text": "Multi-factor authentication significantly reduces the risk of credential compromise. Infrastructure access, particularly for administrators, should require strong authentication and device validation to prevent unauthorized entry."
+    },
+    {
+      "type": "paragraph",
+      "text": "Privileged access management further limits exposure by restricting how and when elevated permissions can be used. Administrative sessions may be monitored, recorded, or time-limited to reduce abuse risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "Remote access introduces additional challenges. Secure access architecture often uses virtual private networks, identity-aware proxies, or zero-trust access gateways to validate users and devices before granting connectivity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Effective secure access also includes continuous review of permissions, rapid deprovisioning of departing users, and detection of anomalous access patterns. Access control is not static; it must adapt as organizational roles and systems change."
     }
   ]
 }

@@ -7,7 +7,31 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Data types describe the nature and sensitivity of information handled by an organization. Understanding data types is critical for determining appropriate protection levels and compliance obligations."
+    },
+    {
+      "type": "paragraph",
+      "text": "Personally identifiable information includes any data that can identify an individual, such as names, addresses, identification numbers, and biometric data. Exposure of this data can lead to identity theft and regulatory penalties."
+    },
+    {
+      "type": "paragraph",
+      "text": "Protected health information includes medical records and treatment data. Healthcare regulations often impose strict confidentiality and auditing requirements for this data type."
+    },
+    {
+      "type": "paragraph",
+      "text": "Financial data includes payment card information, bank account numbers, and transaction records. Financial data is heavily targeted by criminals and requires strong encryption and monitoring."
+    },
+    {
+      "type": "paragraph",
+      "text": "Intellectual property includes trade secrets, designs, research data, and proprietary algorithms. Loss of intellectual property may not trigger regulatory fines but can severely damage competitive position."
+    },
+    {
+      "type": "paragraph",
+      "text": "Operational data such as system logs and performance metrics may appear less sensitive but can still reveal internal network structures and vulnerabilities if exposed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security architecture must treat data types differently based on sensitivity and business impact. Blanket protection policies often waste resources on low-risk data while failing to adequately protect critical assets."
     }
   ]
 }

@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Security control selection involves choosing appropriate technical, administrative, and physical controls to mitigate identified risks. At the infrastructure level, controls must scale, integrate with existing systems, and support centralized management."
+    },
+    {
+      "type": "paragraph",
+      "text": "Control selection begins with risk assessment. Organizations evaluate threat likelihood, vulnerability exposure, and business impact to determine where controls will provide the greatest benefit. High-value assets and externally exposed systems typically receive stronger protections."
+    },
+    {
+      "type": "paragraph",
+      "text": "Infrastructure controls include firewalls, intrusion detection systems, network access controls, authentication services, and logging platforms. Each control addresses specific threat scenarios and must be configured to align with organizational policies."
+    },
+    {
+      "type": "paragraph",
+      "text": "Interoperability is an important consideration. Controls that cannot share telemetry or integrate with monitoring systems reduce overall visibility. Security architecture increasingly favors platforms that support centralized analysis and automation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, control effectiveness must be validated through testing, audits, and incident simulations. Controls that exist on paper but are misconfigured or unmonitored provide little real protection."
     }
   ]
 }

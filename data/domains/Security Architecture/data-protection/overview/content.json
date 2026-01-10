@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Data protection focuses on safeguarding information from unauthorized access, disclosure, alteration, and destruction throughout its entire lifecycle. In security architecture, data is treated as the primary asset that controls and systems are ultimately designed to protect."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unlike infrastructure components, data often persists across systems, backups, and external services. Copies of the same data may exist in databases, logs, caches, and archives. Effective data protection therefore requires visibility into where data is stored, how it moves, and who can access it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Threats to data include external attackers, malicious insiders, accidental disclosure, and system failures. Controls must address all of these threat categories. Encryption, access controls, monitoring, and retention policies work together to reduce risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "Regulatory requirements also shape data protection strategies. Privacy laws and industry regulations may mandate specific handling practices, breach notification timelines, and data minimization principles. Security architecture must support compliance without relying on manual enforcement."
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern data protection emphasizes automation, classification, and continuous monitoring. As environments scale and data volumes grow, manual tracking becomes impossible. Security controls must be embedded into storage systems, networks, and applications to provide consistent protection."
     }
   ]
 }

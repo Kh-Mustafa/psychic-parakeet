@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Core security principles such as defense in depth, least privilege, and zero trust guide how infrastructure controls are designed and layered. These principles ensure that no single failure results in total compromise."
+    },
+    {
+      "type": "paragraph",
+      "text": "Defense in depth means deploying multiple layers of controls so that if one control fails, others still protect critical assets. In infrastructure, this includes perimeter firewalls, internal segmentation, endpoint protections, and identity controls working together."
+    },
+    {
+      "type": "paragraph",
+      "text": "Least privilege limits both user and system access. Infrastructure services such as databases, directory servers, and backup systems should only be reachable by authorized systems and personnel. Excessive service accounts and shared credentials undermine this principle."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zero trust extends least privilege by assuming that no network location is inherently trustworthy. Access decisions are based on identity, device health, and context rather than network position. This approach is increasingly important as remote work and cloud adoption blur traditional network boundaries."
+    },
+    {
+      "type": "paragraph",
+      "text": "Applying these principles requires automation and continuous validation. Static policies are insufficient in dynamic environments where systems and users change frequently. Infrastructure must support identity-aware controls, continuous monitoring, and rapid response to anomalous behavior."
     }
   ]
 }

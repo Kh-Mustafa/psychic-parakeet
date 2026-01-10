@@ -1,5 +1,114 @@
 {
-  "topicId": "resilience-and-recovery",
-  "topicName": "Resilience and Recovery",
-  "questions": []
+  "topicId": "resilience-recovery-part2",
+  "topicName": "Resilience and Recovery — Part 2",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does a UPS primarily provide during outages?",
+      "options": [
+        "Cooling only",
+        "Short-term power and voltage regulation",
+        "Network connectivity",
+        "Backup storage"
+      ],
+      "correct": 1,
+      "explanation": "UPS units bridge power until generators engage and smooth voltage."
+    },
+    {
+      "id": "q2",
+      "question": "Why must generators be tested regularly?",
+      "options": [
+        "To reduce fuel use",
+        "To ensure they start and operate correctly",
+        "To update software",
+        "To improve encryption"
+      ],
+      "correct": 1,
+      "explanation": "Untested generators may fail when needed."
+    },
+    {
+      "id": "q3",
+      "question": "How does platform diversity improve resilience?",
+      "options": [
+        "Reduces storage needs",
+        "Limits impact of single-vendor failures",
+        "Eliminates vulnerabilities",
+        "Improves encryption"
+      ],
+      "correct": 1,
+      "explanation": "Different platforms reduce widespread failure risk."
+    },
+    {
+      "id": "q4",
+      "question": "What is a trade-off of platform diversity?",
+      "options": [
+        "Lower costs",
+        "Simpler monitoring",
+        "Increased management complexity",
+        "Fewer backups"
+      ],
+      "correct": 2,
+      "explanation": "Multiple platforms increase operational burden."
+    },
+    {
+      "id": "q5",
+      "question": "Why are offline backups important?",
+      "options": [
+        "They are faster",
+        "They resist ransomware modification",
+        "They reduce storage costs",
+        "They replace encryption"
+      ],
+      "correct": 1,
+      "explanation": "Offline backups cannot be encrypted by attackers."
+    },
+    {
+      "id": "q6",
+      "question": "What verifies that backups are usable?",
+      "options": [
+        "Encryption",
+        "Restoration testing",
+        "Access control",
+        "Compression"
+      ],
+      "correct": 1,
+      "explanation": "Only test restores confirm backup integrity."
+    },
+    {
+      "id": "q7",
+      "question": "What does continuity of operations primarily address?",
+      "options": [
+        "Only servers",
+        "Business functions and staffing",
+        "Encryption methods",
+        "Network routing"
+      ],
+      "correct": 1,
+      "explanation": "Continuity includes people and processes."
+    },
+    {
+      "id": "q8",
+      "question": "Why are supply chains continuity risks?",
+      "options": [
+        "They increase costs",
+        "External disruptions can halt operations",
+        "They reduce encryption",
+        "They improve uptime"
+      ],
+      "correct": 1,
+      "explanation": "Vendor failures can stop business functions."
+    },
+    {
+      "id": "q9",
+      "question": "Why must continuity plans align with incident response?",
+      "options": [
+        "To reduce staffing",
+        "To coordinate technical and business actions",
+        "To avoid encryption",
+        "To simplify audits"
+      ],
+      "correct": 1,
+      "explanation": "Coordinated response reduces confusion during crises."
+    }
+  ]
 }

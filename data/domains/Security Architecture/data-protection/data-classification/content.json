@@ -7,7 +7,27 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Data classification assigns labels to information based on sensitivity and handling requirements. These labels guide how data should be stored, transmitted, and accessed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Common classification levels include public, internal, confidential, and restricted. Public data can be freely shared, while restricted data requires strict controls."
+    },
+    {
+      "type": "paragraph",
+      "text": "Classification allows organizations to apply proportional protection. Highly sensitive data receives stronger encryption, monitoring, and access restrictions than low-risk information."
+    },
+    {
+      "type": "paragraph",
+      "text": "Automated classification tools analyze content and metadata to identify sensitive data at scale. Manual labeling alone cannot keep up with enterprise data volumes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Classification also supports compliance and auditing. Policies can enforce encryption and retention rules based on classification labels."
+    },
+    {
+      "type": "paragraph",
+      "text": "For classification to be effective, employees must understand labeling requirements and systems must enforce handling rules automatically. Security architecture integrates classification into storage, collaboration, and data transfer systems."
     }
   ]
 }

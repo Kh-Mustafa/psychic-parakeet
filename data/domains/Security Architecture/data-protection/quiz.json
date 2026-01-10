@@ -1,5 +1,174 @@
 {
   "topicId": "data-protection",
   "topicName": "Data Protection",
-  "questions": []
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why is data considered the primary asset in security architecture?",
+      "options": [
+        "It is cheaper to protect",
+        "Systems exist mainly to store and process data",
+        "It requires no controls",
+        "It replaces infrastructure"
+      ],
+      "correct": 1,
+      "explanation": "Infrastructure and controls exist mainly to protect information assets."
+    },
+    {
+      "id": "q2",
+      "question": "Why is data visibility important for protection?",
+      "options": [
+        "To improve performance",
+        "Because data exists in many locations and copies",
+        "To reduce encryption",
+        "To eliminate backups"
+      ],
+      "correct": 1,
+      "explanation": "Data must be located and tracked to apply effective controls."
+    },
+    {
+      "id": "q3",
+      "question": "Which data type typically triggers privacy regulations?",
+      "options": [
+        "Operational logs",
+        "Personally identifiable information",
+        "System metrics",
+        "Configuration files"
+      ],
+      "correct": 1,
+      "explanation": "PII is protected by many privacy laws."
+    },
+    {
+      "id": "q4",
+      "question": "Which state of data is hardest to protect with encryption?",
+      "options": [
+        "At rest",
+        "In transit",
+        "In use",
+        "Archived"
+      ],
+      "correct": 2,
+      "explanation": "Data must be decrypted to be processed, exposing it in memory."
+    },
+    {
+      "id": "q5",
+      "question": "What protects data in transit?",
+      "options": [
+        "Disk encryption",
+        "Transport-layer encryption",
+        "File permissions",
+        "Backups"
+      ],
+      "correct": 1,
+      "explanation": "Encryption over networks protects against interception."
+    },
+    {
+      "id": "q6",
+      "question": "What is tokenization primarily used for?",
+      "options": [
+        "Compressing files",
+        "Replacing sensitive data with placeholders",
+        "Encrypting memory",
+        "Improving performance"
+      ],
+      "correct": 1,
+      "explanation": "Tokens have no exploitable value without access to the original mapping."
+    },
+    {
+      "id": "q7",
+      "question": "Which control enforces least privilege for data access?",
+      "options": [
+        "Backups",
+        "Access control systems",
+        "Encryption alone",
+        "Network segmentation only"
+      ],
+      "correct": 1,
+      "explanation": "Access controls restrict who can read or modify data."
+    },
+    {
+      "id": "q8",
+      "question": "What threat do backups primarily protect against?",
+      "options": [
+        "Phishing",
+        "Ransomware and accidental deletion",
+        "Man-in-the-middle attacks",
+        "Privilege escalation"
+      ],
+      "correct": 1,
+      "explanation": "Backups enable recovery after data loss events."
+    },
+    {
+      "id": "q9",
+      "question": "Why must backups be protected like production data?",
+      "options": [
+        "They are faster",
+        "They contain the same sensitive information",
+        "They replace encryption",
+        "They are temporary"
+      ],
+      "correct": 1,
+      "explanation": "Backup copies expose the same confidentiality risks."
+    },
+    {
+      "id": "q10",
+      "question": "What is the purpose of data classification?",
+      "options": [
+        "To delete data",
+        "To apply proportional protection",
+        "To encrypt everything equally",
+        "To reduce storage"
+      ],
+      "correct": 1,
+      "explanation": "Classification enables controls based on sensitivity."
+    },
+    {
+      "id": "q11",
+      "question": "Which classification level usually allows public sharing?",
+      "options": [
+        "Restricted",
+        "Confidential",
+        "Internal",
+        "Public"
+      ],
+      "correct": 3,
+      "explanation": "Public data is intended for unrestricted distribution."
+    },
+    {
+      "id": "q12",
+      "question": "Why is automated classification necessary?",
+      "options": [
+        "Manual labeling is illegal",
+        "Data volumes exceed human capability",
+        "It eliminates encryption",
+        "It reduces compliance"
+      ],
+      "correct": 1,
+      "explanation": "Automation is needed to handle enterprise-scale data."
+    },
+    {
+      "id": "q13",
+      "question": "Which method prevents data leakage via email or uploads?",
+      "options": [
+        "Backups",
+        "Tokenization",
+        "Data loss prevention systems",
+        "Network segmentation"
+      ],
+      "correct": 2,
+      "explanation": "DLP systems monitor and block unauthorized transfers."
+    },
+    {
+      "id": "q14",
+      "question": "Why must protection address all data states?",
+      "options": [
+        "Because encryption is expensive",
+        "Attackers target weakest points",
+        "Because classification requires it",
+        "Because backups need it"
+      ],
+      "correct": 1,
+      "explanation": "Unprotected states create exploitable gaps."
+    }
+  ]
 }

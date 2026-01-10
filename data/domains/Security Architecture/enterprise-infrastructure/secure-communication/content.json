@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Secure communication ensures that data transmitted between systems remains confidential, authentic, and unaltered. Infrastructure architecture must support encryption, authentication, and integrity verification across internal and external connections."
+    },
+    {
+      "type": "paragraph",
+      "text": "Transport-layer encryption protects data in transit from interception and modification. This is critical not only for internet-facing services but also for internal traffic, particularly in segmented or cloud-based environments where physical isolation cannot be assumed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Authentication mechanisms verify system identities before allowing communication. Mutual authentication prevents attackers from impersonating trusted services. Certificate-based authentication is commonly used for machine-to-machine communication."
+    },
+    {
+      "type": "paragraph",
+      "text": "Network architecture also influences communication security. Segmented networks restrict which systems can communicate directly, reducing exposure even if encryption fails. Secure gateways and proxies further control and inspect traffic crossing trust boundaries."
+    },
+    {
+      "type": "paragraph",
+      "text": "Secure communication strategies must also address legacy systems that cannot support modern encryption standards. In such cases, compensating controls such as network isolation and protocol gateways may be required."
     }
   ]
 }

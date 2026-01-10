@@ -1,0 +1,29 @@
+{
+  "topic": "Identity and Access Management",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Overview"
+    },
+    {
+      "id": "provisioning",
+      "title": "Provisioning"
+    },
+    {
+      "id": "access-controls",
+      "title": "Access Controls"
+    },
+    {
+      "id": "multi-factor-authentication",
+      "title": "Multi Factor Authentication"
+    },
+    {
+      "id": "password-security",
+      "title": "Password Security"
+    },
+    {
+      "id": "privileged-access-tools",
+      "title": "Privileged Access Tools"
+    }
+  ]
+}

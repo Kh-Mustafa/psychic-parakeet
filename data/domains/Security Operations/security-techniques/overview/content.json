@@ -1,0 +1,29 @@
+{
+  "title": "Security Techniques Overview",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Security Techniques Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "Security techniques are the operational practices and technical methods used to protect systems during day‑to‑day operations. While architecture defines how systems are designed and mitigation techniques describe how risks are reduced, security techniques describe how security is actively maintained while systems are in use. This includes how systems are configured, monitored, and defended against routine threats."
+    },
+    {
+      "type": "paragraph",
+      "text": "Operational security focuses on consistency and repeatability. A secure system that is configured once and never reviewed will eventually become insecure as software updates, new services, and changing business requirements introduce new risks. Security techniques therefore emphasize processes that continuously enforce security expectations rather than relying on one‑time configurations."
+    },
+    {
+      "type": "paragraph",
+      "text": "Another defining feature of operational security techniques is scalability. Organizations rarely manage a handful of systems. Instead, they manage hundreds or thousands of endpoints, servers, and cloud workloads. Manual security configuration does not scale, which is why automation, centralized policy enforcement, and standardized controls are critical components of modern security operations."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security techniques also bridge the gap between policy and technical enforcement. Policies may state that systems must use strong authentication, restrict network access, and log security events, but operational techniques ensure those requirements are actually implemented on real systems. Without operational enforcement, security policies remain theoretical."
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, security techniques must account for human behavior. Users make mistakes, reuse passwords, connect to unsafe networks, and install risky software. Operational controls compensate for these realities by limiting damage when errors occur and by detecting suspicious behavior quickly. Effective security operations accept that mistakes will happen and design systems that remain resilient when they do."
+    }
+  ]
+}

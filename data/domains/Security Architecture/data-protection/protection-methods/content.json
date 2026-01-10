@@ -7,7 +7,31 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Data protection methods include technical and procedural controls designed to prevent unauthorized access and limit the impact of breaches."
+    },
+    {
+      "type": "paragraph",
+      "text": "Encryption converts readable data into unreadable formats using cryptographic keys. Without the correct key, encrypted data remains unintelligible even if accessed by attackers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokenization replaces sensitive values with non-sensitive placeholders that have no exploitable meaning. The original data is stored separately in secure systems."
+    },
+    {
+      "type": "paragraph",
+      "text": "Access controls restrict who can read, modify, or delete data. Role-based access control and attribute-based access control help enforce least privilege."
+    },
+    {
+      "type": "paragraph",
+      "text": "Data loss prevention systems monitor data movement and block unauthorized transfers. These systems inspect content and context to prevent leaks through email, web uploads, or removable media."
+    },
+    {
+      "type": "paragraph",
+      "text": "Backup and recovery systems protect against data loss from ransomware, hardware failures, and accidental deletion. Backups must be protected with the same rigor as production data."
+    },
+    {
+      "type": "paragraph",
+      "text": "No single method is sufficient alone. Effective protection relies on layered controls that address confidentiality, integrity, and availability together."
     }
   ]
 }

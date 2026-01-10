@@ -1,13 +1,29 @@
 {
-  "title": "Backups",
+  "title": "Backups and Recovery",
   "blocks": [
     {
       "type": "heading",
-      "text": "Backups"
+      "text": "Backups and Recovery"
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Backups preserve copies of data and system configurations so that operations can be restored after loss or corruption. Effective backup strategies are essential defenses against ransomware, accidental deletion, and catastrophic failures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Backup systems should follow the principle of isolation. Offline or immutable backups prevent attackers from encrypting or deleting recovery data during compromises."
+    },
+    {
+      "type": "paragraph",
+      "text": "Backup frequency determines potential data loss. High-frequency backups reduce recovery point objectives but increase storage and management overhead."
+    },
+    {
+      "type": "paragraph",
+      "text": "Restoration testing verifies that backups can actually be used. Many organizations discover corrupted or incomplete backups only after real incidents occur."
+    },
+    {
+      "type": "paragraph",
+      "text": "Backup security must also include access controls, encryption, and monitoring. Backup repositories contain highly sensitive data and must be protected accordingly."
     }
   ]
 }

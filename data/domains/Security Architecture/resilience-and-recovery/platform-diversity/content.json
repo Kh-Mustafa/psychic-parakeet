@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Placeholder. Full study content to be added."
+      "text": "Platform diversity reduces reliance on a single vendor, technology, or operating system. Homogeneous environments may simplify management but increase vulnerability to widespread failures and mass exploitation."
+    },
+    {
+      "type": "paragraph",
+      "text": "If all systems rely on the same software stack, a single vulnerability or patch failure can affect the entire organization simultaneously. Diverse platforms limit the blast radius of such failures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Diversity may involve using different operating systems, hardware architectures, or cloud providers for critical services. This approach complicates management but improves overall resilience."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security monitoring and configuration management become more complex in diverse environments, requiring standardized policies that can be applied across platforms."
+    },
+    {
+      "type": "paragraph",
+      "text": "Platform diversity must be balanced against operational costs. Organizations typically apply diversity selectively to mission-critical systems rather than across all workloads."
     }
   ]
 }

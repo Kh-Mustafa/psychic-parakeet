@@ -1,0 +1,17 @@
+{
+  "topic": "Security Monitoring",
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Overview"
+    },
+    {
+      "id": "monitoring-tools",
+      "title": "Monitoring Tools"
+    },
+    {
+      "id": "monitoring-activities",
+      "title": "Monitoring Activities"
+    }
+  ]
+}

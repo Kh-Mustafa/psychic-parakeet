@@ -1,0 +1,29 @@
+{
+  "title": "Application Security",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Application Security"
+    },
+    {
+      "type": "paragraph",
+      "text": "Application security focuses on protecting software and services from misuse, exploitation, and data leakage. Because applications often process sensitive data and expose interfaces to users, they are frequent attack targets."
+    },
+    {
+      "type": "paragraph",
+      "text": "Secure development practices reduce vulnerabilities before applications are deployed. Input validation, secure authentication handling, and proper authorization checks prevent common exploitation techniques such as injection attacks and privilege escalation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Operational application security includes runtime protections such as web application firewalls, behavior monitoring, and anomaly detection. These controls identify suspicious patterns that may indicate exploitation attempts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Patch management plays a major role in application security. Vulnerabilities in frameworks and libraries are frequently exploited, making timely updates essential. Monitoring software dependencies helps prevent outdated components from introducing risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "Application security is not solely a development responsibility. Operations teams monitor logs, respond to alerts, and ensure security controls remain active in production environments."
+    }
+  ]
+}

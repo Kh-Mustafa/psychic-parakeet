@@ -1,0 +1,29 @@
+{
+  "title": "Secure Baselines",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Secure Baselines"
+    },
+    {
+      "type": "paragraph",
+      "text": "Secure baselines define the minimum acceptable security configuration for systems. Rather than configuring each system individually, organizations establish standardized configurations that include required security settings, disabled services, logging requirements, and access restrictions. These baselines serve as the foundation for consistent security enforcement."
+    },
+    {
+      "type": "paragraph",
+      "text": "Baselines are tailored to system roles. A web server baseline differs from a database server baseline, which differs from a user workstation baseline. Each baseline includes only the features required for the system’s function, reducing unnecessary exposure. By limiting installed software and enabled services, baselines directly reduce attack surface."
+    },
+    {
+      "type": "paragraph",
+      "text": "Once baselines are defined, they are enforced through configuration management tools and continuous compliance monitoring. Systems are regularly scanned to verify they still match approved settings. When deviations are detected, automated remediation or administrative review can correct the issue before it becomes a vulnerability."
+    },
+    {
+      "type": "paragraph",
+      "text": "Baselines also support faster incident response. When systems are known to start from a secure standard, investigators can more easily identify suspicious changes. This reduces investigation time and improves confidence in forensic analysis."
+    },
+    {
+      "type": "paragraph",
+      "text": "Baselines must evolve over time. New vulnerabilities, operating system updates, and regulatory requirements may require baseline updates. Effective security programs treat baselines as living documents rather than static checklists."
+    }
+  ]
+}

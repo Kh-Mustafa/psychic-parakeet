@@ -1,0 +1,29 @@
+{
+  "title": "Operational Hardening",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Operational Hardening"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hardening is the practical implementation of baseline security through removal, restriction, and secure configuration of system components. While baselines define what secure configurations should look like, hardening is the process that applies those configurations to real systems."
+    },
+    {
+      "type": "paragraph",
+      "text": "Operational hardening includes disabling unused services, removing unnecessary applications, closing unused network ports, and enforcing strong authentication mechanisms. Each of these steps reduces the number of potential entry points available to attackers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hardening also involves securing default configurations. Many systems ship with permissive defaults to simplify initial deployment. Leaving default passwords, open administrative interfaces, or broad network access significantly increases risk. Hardening ensures defaults are replaced with secure settings before systems enter production."
+    },
+    {
+      "type": "paragraph",
+      "text": "Logging and auditing are also part of hardening. Systems should generate sufficient logs to support detection and investigation of security events. Forwarding logs to centralized systems prevents attackers from erasing evidence after compromising endpoints."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hardening is most effective when automated. Configuration drift occurs naturally as systems are updated, patched, and modified. Automated enforcement tools continuously restore hardened states and alert administrators when deviations occur."
+    }
+  ]
+}

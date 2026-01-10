@@ -1,0 +1,13 @@
+{
+  "title": "Log Data",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Log Data"
+    },
+    {
+      "type": "paragraph",
+      "text": "PLACEHOLDER — content to be written."
+    }
+  ]
+}
