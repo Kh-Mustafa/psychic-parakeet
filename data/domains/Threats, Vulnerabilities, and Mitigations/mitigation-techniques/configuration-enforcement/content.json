@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Configuration enforcement ensures that systems are deployed and maintained using secure, approved settings. Many security incidents occur not because of sophisticated exploits, but because systems were left with default or overly permissive configurations."
+    },
+    {
+      "type": "paragraph",
+      "text": "Secure baselines define the minimum acceptable security settings for systems, including password policies, service configurations, and logging requirements. Once baselines are established, automated tools can verify compliance and flag deviations for remediation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Inconsistent configurations across environments create blind spots for security teams and complicate incident response. Standardized configuration management reduces this variability and ensures predictable system behavior."
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern environments increasingly use infrastructure as code, where configurations are defined in version-controlled templates. This approach improves repeatability, supports rapid deployment, and allows security controls to be built directly into system provisioning workflows."
+    },
+    {
+      "type": "paragraph",
+      "text": "Configuration enforcement is not static. As new threats emerge and systems evolve, baselines must be updated and applied consistently. Continuous compliance monitoring ensures that drift is detected early and corrected before it leads to exploitation."
     }
   ]
 }

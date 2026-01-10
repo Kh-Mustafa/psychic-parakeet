@@ -74,34 +74,6 @@ SiteP/
 
 ---
 
-## Running Locally
-
-**Note:** This application must be served by PHP. Opening `index.php` directly in a browser will not work.
-
-### Option 1 — PHP Built‑in Server (Recommended)
-
-```bash
-cd SiteP
-php -S localhost:8000
-```
-
-Then open: `http://localhost:8000`
-
-### Option 2 — Local Web Server Stack
-
-Place the project in your web server directory:
-
-- XAMPP: `C:\xampp\htdocs\SiteP`
-- WAMP: `C:\wamp64\www\SiteP`
-- MAMP: `/Applications/MAMP/htdocs/SiteP`
-
-Then open: `http://localhost/SiteP`
-
-### Option 3 — Other Servers
-
-Any server capable of running PHP (Apache, Nginx + PHP-FPM, etc.) can host the project.
-
----
 
 ## Data Format
 

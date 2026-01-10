@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Access control determines who can access systems, data, and resources, and under what conditions. It is one of the most fundamental mitigation techniques because it directly limits attacker opportunities by reducing unnecessary privileges."
+    },
+    {
+      "type": "paragraph",
+      "text": "Principles such as least privilege and separation of duties guide access control design. Users and systems should only have the minimum access required to perform their functions, and sensitive actions should require involvement from multiple roles to prevent abuse or error."
+    },
+    {
+      "type": "paragraph",
+      "text": "Access controls operate at many layers, including physical access to buildings, logical access to operating systems, and application-level permissions. In modern environments, identity has become the new perimeter, making identity and access management systems critical components of security architecture."
+    },
+    {
+      "type": "paragraph",
+      "text": "Authentication mechanisms verify identity, while authorization mechanisms determine what actions are permitted. Strong authentication methods, including multi-factor authentication, significantly reduce the risk of account compromise. Authorization policies ensure that even if credentials are stolen, attackers cannot automatically access all resources."
+    },
+    {
+      "type": "paragraph",
+      "text": "Access control effectiveness depends on continuous review. As employees change roles or leave organizations, permissions must be updated promptly. Regular access audits and automated provisioning systems help prevent privilege creep and reduce long-term exposure."
     }
   ]
 }

@@ -1,0 +1,90 @@
+{
+  "topicId": "mitigation-techniques-part1",
+  "topicName": "Mitigation Techniques — Part 1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why is mitigation considered an ongoing process rather than a one-time task?",
+      "options": [
+        "Because security tools expire",
+        "Because threats and systems continually change",
+        "Because policies must be rewritten monthly",
+        "Because audits require frequent updates"
+      ],
+      "correct": 1,
+      "explanation": "Mitigation must evolve as attackers and technologies change. Tools and audits alone do not drive this requirement."
+    },
+    {
+      "id": "q2",
+      "question": "What is the primary goal of network segmentation?",
+      "options": [
+        "Improve system performance",
+        "Limit lateral movement after compromise",
+        "Increase encryption strength",
+        "Simplify network design"
+      ],
+      "correct": 1,
+      "explanation": "Segmentation restricts how far attackers can move once inside a network."
+    },
+    {
+      "id": "q3",
+      "question": "How does microsegmentation differ from traditional segmentation?",
+      "options": [
+        "It uses physical firewalls only",
+        "It applies controls at the workload or service level",
+        "It removes the need for authentication",
+        "It eliminates network monitoring"
+      ],
+      "correct": 1,
+      "explanation": "Microsegmentation enforces policies between individual services, not just network zones."
+    },
+    {
+      "id": "q4",
+      "question": "Which principle helps prevent excessive user privileges?",
+      "options": [
+        "Defense in depth",
+        "Least privilege",
+        "Fail secure",
+        "Redundancy"
+      ],
+      "correct": 1,
+      "explanation": "Least privilege ensures users receive only the access they need."
+    },
+    {
+      "id": "q5",
+      "question": "Why are access audits important?",
+      "options": [
+        "They improve encryption",
+        "They detect outdated or unnecessary permissions",
+        "They replace authentication controls",
+        "They reduce network latency"
+      ],
+      "correct": 1,
+      "explanation": "Audits identify privilege creep and improper access assignments."
+    },
+    {
+      "id": "q6",
+      "question": "What is the purpose of secure configuration baselines?",
+      "options": [
+        "Define acceptable security settings for systems",
+        "Replace vulnerability scanning",
+        "Eliminate software updates",
+        "Disable unused hardware"
+      ],
+      "correct": 0,
+      "explanation": "Baselines define minimum acceptable secure configurations."
+    },
+    {
+      "id": "q7",
+      "question": "Why is infrastructure as code beneficial for security?",
+      "options": [
+        "It removes the need for administrators",
+        "It ensures repeatable and auditable configurations",
+        "It disables patch management",
+        "It reduces authentication requirements"
+      ],
+      "correct": 1,
+      "explanation": "Version-controlled templates improve consistency and security enforcement."
+    }
+  ]
+}

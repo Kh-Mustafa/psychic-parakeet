@@ -89,5 +89,9 @@
 	"replay attack": "An attack that reuses captured authentication or transaction data.",
     "indicator of compromise": "Observable evidence suggesting malicious activity.",
     "credential stuffing": "Automated reuse of leaked credentials across services."
+	"segmentation": "Dividing systems or networks into isolated zones to limit attack spread.",
+    "least privilege": "Granting only the minimum access necessary to perform a task.",
+    "configuration baseline": "A defined set of secure system settings used as a compliance standard.",
+    "infrastructure as code": "Managing system configurations using version-controlled templates."
   }
 }

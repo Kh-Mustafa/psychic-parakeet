@@ -1,13 +1,29 @@
 {
-  "title": "Mitigation Strategy Overview",
+  "title": "Mitigation Techniques Overview",
   "blocks": [
     {
       "type": "heading",
-      "text": "Mitigation Strategy Overview"
+      "text": "Mitigation Techniques Overview"
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Mitigation techniques are the practical methods organizations use to reduce the likelihood or impact of security incidents. While vulnerabilities describe what can go wrong and threats describe who may attack, mitigation focuses on what defenders actively do to reduce risk. Effective mitigation does not eliminate all threats, but it significantly limits how easily attackers can succeed and how much damage they can cause when they do."
+    },
+    {
+      "type": "paragraph",
+      "text": "Security mitigation is not a single control or product. Instead, it is a layered strategy that combines technical controls, administrative processes, and user behavior. No single technique is sufficient on its own. For example, even strong authentication can be undermined by poor network segmentation or weak configuration practices. This is why defense in depth is a foundational security principle."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mitigation must also account for operational realities. Systems must remain usable and maintainable, which means security controls must balance protection with productivity. Overly restrictive controls may lead to workarounds that actually increase risk, while insufficient controls leave systems exposed. Designing mitigations that integrate into business processes is therefore just as important as the technical implementation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Another key aspect of mitigation is prioritization. Organizations typically face far more potential risks than they can address immediately. Mitigation efforts are guided by risk assessments that consider threat likelihood, vulnerability severity, and business impact. Controls are then deployed where they provide the greatest reduction in overall risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, mitigation is not a one-time activity. As systems change, new vulnerabilities appear, and attackers develop new techniques, mitigation strategies must evolve. Continuous monitoring, regular reviews, and periodic testing are essential to ensure that controls remain effective over time."
     }
   ]
 }

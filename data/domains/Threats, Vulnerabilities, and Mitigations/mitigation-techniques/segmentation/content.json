@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Segmentation is the practice of dividing networks, systems, or environments into isolated zones to limit how far an attacker can move after gaining access. Instead of treating the entire network as a single trust domain, segmentation creates boundaries that restrict lateral movement and reduce the blast radius of compromises."
+    },
+    {
+      "type": "paragraph",
+      "text": "Traditional network segmentation separates systems by function, sensitivity, or user group. For example, public-facing servers may be placed in separate network zones from internal business systems, and sensitive databases may be isolated behind additional access controls. This ensures that compromise of one system does not automatically grant access to all others."
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern environments often use microsegmentation, which applies granular access controls at the workload or application level. Rather than relying solely on network boundaries, microsegmentation enforces communication policies between individual services. This approach is especially important in virtualized and cloud environments where traditional perimeter defenses are less effective."
+    },
+    {
+      "type": "paragraph",
+      "text": "Segmentation also supports monitoring and detection. When systems communicate only with expected peers, abnormal connections become easier to detect. Security teams can more quickly identify compromised systems when traffic patterns deviate from established policies."
+    },
+    {
+      "type": "paragraph",
+      "text": "Effective segmentation requires careful planning. Poorly designed segmentation may disrupt business operations or create complex rule sets that are difficult to maintain. Successful implementations balance isolation with operational efficiency and are supported by accurate asset inventories and traffic analysis."
     }
   ]
 }
