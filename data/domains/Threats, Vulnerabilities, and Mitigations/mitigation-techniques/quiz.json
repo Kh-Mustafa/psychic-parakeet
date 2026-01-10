@@ -1,90 +1,90 @@
 {
-  "topicId": "mitigation-techniques-part1",
-  "topicName": "Mitigation Techniques — Part 1",
+  "topicId": "mitigation-techniques-part2",
+  "topicName": "Mitigation Techniques — Part 2",
   "questions": [
     {
       "id": "q1",
-      "question": "Why is mitigation considered an ongoing process rather than a one-time task?",
+      "question": "What is the primary goal of system hardening?",
       "options": [
-        "Because security tools expire",
-        "Because threats and systems continually change",
-        "Because policies must be rewritten monthly",
-        "Because audits require frequent updates"
+        "Increase system performance",
+        "Reduce attack surface by securing or removing unnecessary components",
+        "Replace patching with monitoring",
+        "Disable all network communication"
       ],
       "correct": 1,
-      "explanation": "Mitigation must evolve as attackers and technologies change. Tools and audits alone do not drive this requirement."
+      "explanation": "Hardening reduces exposed functionality and tightens configurations. It does not replace patching and does not require disabling all networking."
     },
     {
       "id": "q2",
-      "question": "What is the primary goal of network segmentation?",
+      "question": "Which hardening step most directly reduces exposure to remote exploitation?",
       "options": [
-        "Improve system performance",
-        "Limit lateral movement after compromise",
-        "Increase encryption strength",
-        "Simplify network design"
+        "Forwarding logs to a central server",
+        "Disabling unnecessary services and closing unused ports",
+        "Increasing storage capacity",
+        "Adding more user accounts"
       ],
       "correct": 1,
-      "explanation": "Segmentation restricts how far attackers can move once inside a network."
+      "explanation": "Remote exploitation often targets exposed services and ports. Logging helps detection but does not directly reduce exposure."
     },
     {
       "id": "q3",
-      "question": "How does microsegmentation differ from traditional segmentation?",
+      "question": "Sandboxing is best described as:",
       "options": [
-        "It uses physical firewalls only",
-        "It applies controls at the workload or service level",
-        "It removes the need for authentication",
-        "It eliminates network monitoring"
+        "A method of encrypting data at rest",
+        "Executing untrusted code in a restricted environment",
+        "A process for rotating passwords",
+        "A firewall rule set"
       ],
       "correct": 1,
-      "explanation": "Microsegmentation enforces policies between individual services, not just network zones."
+      "explanation": "Sandboxing isolates execution to limit damage. It is not encryption or firewalling."
     },
     {
       "id": "q4",
-      "question": "Which principle helps prevent excessive user privileges?",
+      "question": "In incident response, isolation is primarily used to:",
       "options": [
-        "Defense in depth",
-        "Least privilege",
-        "Fail secure",
-        "Redundancy"
+        "Increase network speed",
+        "Contain threats and prevent lateral movement",
+        "Replace authentication requirements",
+        "Disable monitoring tools"
       ],
       "correct": 1,
-      "explanation": "Least privilege ensures users receive only the access they need."
+      "explanation": "Isolation is a containment technique. It does not replace authentication or monitoring."
     },
     {
       "id": "q5",
-      "question": "Why are access audits important?",
+      "question": "Why is asset inventory critical to patching?",
       "options": [
-        "They improve encryption",
-        "They detect outdated or unnecessary permissions",
-        "They replace authentication controls",
-        "They reduce network latency"
+        "It improves encryption strength",
+        "You cannot patch systems you do not know exist",
+        "It prevents phishing attacks",
+        "It removes the need for testing"
       ],
       "correct": 1,
-      "explanation": "Audits identify privilege creep and improper access assignments."
+      "explanation": "Patch management depends on knowing what assets and versions are present. It does not prevent phishing by itself."
     },
     {
       "id": "q6",
-      "question": "What is the purpose of secure configuration baselines?",
+      "question": "What is a common way to reduce operational risk from patching?",
       "options": [
-        "Define acceptable security settings for systems",
-        "Replace vulnerability scanning",
-        "Eliminate software updates",
-        "Disable unused hardware"
+        "Skip testing and patch immediately",
+        "Staged rollouts with pilot groups",
+        "Disable backups",
+        "Allow users to choose their own patch schedules"
       ],
-      "correct": 0,
-      "explanation": "Baselines define minimum acceptable secure configurations."
+      "correct": 1,
+      "explanation": "Staged rollouts reduce the chance that a bad patch affects everyone. Backups should not be disabled."
     },
     {
       "id": "q7",
-      "question": "Why is infrastructure as code beneficial for security?",
+      "question": "What is the purpose of patch verification?",
       "options": [
-        "It removes the need for administrators",
-        "It ensures repeatable and auditable configurations",
-        "It disables patch management",
-        "It reduces authentication requirements"
+        "Confirm vulnerabilities are actually resolved",
+        "Increase system uptime automatically",
+        "Prevent future vulnerabilities",
+        "Replace vulnerability scanning"
       ],
-      "correct": 1,
-      "explanation": "Version-controlled templates improve consistency and security enforcement."
+      "correct": 0,
+      "explanation": "Verification ensures patches were applied successfully. It does not prevent future flaws, and scanning may still be used."
     }
   ]
 }

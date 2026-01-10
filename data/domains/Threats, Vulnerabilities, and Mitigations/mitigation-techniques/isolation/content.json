@@ -7,7 +7,23 @@
     },
     {
       "type": "paragraph",
-      "text": "PLACEHOLDER: Full instructional content for this page will be written here. This page will later include narrative explanations and terminology that corresponds to glossary definitions."
+      "text": "Isolation is a mitigation technique that reduces risk by separating systems, processes, or data so that compromise of one component does not automatically compromise everything else. While segmentation focuses on dividing networks and controlling communication, isolation can operate at many levels, including application execution, user privileges, and data access."
+    },
+    {
+      "type": "paragraph",
+      "text": "One common isolation strategy is sandboxing, where untrusted code executes in a restricted environment. For example, browsers isolate tabs and plugins to limit damage if malicious content is encountered. Virtual machines and containers also provide isolation by separating workloads. In enterprise environments, isolation is often applied to high-risk activities such as opening unknown documents or testing suspicious software in controlled environments."
+    },
+    {
+      "type": "paragraph",
+      "text": "Isolation is also important for limiting insider threats and reducing accidental damage. Separation of duties and role-based access can isolate sensitive administrative capabilities so that no single account has excessive power. Similarly, data isolation techniques restrict sensitive information to approved systems and prevent it from being accessed from general-purpose user devices."
+    },
+    {
+      "type": "paragraph",
+      "text": "In incident response, isolation is a crucial containment tool. When a system is suspected to be compromised, isolating it from the network can prevent lateral movement and limit data exfiltration. Organizations may isolate endpoints by moving them to quarantine networks, disabling ports, or removing credentials that allow access to other systems."
+    },
+    {
+      "type": "paragraph",
+      "text": "Isolation must be implemented carefully to avoid disrupting business operations. Overly aggressive isolation can prevent necessary communication between systems, while weak isolation provides a false sense of security. Effective isolation strategies are designed around business requirements, risk profiles, and operational capabilities, and they are tested regularly to ensure isolation controls work as intended."
     }
   ]
 }
